@@ -52,11 +52,11 @@ export default function App() {
   return (
     <>
       <div>
-        <div className="mx-auto text-center mb-9">
-          <span className="text-primary font-extrabold text-[22px]">
+        <div className="mx-auto text-center mb-9 middle:mb-5">
+          <span className="text-primary font-extrabold text-[22px] large:text-[19px] middle:text-[16px]">
             Testnomials
           </span>
-          <h2 className="font-black text-black text-[32px]">
+          <h2 className="font-black text-black text-[32px] large:text-[27px] middle:text-[18px]">
             What our customer say?
           </h2>
         </div>

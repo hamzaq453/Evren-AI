@@ -48,13 +48,13 @@ const Navbar = () => {
         <img className={styles.bxMenu} src="hamburgermenu.svg" alt="" />
         <div>
           <Link href="/">
-            <Image className={styles.logo} width={200} height={475} quality={70} layout="responsive" sizes="(max-width:1200px) 180px,200px" priority={true} src="/homelogo.png" alt="EvrenAi logo" />
+            <Image className={styles.logo} width={200} height={475} quality={70} layout="responsive" sizes="(max-width:1200px) 160px,200px" priority={true} src="/homelogo.png" alt="EvrenAi logo" />
           </Link>
         </div>
         <div className={styles.navLinks}>
           <div className={styles.sidebarLogo}>
             <span>
-              <img className={styles.logoName} src="homelogo.png" alt="EvrenAi logo" />
+            <Image className={styles.logo} width={200} height={475} quality={70} layout="responsive" sizes="(max-width:1200px) 180px,200px" priority={true} src="/homelogo.png" alt="EvrenAi logo" />
             </span>
             <img src="cross.svg" className={`bx-x ${styles.bxX}`} alt="" />
           </div>

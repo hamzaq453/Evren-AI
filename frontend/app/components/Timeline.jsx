@@ -3,7 +3,7 @@ import React from 'react'
 const Timeline = () => {
   return (
     <>
-    <div class="min-h-screen py-6 flex flex-col justify-center sm:py-12 bg-primary sm:bg-[#F1FAFF]">
+    <div class="min-h-screen py-7 my-7 sm:my-2 flex flex-col justify-center sm:py-12 bg-primary sm:bg-[#F1FAFF]">
           <div class="py-3 sm:max-w-4xl sm:mx-auto w-full px-2 sm:px-4">
             <div class="relative text-gray-700 antialiased text-sm font-semibold">
               {/* <!-- Vertical bar running through middle -->     */}
@@ -18,7 +18,7 @@ const Timeline = () => {
                         <h1 className="text-base font-bold text-primary">
                           Business Analysis:
                         </h1>
-                        <p className="text-xs">
+                        <p className="text-sm middle:text-xs font-light">
                           We assist you in figuring out your requirements and
                           evaluating your current tech setup. Together, we
                           determine if investing in AI makes sense compared to
@@ -44,7 +44,7 @@ const Timeline = () => {
                         <h1 className="text-base font-bold text-primary">
                           Initial Data Analysis:
                         </h1>
-                        <p className="text-xs">
+                        <p className="text-sm middle:text-xs font-light">
                           We conduct a comprehensive analysis to identify and
                           evaluate various data sources. These may encompass the
                           customer's proprietary corporate data assets as well
@@ -68,7 +68,7 @@ const Timeline = () => {
                         <h1 className="text-base font-bold text-primary">
                           Solution Design:
                         </h1>
-                        <p className="text-xs">
+                        <p className="text-sm middle:text-xs font-light">
                           {" "}
                           After assessing the technical and business aspects, we
                           choose the right technology stack, plan out the
@@ -96,7 +96,7 @@ const Timeline = () => {
                         <h1 className="text-base font-bold text-primary">
                           Building the AI Solution:{" "}
                         </h1>
-                        <p className="text-xs">
+                        <p className="text-sm middle:text-xs font-light">
                           We conduct data pre-processing, involving tasks such
                           as cleansing, annotation, and transformation.
                           Following this, we define the evaluation criteria for
@@ -123,7 +123,7 @@ const Timeline = () => {
                         <h1 className="text-base font-bold text-primary">
                           Model Integration and Deployment:
                         </h1>
-                        <p className="text-xs">
+                        <p className="text-sm middle:text-xs font-light">
                           {" "}
                           We seamlessly incorporate the trained model into the
                           software architecture, empowering AI-based modules and
@@ -149,7 +149,7 @@ const Timeline = () => {
                         <h1 className="text-base font-bold text-primary">
                           Support:
                         </h1>
-                        <p className="text-xs">
+                        <p className="text-sm middle:text-xs font-light">
                           {" "}
                           We offer continuous support, maintenance, and regular
                           updates following DevOps best practices. This

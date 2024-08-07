@@ -7,6 +7,22 @@ module.exports = {
   ],
   theme: {
     extend: {
+      screens: {
+        'prolarge': {'max': '1535px'},
+        // => @media (max-width: 1535px) { ... }
+    
+        'maxlarge': {'max': '1200px'},
+        // => @media (max-width: 1279px) { ... }
+    
+        'large': {'max': '960px'},
+        // => @media (max-width: 1023px) { ... }
+    
+        'middle': {'max': '600px'},
+        // => @media (max-width: 767px) { ... }
+    
+        'small': {'max': '400px'},               
+        // => @media (max-width: 639px) { ... }
+      },
       backgroundImage: {
         'custom-gradient': 'radial-gradient(circle, rgba(106,109,230,1) 45%, rgba(255,253,253,1) 100%)',
       },
@@ -27,6 +43,7 @@ module.exports = {
       upAndDown: 'upAndDown 2s ease-in-out infinite',
     },
 
+   
   },
   plugins: [],
 };

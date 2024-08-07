@@ -5,10 +5,10 @@ import Image from "next/image";
 const Footer = () => {
   return (
     <>
-      <div className="bg-black text-white grid grid-cols-4 gap-10 p-10">
+      <div className="bg-black text-white grid grid-cols-4 gap-10 p-10 large:grid-cols-2 middle:grid-cols-1 middle:text-center">
         <div className="aboutus flex gap-6 text-left flex-col ">
-          <div className="w-60 ">
-          <Image width={200} height={475} quality={70} layout="responsive" sizes="(max-width:1200px) 180px,200px" priority={true} src="/homelogo.png" alt="EvrenAi logo" />
+          <div>
+          <Image width={200} height={475} quality={70} priority={true} src="/homelogo.png" alt="EvrenAi logo" />
           </div>
           <div className="text-sm">
             Evren AI isn't just another automation tool. We partner with you to
@@ -21,7 +21,7 @@ const Footer = () => {
         <div className="services flex flex-col gap-5">
             <div>
             <span className="font-bold text-base">Services</span>
-            <div className="w-10 h-1 rounded-sm bg-primary mt-1"></div>
+            <div className="w-10 h-1 rounded-sm bg-primary mt-1 middle:absolute middle:left-[44%]"></div>
             </div>
           <ul className="text-sm">
             <li>
@@ -59,7 +59,7 @@ const Footer = () => {
         <div className="quicklinks flex flex-col gap-5">
             <div>
             <span className="font-bold text-base">Quick Links</span>
-            <div className="w-10 h-1 rounded-sm bg-primary mt-1"></div>
+            <div className="w-10 h-1 rounded-sm bg-primary mt-1 middle:absolute middle:left-[42%]"></div>
             </div>
             <ul className="text-sm">
                 <li><a href="">Home</a></li>
@@ -71,7 +71,7 @@ const Footer = () => {
         <div className="contactinfo flex flex-col gap-5">
             <div>
             <span className="font-bold text-base">Contact Info</span>
-            <div className="w-10 h-1 rounded-sm bg-primary mt-1"></div>
+            <div className="w-10 h-1 rounded-sm bg-primary mt-1 middle:absolute middle:left-[42%]"></div>
             </div>
             <ul className="text-sm">
                 <li>Email: evrenai@gmail.com</li>
