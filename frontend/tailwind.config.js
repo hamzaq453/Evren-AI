@@ -31,6 +31,9 @@ module.exports = {
       },
       colors: {
         primary: 'var(--primary-color)',
+        secondary: 'var(--secondary-color)',
+        ternary: 'var(--ternary-color)',
+
       },
     },
     keyframes: {

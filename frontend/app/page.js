@@ -5,6 +5,7 @@ import Faq from "./components/Faq";
 import Timeline from "./components/Timeline";
 import Whyus from "./components/Whyus";
 import Testnomial from "./components/Testnomial";
+import Contactform from "./components/Contactform";
 export default function Home() {
   const service = [
     {
@@ -123,7 +124,7 @@ export default function Home() {
 
       <div className="py-[70px] px-0 flex relative gap-[20px] large:gap-0 justify-center items-center small:py-[50px]">
         <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[90vw] large:flex-col small:max-w-[100vw]">
-          <div className="w-[80%] pr-[180px] text-left flex flex-col gap-1 maxlarge:pr-[100px] large:text-center large:pr-0">
+          <div className="w-[80%] pr-[50px] text-left flex flex-col gap-1 maxlarge:pr-[100px] large:text-center large:pr-0">
             <span className="text-black font-extrabold text-xl large:text-lg middle:text-base">
               Ditch the Manual, Embrace the Future
             </span>
@@ -139,13 +140,13 @@ export default function Home() {
             </p>
             <Button content="Book a call" />
           </div>
-          <div className="animate-upAndDown large:w-[60%] large:mt-11 middle:w-[70%]">
+          <div className=" animate-upAndDown w-[90%] large:w-[60%] large:mt-11 middle:w-[70%] object-cover">
             <Image
               priority={true}
               quality={80}
               width={700}
               height={1000}
-              src="/homeimage.png"
+              src="/homeimage2.png"
               alt=""
             />
           </div>
@@ -159,10 +160,10 @@ export default function Home() {
 
       <div className="bg-[#FFFFFF] py-[110px] px-0 flex relative gap-[20px] justify-center items-center m-0 middle:py-[50px]">
         <div className="flex w-full mx-auto items-center relative flex-col gap-3 ">
-          <span className="text-primary font-bold text-[22px] large:text-[19px] middle:text-[16px]">
+          <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
             Our Services
           </span>
-          <h1 className="font-extrabold text-[32px] large:text-[27px] middle:text-[18px]">
+          <h1 className="font-extrabold  bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
             Unleashing the Power of Data
           </h1>
           <div className="mt-[60px] middle:mt-[50px] grid grid-cols-2 gap-12 large:grid-cols-1">
@@ -183,10 +184,10 @@ export default function Home() {
       <div>
         <div className=" pt-[110px] px-0 flex relative gap-[20px] justify-center items-center middle:pt-[60px]">
           <div className="flex max-w-[82vw] mx-auto items-center relative flex-col gap-3">
-            <span className="text-primary font-extrabold text-[22px] large:text-[19px] middle:text-[16px]">
+            <span className="text-black font-extrabold text-[22px] large:text-[19px] middle:text-[16px]">
               Our Process
             </span>
-            <h2 className="font-black text-black text-[32px] large:text-[27px] middle:text-[18px]">
+            <h2 className="font-black bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
               How We Work?
             </h2>
           </div>
@@ -217,7 +218,7 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <div class="bg-primary">
+          <div class="bg-ternary">
             <section
               id="features"
               class="relative block px-6 py-10 md:py-20 md:px-10  border-t border-b border-neutral-900 bg-neutral-900/30"
@@ -254,10 +255,10 @@ export default function Home() {
       <div>
         <div className=" pt-[110px] px-0 flex relative gap-[20px] justify-center items-center middle:pt-[60px]">
           <div className="flex max-w-[82vw] mx-auto items-center relative flex-col gap-3 ">
-            <span className="text-primary font-extrabold text-[22px] large:text-[19px] middle:text-[16px]">
+            <span className="text-black font-extrabold text-[22px] large:text-[19px] middle:text-[16px]">
               Frequently Asked Questions
             </span>
-            <h2 className="font-black text-black text-[32px] large:text-[27px] middle:text-[18px] text-center">
+            <h2 className="font-black  bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px] text-center">
               Ready to Unlock Your Potential?
             </h2>
           </div>
@@ -270,7 +271,7 @@ export default function Home() {
                 quality={80}
                 width={700}
                 height={1000}
-                src="/faqImage.png"
+                src="/FaqImage.png"
                 alt=""
               />
             </div>
@@ -290,45 +291,20 @@ export default function Home() {
       <div className="bg-white py-[70px] px-0 flex relative gap-[20px] justify-center items-center large:py-[40px]">
         <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[92vw] large:flex-col">
           <div className=" w-[50%] pr-[64px] text-left flex flex-col gap-7 large:pr-0 large:text-center large:gap-5 large:w-[70%] large:mb-6 middle:w-[90%]">
-            <h2 className="font-black text-4xl large:text-3xl middle:text-2xl">
+            <h2 className="font-black text-primary text-4xl large:text-3xl middle:text-2xl">
               Start your project with evrenai.
             </h2>
             <span className="large:text-base middle:text-sm ">
               Fill out the form, and tell us more about your business
               goals.We'll get back to you within 1 working day.{" "}
             </span>
-            <p className="text-base font-extrabold text-primary large:text-sm middle:text-xs">
+            <p className="text-base font-extrabold text-secondary large:text-sm middle:text-xs">
               Would you rather directly get in touch ? We always have a time for
               a call or email!
             </p>
           </div>
-          <div className="w-[40%]  bg-white  p-10 rounded-3xl ml-32 flex flex-col gap-5 text-center shadow-xl drop-shadow-lg large:ml-0 large:p-4 large:w-[60%] middle:w-[75%] small:w-[90%]">
-            <h1 className="font-extrabold text-3xl text-primary middle:text-2xl small:text-xl">
-              Details
-            </h1>
-            <form action=" " className="flex flex-col gap-5">
-              <input
-                className=" p-3 rounded-2xl shadow-custom-inset outline-none middle:text-sm "
-                type="text"
-                placeholder="Name"
-              />
-              <input
-                className=" p-3 rounded-2xl shadow-custom-inset outline-none middle:text-sm"
-                type="email"
-                placeholder="Email"
-              />
-              <input
-                className=" p-3 rounded-2xl shadow-custom-inset outline-none middle:text-sm"
-                type="text"
-                placeholder="Phone Number"
-              />
-              <textarea
-                className=" p-3 rounded-2xl shadow-custom-inset  outline-none middle:text-sm "
-                placeholder="Message"
-                rows="4"
-              ></textarea>
-              <Button content="Send message" />
-            </form>
+          <div className="w-[40%] bg-white  p-10 rounded-3xl ml-32 flex flex-col gap-5 text-center shadow-xl drop-shadow-lg large:ml-0 large:p-4 large:w-[60%] middle:w-[75%] small:w-[90%]">
+            <Contactform/>
           </div>
         </div>
       </div>

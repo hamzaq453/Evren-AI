@@ -5,8 +5,10 @@
 
 
 :root {
-  --primary-color: #6A6DE6;
-
+  
+  --primary-color: #592E83;
+  --secondary-color: #9984D4;
+  --ternary-color: #CAA8F5;
 }
 /* 
 @media (prefers-color-scheme: dark) {
@@ -20,7 +22,7 @@
 body {
   /* color: rgb(var(--foreground-rgb)); */
   color: black;
-  background: #F1FAFF;
+  background: white;
   /* min-height: 100vh; */
 }
 /* 

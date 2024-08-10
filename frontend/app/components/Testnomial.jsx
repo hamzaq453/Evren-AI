@@ -53,10 +53,10 @@ export default function App() {
     <>
       <div>
         <div className="mx-auto text-center mb-9 middle:mb-5">
-          <span className="text-primary font-extrabold text-[22px] large:text-[19px] middle:text-[16px]">
+          <span className="text-black font-extrabold text-[22px] large:text-[19px] middle:text-[16px]">
             Testnomials
           </span>
-          <h2 className="font-black text-black text-[32px] large:text-[27px] middle:text-[18px]">
+          <h2 className="font-black  bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
             What our customer say?
           </h2>
         </div>

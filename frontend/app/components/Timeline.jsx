@@ -7,7 +7,7 @@ const Timeline = () => {
           <div class="py-3 sm:max-w-4xl sm:mx-auto w-full px-2 sm:px-4">
             <div class="relative text-gray-700 antialiased text-sm font-semibold">
               {/* <!-- Vertical bar running through middle -->     */}
-              <div class="hidden sm:block w-1 bg-blue-300 absolute h-full left-1/2 transform -translate-x-1/2"></div>
+              <div class="hidden sm:block w-1 bg-primary absolute h-full left-1/2 transform -translate-x-1/2"></div>
 
               {/* <!-- Left section, set by justify-start and sm:pr-8 --> */}
               <div class="mt-6 sm:mt-0 sm:mb-12 transition-transform ease-in-out duration-300 transform hover:scale-105">
@@ -29,7 +29,7 @@ const Timeline = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="rounded-full bg-primary border-white text-white border-4  w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                  <div class="rounded-full bg-secondary border-white text-white border-4  w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
                     01
                   </div>
                 </div>
@@ -53,7 +53,7 @@ const Timeline = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="rounded-full bg-primary border-white text-white border-4  w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                  <div class="rounded-full bg-secondary border-white text-white border-4  w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
                     02
                   </div>
                 </div>
@@ -81,7 +81,7 @@ const Timeline = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="rounded-full bg-primary border-white text-white border-4  w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                  <div class="rounded-full bg-secondary border-white text-white border-4  w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
                     03
                   </div>
                 </div>
@@ -108,7 +108,7 @@ const Timeline = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="rounded-full bg-primary border-white text-white border-4  w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                  <div class="rounded-full bg-secondary border-white text-white border-4  w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
                     04
                   </div>
                 </div>
@@ -134,7 +134,7 @@ const Timeline = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="rounded-full bg-primary border-white text-white border-4 w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                  <div class="rounded-full bg-secondary border-white text-white border-4 w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
                     05
                   </div>
                 </div>
@@ -160,7 +160,7 @@ const Timeline = () => {
                       </div>
                     </div>
                   </div>
-                  <div class="rounded-full bg-primary border-white text-white border-4 w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
+                  <div class="rounded-full bg-secondary border-white text-white border-4 w-8 h-8 sm:h-12 sm:w-12 absolute left-1/2 -translate-y-4 sm:translate-y-0 transform -translate-x-1/2 flex items-center justify-center">
                     06
                   </div>
                 </div>

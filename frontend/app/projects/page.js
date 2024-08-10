@@ -1,11 +1,10 @@
-import React from 'react'
-
-const page = () => {
+import React from "react";
+import Teammember from "../components/Teammember";
+const Team = () => {
+ 
   return (
-    <div>
-      project
-    </div>
-  )
-}
+    <></>
+  );
+};
 
-export default page
+export default Team;
