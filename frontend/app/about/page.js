@@ -63,7 +63,7 @@ const Page = () => {
             />
           </div>
           <div className="w-[70%] text-left flex flex-col gap-1 maxlarge:pr-[100px] large:text-center large:pr-0 ml-[50px]">
-            <h2 className="font-black text-primary text-4xl pr-55 large:text-3xl middle:text-2xl small:text-xl">
+            <h2 className="font-black text-[#592E83] text-4xl pr-55 large:text-3xl middle:text-2xl small:text-xl">
               About Evren AI:{" "}
               <span className="text-3xl font-bold">
                 Your AI Companion, for Tomorrow
@@ -86,7 +86,7 @@ const Page = () => {
                   <img src="/team.svg" alt="" />
                 </div>
                 <div>
-                  <div className="font-semibold text-lg text-primary">
+                  <div className="font-semibold text-lg text-[#592E83]">
                     Our Expert Staff
                   </div>
                   <div className="text-[13.5px] mt-1">
@@ -102,7 +102,7 @@ const Page = () => {
                 </div>
 
                 <div>
-                  <div className="font-semibold text-lg text-primary">
+                  <div className="font-semibold text-lg text-[#592E83]">
                     Our Core Mission
                   </div>
                   <div className="text-[13.5px] mt-1">
@@ -118,7 +118,7 @@ const Page = () => {
                 </div>
 
                 <div>
-                  <div className="font-semibold text-lg text-primary">
+                  <div className="font-semibold text-lg text-[#592E83]">
                     Our Approach
                   </div>
                   <div className="text-[13.5px] mt-1">
@@ -143,7 +143,7 @@ const Page = () => {
                 Core Team
               </p>
             </div>
-            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-primary sm:text-4xl md:mx-auto">
+            <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-[#592E83] sm:text-4xl md:mx-auto">
               <span className="relative inline-block text-secondary">
                 <svg
                   viewBox="0 0 52 24"
@@ -167,7 +167,7 @@ const Page = () => {
                     height="24"
                   />
                 </svg>
-                <span className="relative text-primary">Welcome</span>
+                <span className="relative text-[#592E83]">Welcome</span>
               </span>{" "}
               our talented team of professionals
             </h2>
@@ -192,14 +192,14 @@ const Page = () => {
       {/* team end  */}
 
       {/* acheivments start  */}
-      <div className="bg-secondary w-full px-20 py-9 my-16 mx-auto text-center">
+      <div className="bg-[#E6D6FA] w-full px-20 py-9 my-16 mx-auto text-center">
         <div className="grid grid-cols-4 gap-9">
           <div className="bg-white py-5 px-6 flex flex-col gap-1 content-center text-center w-[250px] justify-center relative">
             <span className="text-4xl font-bold">
               75<sup>+</sup>
             </span>
             <span className="text-[23px] font-semibold">Happy Clients</span>
-            <div className="h-[7px] rounded-md bg-primary w-[40%] absolute bottom-[7px] left-[28%] "></div>
+            <div className="h-[7px] rounded-md bg-[#592E83] w-[40%] absolute bottom-[7px] left-[28%] "></div>
           </div>
           <div className="bg-white py-5 px-6 flex flex-col gap-1 text-center w-[250px] relative">
             <span className="text-4xl font-bold">
@@ -207,13 +207,13 @@ const Page = () => {
               <span className="text-3xl font-medium">year</span>
             </span>
             <span className="text-[23px] font-semibold">Experience</span>
-            <div className="h-[7px] rounded-md bg-primary w-[40%] absolute  bottom-[7px] left-[28%] "></div>
+            <div className="h-[7px] rounded-md bg-[#592E83] w-[40%] absolute  bottom-[7px] left-[28%] "></div>
           </div>
           <div className="bg-white py-5 px-6 flex flex-col gap-1 text-center w-[250px] relative">
             <span className="text-4xl font-bold">4</span>
             <span className="text-[23px] font-semibold">Our Awards</span>
             <div
-              className="h-[7px] rounded-md bg-primary w-[40%] absolute
+              className="h-[7px] rounded-md bg-[#592E83] w-[40%] absolute
     bottom-[7px] left-[28%] "
             ></div>
           </div>
@@ -222,7 +222,7 @@ const Page = () => {
               100<sup>+</sup>
             </span>
             <span className="text-[23px] font-semibold">Finished Projects</span>
-            <div className="h-[7px] rounded-md bg-primary w-[40%] absolute bottom-[7px] left-[28%] "></div>
+            <div className="h-[7px] rounded-md bg-[#592E83] w-[40%] absolute bottom-[7px] left-[28%] "></div>
           </div>
         </div>
       </div>
@@ -238,14 +238,14 @@ const Page = () => {
       <div className="bg-white py-[70px] px-0 flex relative gap-[20px] justify-center items-center large:py-[40px]">
         <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[92vw] large:flex-col">
           <div className=" w-[50%] pr-[64px] text-left flex flex-col gap-7 large:pr-0 large:text-center large:gap-5 large:w-[70%] large:mb-6 middle:w-[90%]">
-            <h2 className="font-black text-4xl large:text-3xl middle:text-2xl">
+            <h2 className="font-black text-4xl text-[#592E83] large:text-3xl middle:text-2xl">
               Start your project with evrenai.
             </h2>
             <span className="large:text-base middle:text-sm ">
               Fill out the form, and tell us more about your business
               goals.We'll get back to you within 1 working day.{" "}
             </span>
-            <p className="text-base font-extrabold text-primary large:text-sm middle:text-xs">
+            <p className="text-base font-extrabold  large:text-sm middle:text-xs">
               Would you rather directly get in touch ? We always have a time for
               a call or email!
             </p>

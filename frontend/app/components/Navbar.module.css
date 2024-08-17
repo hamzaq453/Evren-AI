@@ -1,5 +1,5 @@
 .nav {
-  position:sticky;
+  position:static;
   top: 0;
   /* left: 0; */
   width: 100%;
@@ -9,6 +9,7 @@
   max-width: 85vw;
   margin: auto;
   z-index: 99;
+  background-color: #ffffff;
 }
 .navbar {
   /* height: 100%; */
