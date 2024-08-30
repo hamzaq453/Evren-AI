@@ -287,12 +287,6 @@ const Page = () => {
         </div>
       </div>
       {/* acheivments end  */}
-
-      {/* Testmonial start  */}
-      <div className="bg-white py-20 middle:py-10">
-        <Testnomial />
-      </div>
-      {/* Testmonial end  */}
     </div>
   );
 };
