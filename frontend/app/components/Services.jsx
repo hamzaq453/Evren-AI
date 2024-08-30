@@ -1,14 +1,18 @@
 import React from 'react';
 import './stylesheet.css';
+import Image from 'next/image';
+import Link from 'next/link';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
-  faGear,
-  faShield,
-  faBrain,
-  faDna,
-  faMagnifyingGlassChart,
-  faMicrochip
+  faEyeLowVision,
+  faCogs,
+  faCubes,
+  faHeadset,
+  faRobot,
+  faCode,
+  faChartLine,
+  faPuzzlePiece
 } from '@fortawesome/free-solid-svg-icons';
 
 
@@ -16,85 +20,113 @@ function Services() {
   return (
     <>
       <div className="container">
-        <div className="row">
-          <div className="col-md-4 coi-lg-4 d-flex align-items-stretch">
+        <div className="row justify-content-evenly ">
+          <div className="col-md-6 mt-2  col-lg-4 d-flex align-items-stretch">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="100">
               <div className="icon">
-                <FontAwesomeIcon icon={faGear} className='fonticon' />
+                <FontAwesomeIcon icon={faCogs} className='fonticon' />
               </div>
               <h4 className="title">
-                <a className='title_a' href="services/services6.php">Custom AI Solution Development</a>
+                <Link className='title_a' href="/Service1">AI Process Automation</Link>
               </h4>
               <p className="description text-left ">
-                Craft your perfect AI tool. Build bespoke solutions that fit your unique needs.
+                Streamline and Optimize Your Business Operations with Intelligent Automation.
               </p>
             </div>
           </div>
-          <div className="col-md-4 coi-lg-4 d-flex align-items-stretch">
+          <div className="col-md-6 mt-2  col-lg-4 d-flex align-items-stretch">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div className="icon">
-                <FontAwesomeIcon icon={faShield} className='fonticon' />
+                <FontAwesomeIcon icon={faEyeLowVision} className='fonticon' />
               </div>
               <h4 className="title">
-                <a className='title_a' href="services/services5.php">AI-Based Security Solutions</a>
+                <Link className='title_a' href="/Service2">Computer Vision</Link>
               </h4>
               <p className="description text-left ">
-                Fortify your defenses. Detect threats, prevent breaches, and sleep soundly with AI security.
+                Transform Visual Data into Powerful Insights with AI-Powered Computer Vision
               </p>
             </div>
           </div>
-          <div className="col-md-4 coi-lg-4 d-flex align-items-stretch">
+          <div className="col-md-6 mt-2  col-lg-4 d-flex align-items-stretch">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="300">
               <div className="icon">
-                <FontAwesomeIcon icon={faBrain} className='fonticon' />
+                <FontAwesomeIcon icon={faCubes} className='fonticon' />
               </div>
               <h4 className="title">
-                <a className='title_a' href="services/services4.php">Research and Development in AI</a>
+                <Link className='title_a' href="/Service3"> Machine & Deep Learning Solutions</Link>
               </h4>
               <p className="description text-left ">
-                Push the boundaries. Be at the forefront of innovation with collaborative AI research.
+                Empower Your Business with Advanced Machine and Deep Learning Technologies
               </p>
             </div>
           </div>
         </div>
-        <div className="row mt-5 ">
-          <div className="col-md-4 coi-lg-4 d-flex align-items-stretch">
+        <div className="row mt-5  justify-content-evenly ">
+          <div className="col-md-6 mt-2  col-lg-4 d-flex align-items-stretch">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
               <div className="icon">
-                <FontAwesomeIcon icon={faDna} className='fonticon' />
+                <FontAwesomeIcon icon={faHeadset} className='fonticon' />
               </div>
               <h4 className="title">
-                <a className='title_a' href="services/services3.php">AI in Healthcare</a>
+                <Link className='title_a' href="/Service4">Chatbots</Link>
               </h4>
               <p className="description text-left ">
-                Revolutionize patient care. Optimize diagnosis, automate tasks, and deliver personalized treatments.
+                Enhance Customer Engagement with Intelligent AI Chatbots
               </p>
             </div>
           </div>
-          <div className="col-md-4 coi-lg-4 d-flex align-items-stretch">
+          <div className="col-md-6 mt-2  col-lg-4 d-flex align-items-stretch">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
               <div className="icon">
-                <FontAwesomeIcon icon={faMagnifyingGlassChart} className='fonticon' />
+                <FontAwesomeIcon icon={faRobot} className='fonticon' />
               </div>
               <h4 className="title">
-                <a className='title_a' href="services/services2.php">Advanced Analytics and Data Science</a>
+                <Link className='title_a' href="/service5">AI Agents</Link>
               </h4>
               <p className="description text-left ">
-                Unlock hidden insights. Extract actionable intelligence from your data and power smarter decisions.
+                Empower Your Operations with Autonomous AI Agents
               </p>
             </div>
           </div>
-          <div className="col-md-4 coi-lg-4 d-flex align-items-stretch">
+          <div className="col-md-6 mt-2  col-lg-4 d-flex align-items-stretch">
             <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
               <div className="icon">
-                <FontAwesomeIcon icon={faMicrochip} className='fonticon' />
+                <FontAwesomeIcon icon={faCode} className='fonticon' />
               </div>
               <h4 className="title">
-                <a className='title_a' href="services/Services1.php">AI Solutions for Business Process Automation</a>
+                <Link className='title_a' href="Service6"> Software Development</Link>
               </h4>
               <p className="description text-left ">
-                Work smarter, not harder. Free your team from tedious tasks and boost efficiency with AI automation.
+                Crafting Innovative Web and Mobile Solutions for Your Business
               </p>
+            </div>
+          </div>
+          <div className="row mt-5 justify-content-evenly ">
+            <div className="col-md-6 mt-2  col-lg-4 d-flex align-items-stretch">
+              <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
+                <div className="icon">
+                  <FontAwesomeIcon icon={faPuzzlePiece} className='fonticon' />
+                </div>
+                <h4 className="title">
+                  <Link className='title_a' href="/Service7">Generative AI</Link>
+                </h4>
+                <p className="description text-left ">
+                  Unleash Creativity and Innovation with AI-Generated Content
+                </p>
+              </div>
+            </div>
+            <div className="col-md-6 mt-2  col-lg-4 d-flex align-items-stretch">
+              <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
+                <div className="icon">
+                  <FontAwesomeIcon icon={faChartLine} className='fonticon' />
+                </div>
+                <h4 className="title">
+                  <Link className='title_a' href="/Service8"> AI Research and Development</Link>
+                </h4>
+                <p className="description text-left ">
+                  Drive Innovation with Cutting-Edge AI Research and Development
+                </p>
+              </div>
             </div>
           </div>
         </div>

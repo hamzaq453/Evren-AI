@@ -1,8 +1,6 @@
 import React from "react";
 import Testnomial from "../components/Testnomial";
-import Button from "../components/Button";
 import Image from "next/image";
-import Contactform from "../components/Contactform";
 import Teammember from "../components/Teammember";
 const Page = () => {
   const team = [
@@ -233,29 +231,6 @@ const Page = () => {
         <Testnomial />
       </div>
       {/* Testmonial end  */}
-
-      {/* ContactForm Start  */}
-      <div className="bg-white py-[70px] px-0 flex relative gap-[20px] justify-center items-center large:py-[40px]">
-        <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[92vw] large:flex-col">
-          <div className=" w-[50%] pr-[64px] text-left flex flex-col gap-7 large:pr-0 large:text-center large:gap-5 large:w-[70%] large:mb-6 middle:w-[90%]">
-            <h2 className="font-black text-4xl text-[#592E83] large:text-3xl middle:text-2xl">
-              Start your project with evrenai.
-            </h2>
-            <span className="large:text-base middle:text-sm ">
-              Fill out the form, and tell us more about your business
-              goals.We'll get back to you within 1 working day.{" "}
-            </span>
-            <p className="text-base font-extrabold  large:text-sm middle:text-xs">
-              Would you rather directly get in touch ? We always have a time for
-              a call or email!
-            </p>
-          </div>
-          <div className="w-[40%] bg-white  p-10 rounded-3xl ml-32 flex flex-col gap-5 text-center shadow-xl drop-shadow-lg large:ml-0 large:p-4 large:w-[60%] middle:w-[75%] small:w-[90%]">
-            <Contactform />
-          </div>
-        </div>
-      </div>
-      {/* Contactform end  */}
     </div>
   );
 };

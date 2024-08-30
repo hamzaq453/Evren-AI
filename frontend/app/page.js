@@ -2,13 +2,14 @@ import Image from "next/image";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from "./components/Button";
 import Services from "./components/Services";
+import Pricing from "./components/pricing";
 import Faq from "./components/Faq";
 import Timeline from "./components/Timeline";
 import Whyus from "./components/Whyus";
 import Testnomial from "./components/Testnomial";
-import Contactform from "./components/Contactform";
 import CompanyClients from "./components/Compnayclints";
 import AboutUs from "./components/AboutUs";
+import Link from "next/link";
  
 
 
@@ -75,7 +76,13 @@ export default function Home() {
               slash costs, and unlock new possibilities, all while feeling
               confident in a trusted partner.
             </p>
-            <Button content="Book a call" />
+            
+              <div className="row"> 
+                <div className="col-lg-4">        
+                  <Link href='https://calendly.com/hassan-ali-ai/business-with-the-power-of-ai?month=2024-08&date=2024-08-30' className="duration-300 transform hover:scale-105 text-[14px] font-medium bg-[#592E83] text-white border-none py-[12px] px-[20px] rounded-[40px] cursor-pointer tracking-wide transition-transform ease-in active:scale-[0.9] focus:outline-none hover:bg-secondary sm:text-[15px] sm:py-[12px] sm:px-[25px]" > Book a Call </Link>
+                </div> 
+              </div>  
+
           </div>
           <div className=" animate-upAndDown w-[90%] large:w-[60%] large:mt-11 middle:w-[70%] object-cover">
             <Image
@@ -113,6 +120,8 @@ export default function Home() {
     
       {/* service section end*/}
      
+      <Pricing/>
+
       {/* Process section start*/}
       <div>
         <div className="px-0 flex relative gap-[20px] justify-center items-center middle:pt-[60px]">
@@ -129,7 +138,7 @@ export default function Home() {
           <Timeline />
         </div>
         <div className="mx-auto text-center mt-5 ">
-          <Button content="Lets's work together" />
+          <Link href="/contact" className="duration-300 transform hover:scale-105 text-[14px] font-medium bg-[#592E83] text-white border-none py-[12px] px-[20px] rounded-[40px] cursor-pointer tracking-wide transition-transform ease-in active:scale-[0.9] focus:outline-none hover:bg-secondary sm:text-[15px] sm:py-[12px] sm:px-[25px] " > Lets Work together </Link>
         </div>
       </div>
       {/* Process section end*/}
@@ -208,31 +217,6 @@ export default function Home() {
       </div>
 
       {/* Faq section end*/}
-
-      {/* Contact section start*/}
-
-      <div className="bg-white py-[70px] px-0 flex relative gap-[20px] justify-center items-center large:py-[40px]">
-        <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[92vw] large:flex-col">
-          <div className=" w-[50%] pr-[64px] text-left flex flex-col gap-7 large:pr-0 large:text-center large:gap-5 large:w-[70%] large:mb-6 middle:w-[90%]">
-            <h2 className="font-black text-[#592E83] text-4xl large:text-3xl middle:text-2xl">
-              Start your project with evrenai.
-            </h2>
-            <span className="large:text-base middle:text-sm ">
-              Fill out the form, and tell us more about your business
-              goals.We'll get back to you within 1 working day.{" "}
-            </span>
-            <p className="text-base font-extrabold text-secondary large:text-sm middle:text-xs">
-              Would you rather directly get in touch ? We always have a time for
-              a call or email!
-            </p>
-          </div>
-          <div className="w-[40%] bg-white  p-10 rounded-3xl ml-32 flex flex-col gap-5 text-center shadow-xl drop-shadow-lg large:ml-0 large:p-4 large:w-[60%] middle:w-[75%] small:w-[90%]">
-            <Contactform/>
-          </div>
-        </div>
-      </div>
-
-      {/* Contact section end*/}
     </>
   );
 }

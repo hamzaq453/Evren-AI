@@ -1,14 +1,26 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 import './stylesheet.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLinkedin, faXTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
-import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 
 const Footer = () => {
   return (
     <>
+      <div className="contant" >
+        <div className="row m-0 ">
+          <div className="col-lg-12 col-md-10 col-sm-10 p-5 text-center ">
+            <h1 style={{ color: '#FFFFFF', fontSize: '50px', fontWeight: 'bolder' }} >Discover Your AI Advantage, <br />
+              Schedule a Free Consultation!</h1>
+            <p className="p-5  " style={{ color: '#FFFFFF' }}  >
+              Book a free consultation with our AI experts and discover how our automation and software development solutions <br /> can elevate your business. Let's explore your needs and tailor a strategy to drive growth and efficiency."
+            </p>
+            <Link href="/contact" className="btn-contact pb-3 pt-3 pl-5 pr-5 m-2 ">  Book Free consultion Call Now  </Link>
+          </div>
+        </div>
+      </div>
       <div className=" row bg-[#E6D6FA] text-white grid grid-cols-4 gap-5 p-5 mr-0 ml-0 m-0 large:grid-cols-2 middle:grid-cols-1 middle:text-center">
         <div className=" col-lg-3 aboutus flex gap-6 text-left flex-col ">
           <div>

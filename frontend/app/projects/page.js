@@ -1,10 +1,12 @@
 import React from "react";
-import Teammember from "../components/Teammember";
-const Team = () => {
+
+const Projects = () => {
  
   return (
-    <></>
+    <>
+      Hey
+    </>
   );
 };
 
-export default Team;
+export default Projects;

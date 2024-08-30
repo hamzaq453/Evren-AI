@@ -65,9 +65,9 @@ const Timeline = () => {
                 <div class="flex justify-start w-full mx-auto items-center">
                   <div class="w-full sm:w-1/2 sm:pr-14">
                     <div class="p-5 bg-white rounded shadow-xl drop-shadow-lg">
-                      <h2 className="font-bold text-[#592e83]">
+                      <h3 className="font-bold text-[#592e83]">
                         Solution Design:
-                      </h2>
+                      </h3>
                       <p className="text-sm middle:text-xs font-light text-justify ">
                         {" "}
                         After assessing the technical and business aspects, we
