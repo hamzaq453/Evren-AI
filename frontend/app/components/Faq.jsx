@@ -11,7 +11,7 @@ const Faq = ({ question, answer }) => {
         onClick={() => setIsOpen(!isOpen)}
         className="cursor-pointer flex justify-between items-center small:gap-4"
       >
-        <h3 className="text-base font-bold text-gray-900 hover:text-primary middle:text-sm ">{question}</h3>
+        <h3 className="text-base font-bold text-gray-900 hover:text-secondary middle:text-sm ">{question}</h3>
         <div>
         <svg
           className={`w-6 h-6 middle:w-5 middle:h-5 transform transition-transform duration-200 ${isOpen ? 'rotate-180' : ''}`}

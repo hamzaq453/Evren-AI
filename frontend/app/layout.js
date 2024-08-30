@@ -5,18 +5,18 @@ import Footer from "./components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Evrenai-Ditch the Manual, Embrace the Future ",
-  description: "Evren AI isn't just another automation tool. We partner with you to understand your unique challenges and deliver custom AI solutions that drive game-changing results. Boost efficiency, slash costs, and unlock new possibilities, all while feeling confident in a trusted partner.",
+  title: "Evren AI | Empowering Business with AI",
+  description:
+    "Evren AI isn't just another automation tool. We partner with you to understand your unique challenges and deliver custom AI solutions that drive game-changing results. Boost efficiency, slash costs, and unlock new possibilities, all while feeling confident in a trusted partner.",
 };
-
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-      <Navbar/>
+        <Navbar />
         {children}
-      <Footer/>  
-        </body>
+        <Footer />
+      </body>
     </html>
   );
 }

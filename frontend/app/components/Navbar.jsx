@@ -45,7 +45,7 @@ const Navbar = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.navbar}>
-        <img className={styles.bxMenu} src="hamburgermenu.svg" alt="" />
+        <img className={styles.bxMenu} src="/navbar/hamburgermenu.svg" alt="hamburgermenu" />
         <div>
           <Link href="/">
             <Image className={styles.logo} width={200} height={475} quality={70} layout="responsive" sizes="(max-width:1200px) 160px,200px" priority={true} src="/homelogo.png" alt="EvrenAi logo" />
@@ -56,7 +56,7 @@ const Navbar = () => {
             <span>
             <Image className={styles.logo} width={200} height={475} quality={70} layout="responsive" sizes="(max-width:1200px) 180px,200px" priority={true} src="/homelogo.png" alt="EvrenAi logo" />
             </span>
-            <img src="cross.svg" className={`bx-x ${styles.bxX}`} alt="" />
+            <img src="/navbar/cross.svg" className={`bx-x ${styles.bxX}`} alt="close sidebarmenu" />
           </div>
           <ul className={styles.links}>
             <li className={styles.list}>
@@ -72,26 +72,24 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={styles.list}>
-              <Link href="/serviceProvide" className={`${styles.outer} ${
-              "/serviceProvide" === pathname ? styles.activeclr:""}`}
-              >
-                Service
-              </Link>
+             <span className={styles.outer}>
+              Service
+             </span>
               <img
                 className={`${styles.arrow} ${styles.jsarrow}`}
-                src="dropdownarrow.svg"
-                alt=""
+                src="/navbar/dropdownarrow.svg"
+                alt="dropdown arrrow sub services"
               />
               <ul className={`${styles.subMenu} ${styles.jssubMenu}`}>
                 <li className={`${styles.subMenulist} ${styles.list}`}>
-                  <a href="#" className={styles.inner}>
+                  <Link href="/service1" className={styles.inner}>
                     Custom AI Solution Development
-                  </a>
+                  </Link>
                 </li>
                 <li className={`${styles.subMenulist} ${styles.list}`}>
-                  <a href="#" className={styles.inner}>
+                  <Link href="/service2" className={styles.inner}>
                     AI-Based Security Solutions
-                  </a>
+                  </Link>
                 </li>
                 <li className={`${styles.subMenulist} ${styles.list}`}>
                   <a href="#" className={styles.inner}>
@@ -116,9 +114,9 @@ const Navbar = () => {
               </ul>
             </li>
             <li className={styles.list}>
-              <Link href="/projects" className={`${styles.outer} ${
-              "/projects" === pathname ? styles.activeclr:""}`}>
-                Project
+              <Link href="/casestudy" className={`${styles.outer} ${
+              "/casestudy" === pathname ? styles.activeclr:""}`}>
+                Case Studies
               </Link>
             </li>
             <li className={styles.list}>

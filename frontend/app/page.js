@@ -46,7 +46,7 @@ export default function Home() {
         "Evren AI is your AI partner, empowering businesses of all sizes with customized AI solutions that automate tasks, optimize processes, and unlock growth potential. We bring together cutting-edge technology and a human-centered approach to deliver data-driven insights and tailored AI strategies that help you achieve your unique business goals.",
     },
     {
-      question: " How much does Evren AI cost?",
+      question: "How much does Evren AI cost?",
       answer:
         "Our pricing varies depending on the specific services you need and the scope of your project. We offer flexible plans to suit your budget and ensure you get the best value for your investment. Please contact us for a free consultation and personalized quote.",
     },
@@ -122,13 +122,13 @@ export default function Home() {
     <>
       {/* hero section start start */}
 
-      <div className="py-[70px] px-0 flex relative gap-[20px] large:gap-0 justify-center items-center small:py-[50px]">
-        <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[90vw] large:flex-col small:max-w-[100vw]">
-          <div className="w-[80%] pr-[50px] text-left flex flex-col gap-1 maxlarge:pr-[100px] large:text-center large:pr-0">
-            <span className="text-black font-extrabold text-xl large:text-lg middle:text-base">
+      <div className="py-[70px] px-0 flex relative gap-[20px] inc:gap-0 justify-center items-center small:py-[50px]">
+        <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[90vw] inc:flex-col small:max-w-[100vw]">
+          <div className="w-[80%] pr-[50px] text-left flex flex-col gap-1 maxlarge:pr-[100px] inc:text-center inc:pr-0">
+            <span className="text-black font-extrabold text-xl inc:text-lg middle:text-base">
               Ditch the Manual, Embrace the Future
             </span>
-            <h2 className="font-black text-primary text-4xl pr-55 large:text-3xl middle:text-2xl small:text-xl">
+            <h2 className="font-black text-primary text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
               Evren AI Transforms How You Do Business.
             </h2>
             <p className="text-base my-3 middle:text-sm small:text-xs">
@@ -138,27 +138,28 @@ export default function Home() {
               slash costs, and unlock new possibilities, all while feeling
               confident in a trusted partner.
             </p>
-            <Button content="Book a call" />
+            <div>
+              <Button content="Book a call" />
+            </div>
           </div>
-          <div className=" animate-upAndDown w-[90%] large:w-[60%] large:mt-11 middle:w-[70%] object-cover">
+          <div className=" animate-upAndDown w-[90%] inc:w-[60%] inc:mt-11 middle:w-[70%] object-cover">
             <Image
               priority={true}
               quality={80}
               width={700}
               height={1000}
-              src="/homeimage2.png"
+              src="/homepage/homeimage2.png"
               alt=""
             />
           </div>
-        </div>
-        <div class="seperation"></div>
+        </div>{" "}
       </div>
 
       {/* hero section start end */}
 
       {/* service section start */}
 
-      <div className="bg-[#FFFFFF] py-[110px] px-0 flex relative gap-[20px] justify-center items-center m-0 middle:py-[50px]">
+      <div className="bg-[#FFFFFF] py-[110px] px-0 flex relative gap-[20px] justify-center items-center m-0 large:py-[50px]">
         <div className="flex w-full mx-auto items-center relative flex-col gap-3 ">
           <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
             Our Services
@@ -182,9 +183,9 @@ export default function Home() {
 
       {/* Process section start*/}
       <div>
-        <div className=" pt-[110px] px-0 flex relative gap-[20px] justify-center items-center middle:pt-[60px]">
+        <div className=" pt-[110px] px-0 flex relative gap-[20px] justify-center items-center large:pt-[60px]">
           <div className="flex max-w-[82vw] mx-auto items-center relative flex-col gap-3">
-            <span className="text-black font-extrabold text-[22px] large:text-[19px] middle:text-[16px]">
+            <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
               Our Process
             </span>
             <h2 className="font-black bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
@@ -204,8 +205,8 @@ export default function Home() {
       {/* Why us section start*/}
 
       <div className="bg-white">
-        <div class="relative mx-auto max-w-5xl text-center pt-20 mt-14 middle:pt-10">
-          <span class="text-black my-3 flex items-center justify-center font-medium uppercase tracking-wider text-[22px] large:text-[19px] middle:text-[16px]">
+        <div class="relative mx-auto max-w-5xl text-center pt-20 mt-14 large:pt-10">
+          <span class="text-black my-3 flex items-center justify-center font-bold uppercase tracking-wider text-[22px] large:text-[19px] middle:text-[16px]">
             Why choose us
           </span>
           <h2 class="block w-full bg-gradient-to-b from-gray-400 to-primary bg-clip-text font-bold text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
@@ -221,9 +222,9 @@ export default function Home() {
           <div class="bg-ternary">
             <section
               id="features"
-              class="relative block px-6 py-10 md:py-20 md:px-10  border-t border-b border-neutral-900 bg-neutral-900/30"
+              class="relative block px-6 py-10 md:py-20 md:px-10  border-t border-b border-neutral-900 "
             >
-              <div class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 middle:pt-4 sm:grid-cols-2 lg:grid-cols-3">
+              <div class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 middle:pt-4 sm:grid-cols-2 lg:grid-cols-3 ">
                 {whyus.map((why, index) => (
                   <Whyus
                     key={index}
@@ -253,29 +254,29 @@ export default function Home() {
       {/* Faq section start*/}
 
       <div>
-        <div className=" pt-[110px] px-0 flex relative gap-[20px] justify-center items-center middle:pt-[60px]">
+        <div className=" pt-[110px] px-0 flex relative gap-[20px] justify-center items-center inc:pt-[60px]">
           <div className="flex max-w-[82vw] mx-auto items-center relative flex-col gap-3 ">
-            <span className="text-black font-extrabold text-[22px] large:text-[19px] middle:text-[16px]">
+            <span className="text-black font-extrabold text-[22px] inc:text-[19px] middle:text-[16px]">
               Frequently Asked Questions
             </span>
-            <h2 className="font-black  bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px] text-center">
+            <h2 className="font-black  bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] inc:text-[27px] middle:text-[18px] text-center">
               Ready to Unlock Your Potential?
             </h2>
           </div>
         </div>
-        <div className="py-[70px] middle:pt-[10px]  px-0 flex relative gap-[20px] justify-center items-start">
-          <div className="flex max-w-[82vw] mx-auto items-center relative gap-20 maxlarge:max-w-[93vw] large:flex-col middle:gap-[15px]">
-            <div className="animate-upAndDown large:w-[60%] large:mt-11 middle:mt-7 middle:w-[80%] small:w-[90%]">
+        <div className="py-[70px] middle:pt-[10px]  px-0 flex relative gap-[20px] justify-center items-start inc:py-[30px]">
+          <div className="flex max-w-[82vw] mx-auto items-center relative gap-20 maxlarge:max-w-[93vw] inc:flex-col middle:gap-[15px]">
+            <div className="animate-upAndDown inc:w-[60%] inc:mt-11 middle:mt-7 middle:w-[80%] small:w-[90%]">
               <Image
                 priority={true}
                 quality={80}
                 width={700}
                 height={1000}
                 src="/FaqImage.png"
-                alt=""
+                alt=" Frequently Asked Questions"
               />
             </div>
-            <div class="w-[700px] pl-[50px] text-left flex flex-col gap-3 large:w-[500px] large:p-0 middle:w-[350px] small:w-[300px]">
+            <div class="w-[700px] pl-[50px] text-left flex flex-col gap-3 inc:w-[500px] inc:p-0 middle:w-[350px] small:w-[300px]">
               {faqs.map((faq, index) => (
                 <Faq key={index} question={faq.question} answer={faq.answer} />
               ))}
@@ -304,7 +305,7 @@ export default function Home() {
             </p>
           </div>
           <div className="w-[40%] bg-white  p-10 rounded-3xl ml-32 flex flex-col gap-5 text-center shadow-xl drop-shadow-lg large:ml-0 large:p-4 large:w-[60%] middle:w-[75%] small:w-[90%]">
-            <Contactform/>
+            <Contactform />
           </div>
         </div>
       </div>

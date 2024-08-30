@@ -8,7 +8,8 @@
   
   --primary-color: #592E83;
   --secondary-color: #9984D4;
-  --ternary-color: #CAA8F5;
+  --ternary-color: #E6D6FA;
+  --brandclr-color: #FF9100;
 }
 /* 
 @media (prefers-color-scheme: dark) {
@@ -36,4 +37,29 @@ body {
   padding: 0;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+
+@keyframes blob-bounce {
+  0% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+  25% {
+    transform: translate(-100%, -100%) translate3d(100%, 0, 0);
+  }
+  50% {
+    transform: translate(-100%, -100%) translate3d(100%, 100%, 0);
+  }
+  75% {
+    transform: translate(-100%, -100%) translate3d(0, 100%, 0);
+  }
+  100% {
+    transform: translate(-100%, -100%) translate3d(0, 0, 0);
+  }
+}
+
+@layer utilities {
+  .animate-blob-bounce {
+    animation: blob-bounce 5s infinite ease;
+  }
 }

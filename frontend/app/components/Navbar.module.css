@@ -1,6 +1,6 @@
 .nav {
-  position:sticky;
-  top: 0;
+  /* position:sticky; */
+  /* top: 0; */
   /* left: 0; */
   width: 100%;
   /* margin: 5px 20px; */
@@ -28,7 +28,7 @@
 }
 .links {
   display: flex;
-  gap: 15px;
+  gap: 7px;
 }
 .list {
   position: relative;
@@ -46,11 +46,11 @@
   font-size: 15px;
   font-weight: 540;
   /* padding: 0px 5px; */
-  width: 50px;
+  /* width: 50px; */
 }
 .list:hover .outer {
   color: var(--secondary-color);
-  font-weight: 550;
+  /* font-weight: 550; */
 }
 .logo {
   height: 30px;
@@ -88,7 +88,7 @@
   border-bottom: 1px solid gainsboro;
 }
 .subMenulist:hover .inner {
-  color: #6a6de6;
+  color: var(--secondary-color);
 }
 .inner {
   color: black;
@@ -103,7 +103,7 @@
 }
 .activeclr{
   color: var(--secondary-color);
-  font-weight: 550  ;
+  /* font-weight: 550  ; */
 }
 .logoImage{
   position: relative;
