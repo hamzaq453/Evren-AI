@@ -97,7 +97,7 @@ const Page = () => {
                   <img src="/about/svg/team.svg" alt="our expert staff" />
                 </div>
                 <div>
-                  <div className="font-semibold text-lg text-primary">
+                  <div className="font-semibold text-lg text-[#592E83]">
                     Our Expert Staff
                   </div>
                   <div className="text-[13.5px] mt-1">
@@ -113,7 +113,7 @@ const Page = () => {
                 </div>
 
                 <div>
-                  <div className="font-semibold text-lg text-primary">
+                  <div className="font-semibold text-lg text-[#592E83]">
                     Our Core Mission
                   </div>
                   <div className="text-[13.5px] mt-1">
@@ -129,7 +129,7 @@ const Page = () => {
                 </div>
 
                 <div>
-                  <div className="font-semibold text-lg text-primary">
+                  <div className="font-semibold text-lg text-[#592E83]">
                     Our Approach
                   </div>
                   <div className="text-[13.5px] mt-1">
@@ -228,7 +228,7 @@ const Page = () => {
                     height="24"
                   />
                 </svg>
-                <span className="relative text-primary">Welcome</span>
+                <span className="relative text-[#592E83]">Welcome</span>
               </span>{" "}
               our talented team of professionals
             </h2>
@@ -260,7 +260,7 @@ const Page = () => {
               75<sup>+</sup>
             </span>
             <span className="text-[23px] font-semibold">Happy Clients</span>
-            <div className="h-[7px] rounded-md bg-primary w-[40%] absolute bottom-[7px] left-[28%] "></div>
+            <div className="h-[7px] rounded-md bg-[#592E83] w-[40%] absolute bottom-[7px] left-[28%] "></div>
           </div>
           <div className="bg-white py-5 px-6 flex flex-col gap-1 text-center w-[250px] relative maxlarge:w-[220px] inc:w-[230px] maxlarge:px-3">
             <span className="text-4xl font-bold">
@@ -268,13 +268,13 @@ const Page = () => {
               <span className="text-3xl font-medium">year</span>
             </span>
             <span className="text-[23px] font-semibold">Experience</span>
-            <div className="h-[7px] rounded-md bg-primary w-[40%] absolute  bottom-[7px] left-[28%] "></div>
+            <div className="h-[7px] rounded-md bg-[#592E83] w-[40%] absolute  bottom-[7px] left-[28%] "></div>
           </div>
           <div className="bg-white py-5 px-6 flex flex-col gap-1 text-center w-[250px] relative maxlarge:w-[220px] inc:w-[230px] maxlarge:px-3">
             <span className="text-4xl font-bold">4</span>
             <span className="text-[23px] font-semibold">Our Awards</span>
             <div
-              className="h-[7px] rounded-md bg-primary w-[40%] absolute
+              className="h-[7px] rounded-md bg-[#592E83] w-[40%] absolute
     bottom-[7px] left-[28%] "
             ></div>
           </div>
@@ -293,14 +293,14 @@ const Page = () => {
       <div className="bg-white py-[70px] px-0 flex relative gap-[20px] justify-center items-center large:py-[40px]">
         <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[92vw] large:flex-col">
           <div className=" w-[50%] pr-[64px] text-left flex flex-col gap-7 large:pr-0 large:text-center large:gap-5 large:w-[70%] large:mb-6 middle:w-[90%]">
-            <h2 className="font-black text-4xl large:text-3xl middle:text-2xl">
+            <h2 className="font-black text-4xl text-[#592E83] large:text-3xl middle:text-2xl">
               Start your project with evrenai.
             </h2>
             <span className="large:text-base middle:text-sm ">
               Fill out the form, and tell us more about your business
               goals.We'll get back to you within 1 working day.{" "}
             </span>
-            <p className="text-base font-extrabold text-primary large:text-sm middle:text-xs">
+            <p className="text-base font-extrabold  large:text-sm middle:text-xs">
               Would you rather directly get in touch ? We always have a time for
               a call or email!
             </p>

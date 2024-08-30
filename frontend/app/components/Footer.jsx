@@ -1,5 +1,9 @@
 import React from "react";
 import Image from "next/image";
+import './stylesheet.css'
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedin, faXTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 const Footer = () => {
   return (
@@ -16,7 +20,7 @@ const Footer = () => {
               alt="EvrenAi logo"
             />
           </div>
-          <div className="text-sm">
+          <div className="text-sm" style={{ color: 'black' }} >
             Evren AI isn't just another automation tool. We partner with you to
             understand your unique challenges and deliver custom AI solutions
             that drive game-changing results. Boost efficiency, slash costs, and

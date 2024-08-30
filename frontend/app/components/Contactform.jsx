@@ -4,8 +4,8 @@ const Contactform = () => {
   return (
     <div>
       <div>
-        <h1 className="font-bold text-2xl text-primary middle:text-2xl small:text-xl">
-          Leave your number
+        <h1 className="font-bold text-2xl text-[#592E83] middle:text-2xl small:text-xl">
+          Contact Us
         </h1>
         <span className="text-slate-400 text-xm small:text-xs">
           Let's Call you Back!
@@ -33,9 +33,8 @@ const Contactform = () => {
           rows="4"
         ></textarea>
         <div>
-          {" "}
           <Button content="Send message" />
-        </div>{" "}
+        </div>
       </form>
     </div>
   );

@@ -1,35 +1,103 @@
-import React from 'react'
+import React from 'react';
+import Image from 'next/image';
+import './stylesheet.css'
 
-const Whyus = (props) => {
+const Whyus = () => {
   return (
     <>
-    <div class="rounded-md bg-[#F1FAFF] p-8 text-center drop-shadow-xl shadow-xl transition-transform ease-in-out duration-300 transform hover:scale-105">
-                <div class="button-text mx-auto flex h-12 w-12 items-center justify-center rounded-md border ">
-                <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="icon icon-tabler icon-tabler-color-swatch"
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke="currentColor"
-                    fill="none"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path d="M19 3h-4a2 2 0 0 0 -2 2v12a4 4 0 0 0 8 0v-12a2 2 0 0 0 -2 -2"></path>
-                    <path d="M13 7.35l-2 -2a2 2 0 0 0 -2.828 0l-2.828 2.828a2 2 0 0 0 0 2.828l9 9"></path>
-                    <path d="M7.3 13h-2.3a2 2 0 0 0 -2 2v4a2 2 0 0 0 2 2h12"></path>
-                    <line x1="17" y1="17" x2="17" y2="17.01"></line>
-                  </svg>
-                </div>
-                <h3 class="mt-6 text-primary font-bold">{props.title}</h3>
-                <p class="my-4 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs">
-               {props.description}
-
-                </p>
-              </div>
+      <div className="container whyusdiv ">
+        <div className="row">
+          <div className="col-lg-5 m-5 ">
+            <div className="container ml-md-auto ">
+              <h3 class=" ml-3 mt-6 text-[#592E83] font-bold">Tailored Solutions</h3>
+              <p class="ml-3 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 ">
+                We don't believe in one-size-fits-all AI. We collaborate with you to understand your specific needs and craft custom solutions that address them precisely.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-5 m-5 ">
+            <Image src='/tailered Solution.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-5 m-5 ">
+            <Image src='/human centered approach.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+          </div>
+          <div className="col-lg-5 m-5 ">
+            <div className="container ml-md-auto ">
+              <h3 class=" ml-3 mt-6 text-[#592E83] font-bold">Human-Centered Approach</h3>
+              <p class="ml-3 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 ">
+                AI is powerful, but it's most effective when paired with human expertise. We blend cutting-edge technology with a human touch, ensuring your AI journey is smooth and successful.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-5 m-5 ">
+            <div className="container ml-md-auto ">
+              <h3 class=" ml-3 mt-6 text-[#592E83] font-bold">Proven Results</h3>
+              <p class="ml-3 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 ">
+                We're not just about promises, we deliver. Our track record speaks for itself, with measurable results in increased efficiency, cost reduction, and growth for our clients.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-5 m-5 ">
+            <Image src='/results (1).png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-5 m-5 ">
+            <Image src='/flexibility.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+          </div>
+          <div className="col-lg-5 m-5 ">
+            <div className="container ml-md-auto ">
+              <h3 class=" ml-3 mt-6 text-[#592E83] font-bold">Scalable and Flexible</h3>
+              <p class="ml-3 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 ">
+                Whether you're a small startup or a large enterprise, we have solutions that adapt to your size and evolve with your needs.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-5 m-5 ">
+            <div className="container ml-md-auto ">
+              <h3 class=" ml-3 mt-6 text-[#592E83] font-bold">Trust and Transparency</h3>
+              <p class="ml-3 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 ">
+                We understand your data is your lifeblood. We prioritize security and transparency, ensuring your data is safe with us and you're always in control.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-5 m-5 ">
+            <Image src='/trust (1).png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-5 m-5 ">
+            <Image src='/expert.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+          </div>
+          <div className="col-lg-5 m-5 ">
+            <div className="container ml-md-auto ">
+              <h3 class=" ml-3 mt-6 text-[#592E83] font-bold">Expert Team</h3>
+              <p class="ml-3 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 ">
+                Our team is made up of passionate AI professionals with extensive experience in various industries. We're constantly learning and innovating to bring you the best possible solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-5 m-5 ">
+            <div className="container ml-md-auto ">
+              <h3 class=" ml-3 mt-6 text-[#592E83] font-bold">Ongoing Support</h3>
+              <p class="ml-3 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 ">
+                We don't stop at implementation. We offer ongoing support and optimization to ensure your AI solutions continue to deliver value over time.
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-5 m-5 ">
+            <Image src='/support (1).png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+          </div>
+        </div>
+      </div>
     </>
   )
 }

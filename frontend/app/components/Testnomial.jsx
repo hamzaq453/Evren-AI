@@ -61,32 +61,32 @@ export default function App() {
           </h2>
         </div>
         <div>
-        <Swiper
-          spaceBetween={30}
-          centeredSlides={true}
-          loop={true}
-          autoplay={{
-            delay: 2500,
-            disableOnInteraction: false,
-          }}
-          pagination={{
-            clickable: true,
-          }}
-          navigation={true}
-          modules={[Pagination, Autoplay]}
-          className="mySwiper"
-        >
-          {review.map((item, index) => (
-            <SwiperSlide>
-              <Review
-                comment={item.comment}
-                names={item.names}
-                designation={item.designation}
-                platform={item.platform}
-              />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+          <Swiper
+            spaceBetween={30}
+            centeredSlides={true}
+            loop={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: false,
+            }}
+            pagination={{
+              clickable: true,
+            }}
+            navigation={true}
+            modules={[Pagination, Autoplay]}
+            className="mySwiper"
+          >
+            {review.map((item, index) => (
+              <SwiperSlide>
+                <Review
+                  comment={item.comment}
+                  names={item.names}
+                  designation={item.designation}
+                  platform={item.platform}
+                />
+              </SwiperSlide>
+            ))}
+          </Swiper>
         </div>
       </div>
     </>

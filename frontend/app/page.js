@@ -1,44 +1,18 @@
 import Image from "next/image";
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Button from "./components/Button";
-import Service from "./components/Service";
+import Services from "./components/Services";
 import Faq from "./components/Faq";
 import Timeline from "./components/Timeline";
 import Whyus from "./components/Whyus";
 import Testnomial from "./components/Testnomial";
 import Contactform from "./components/Contactform";
+import CompanyClients from "./components/Compnayclints";
+import AboutUs from "./components/AboutUs";
+ 
+
+
 export default function Home() {
-  const service = [
-    {
-      heading: "Custom AI Solution",
-      description:
-        "Craft your perfect AI tool. Build bespoke AI solutions that fit your unique needs and goals perfectly.",
-    },
-    {
-      heading: "AI-Based Security Solutions",
-      description:
-        "Fortify your defenses. Detect threats, prevent breaches, and sleep soundly with AI security",
-    },
-    {
-      heading: "AI Research Development ",
-      description:
-        "Push the boundaries. Be at the forefront of innovation with collaborative AI research. ",
-    },
-    {
-      heading: "AI in Healthcare",
-      description:
-        "Revolutionize patient care. Optimize diagnosis, automate tasks, and deliver personalized treatments.",
-    },
-    {
-      heading: "Analytics and Data Science",
-      description:
-        "Unlock hidden insights. Extract actionable intelligence from your data and power smarter decisions. ",
-    },
-    {
-      heading: "Business Process Automation ",
-      description:
-        "Work smarter, not harder. Free your team from tedious tasks and boost efficiency with AI automation.",
-    },
-  ];
   const faqs = [
     {
       question: "What is Evren AI?",
@@ -81,43 +55,6 @@ export default function Home() {
  `,
     },
   ];
-  const whyus = [
-    {
-      title: "Tailored Solutions",
-      description:
-        "We don't believe in one-size-fits-all AI. We collaborate with you to understand your specific needs and craft custom solutions that address them precisely.",
-    },
-    {
-      title: "Human-Centered Approach",
-      description:
-        "AI is powerful, but it's most effective when paired with human expertise. We blend cutting-edge technology with a human touch, ensuring your AI journey is smooth and successful.",
-    },
-    {
-      title: "Proven Results",
-      description:
-        "We're not just about promises, we deliver. Our track record speaks for itself, with measurable results in increased efficiency, cost reduction, and growth for our clients.",
-    },
-    {
-      title: "Scalable and Flexible",
-      description:
-        "Whether you're a small startup or a large enterprise, we have solutions that adapt to your size and evolve with your needs.",
-    },
-    {
-      title: "Trust and Transparency",
-      description:
-        "We understand your data is your lifeblood. We prioritize security and transparency, ensuring your data is safe with us and you're always in control.",
-    },
-    {
-      title: "Expert Team",
-      description:
-        "Our team is made up of passionate AI professionals with extensive experience in various industries. We're constantly learning and innovating to bring you the best possible solutions.",
-    },
-    {
-      title: "Ongoing Support",
-      description:
-        "We don't stop at implementation. We offer ongoing support and optimization to ensure your AI solutions continue to deliver value over time.",
-    },
-  ];
   return (
     <>
       {/* hero section start start */}
@@ -131,7 +68,7 @@ export default function Home() {
             <h2 className="font-black text-primary text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
               Evren AI Transforms How You Do Business.
             </h2>
-            <p className="text-base my-3 middle:text-sm small:text-xs">
+            <p className="text-base my-3 middle:text-sm small:text-xs text-justify ">
               Evren AI isn't just another automation tool. We partner with you
               to understand your unique challenges and deliver custom AI
               solutions that drive game-changing results. Boost efficiency,
@@ -157,6 +94,9 @@ export default function Home() {
 
       {/* hero section start end */}
 
+      <CompanyClients/>
+      <AboutUs/>
+
       {/* service section start */}
 
       <div className="bg-[#FFFFFF] py-[110px] px-0 flex relative gap-[20px] justify-center items-center m-0 large:py-[50px]">
@@ -164,26 +104,19 @@ export default function Home() {
           <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
             Our Services
           </span>
-          <h1 className="font-extrabold  bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
+          <h1 className="font-extrabold  bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px] pb-5 ">
             Unleashing the Power of Data
           </h1>
-          <div className="mt-[60px] middle:mt-[50px] grid grid-cols-2 gap-12 large:grid-cols-1">
-            {service.map((service, index) => (
-              <Service
-                key={index}
-                heading={service.heading}
-                description={service.description}
-              />
-            ))}
-          </div>
+         
+          <Services/>
         </div>
       </div>
-
+    
       {/* service section end*/}
-
+     
       {/* Process section start*/}
       <div>
-        <div className=" pt-[110px] px-0 flex relative gap-[20px] justify-center items-center large:pt-[60px]">
+        <div className="px-0 flex relative gap-[20px] justify-center items-center middle:pt-[60px]">
           <div className="flex max-w-[82vw] mx-auto items-center relative flex-col gap-3">
             <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
               Our Process
@@ -196,7 +129,7 @@ export default function Home() {
         <div>
           <Timeline />
         </div>
-        <div className="mx-auto text-center ">
+        <div className="mx-auto text-center mt-5 ">
           <Button content="Lets's work together" />
         </div>
       </div>
@@ -204,40 +137,30 @@ export default function Home() {
 
       {/* Why us section start*/}
 
-      <div className="bg-white">
-        <div class="relative mx-auto max-w-5xl text-center pt-20 mt-14 large:pt-10">
-          <span class="text-black my-3 flex items-center justify-center font-bold uppercase tracking-wider text-[22px] large:text-[19px] middle:text-[16px]">
+      <div className="m-0">
+        <div class="relative mx-auto max-w-5xl text-center pt-5 mt-14 middle:pt-10">
+          <span class="text-black mb-3 flex items-center justify-center font-medium uppercase tracking-wider text-[22px] large:text-[19px] middle:text-[16px]">
             Why choose us
           </span>
           <h2 class="block w-full bg-gradient-to-b from-gray-400 to-primary bg-clip-text font-bold text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
             Your Success is Our Priority
           </h2>
-          <p class="mx-auto my-4 w-[90%] bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 ">
+          <p class="mx-auto my-4 w-[90%] bg-transparent font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 text-justify ">
             Your success is at the heart of everything we do. We work closely
             with you to understand your objectives and challenges, offering
             strategic guidance and support to help you thrive in your industry.
           </p>
         </div>
         <div>
-          <div class="bg-ternary">
             <section
               id="features"
-              class="relative block px-6 py-10 md:py-20 md:px-10  border-t border-b border-neutral-900 "
+              class="relative block px-6 py-10 md:py-20 md:px-10 bg-[#E6D6FA]"
             >
-              <div class="relative mx-auto max-w-7xl z-10 grid grid-cols-1 gap-10 pt-14 middle:pt-4 sm:grid-cols-2 lg:grid-cols-3 ">
-                {whyus.map((why, index) => (
-                  <Whyus
-                    key={index}
-                    title={why.title}
-                    description={why.description}
-                  />
-                ))}
-              </div>
+                <Whyus/>
 
               <div class="absolute bottom-0 left-0 z-0 h-1/3 w-full border-b"></div>
               <div class="absolute bottom-0 right-0 z-0 h-1/3 w-full"></div>
             </section>
-          </div>
         </div>
       </div>
 
@@ -292,7 +215,7 @@ export default function Home() {
       <div className="bg-white py-[70px] px-0 flex relative gap-[20px] justify-center items-center large:py-[40px]">
         <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[92vw] large:flex-col">
           <div className=" w-[50%] pr-[64px] text-left flex flex-col gap-7 large:pr-0 large:text-center large:gap-5 large:w-[70%] large:mb-6 middle:w-[90%]">
-            <h2 className="font-black text-primary text-4xl large:text-3xl middle:text-2xl">
+            <h2 className="font-black text-[#592E83] text-4xl large:text-3xl middle:text-2xl">
               Start your project with evrenai.
             </h2>
             <span className="large:text-base middle:text-sm ">
