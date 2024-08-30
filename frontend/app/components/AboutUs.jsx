@@ -2,6 +2,7 @@
 import React from 'react'
 import './stylesheet.css'
 import Image from 'next/image'
+import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faAward } from '@fortawesome/free-solid-svg-icons';
 import { faFaceSmile, faFileCode, faClock } from '@fortawesome/free-regular-svg-icons';
@@ -25,7 +26,7 @@ const AboutUs = () => {
               <p className="container pr-5 mr-5 pl-5 ml-5 col-lg-10 align-content-center" >
                 Founded to democratize AI, Evren AI empowers businesses and individuals with cutting-edge, user-friendly tools. Discover how our innovative solutions can help you achieve your goals. Click to learn more and join the AI revolution!
               </p>
-              <a href="inner-page.php" className="btn-learn-more">Learn More</a>
+              <Link href="/about" className="btn-learn-more">Learn More</Link>
             </div>
           </div>
 

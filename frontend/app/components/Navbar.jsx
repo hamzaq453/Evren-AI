@@ -36,11 +36,11 @@ const Navbar = () => {
 
     return () => {
       menuOpenBtn.removeEventListener("click", openMenu);
-        menuCloseBtn.removeEventListener("click", closeMenu);
+      menuCloseBtn.removeEventListener("click", closeMenu);
     };
   }, []);
 
-  
+
 
   return (
     <nav className={styles.nav}>
@@ -54,20 +54,18 @@ const Navbar = () => {
         <div className={styles.navLinks}>
           <div className={styles.sidebarLogo}>
             <span>
-            <Image className={styles.logo} width={200} height={475} quality={70} layout="responsive" sizes="(max-width:1200px) 180px,200px" priority={true} src="/homelogo.png" alt="EvrenAi logo" />
+              <Image className={styles.logo} width={200} height={475} quality={70} layout="responsive" sizes="(max-width:1200px) 180px,200px" priority={true} src="/homelogo.png" alt="EvrenAi logo" />
             </span>
             <img src="/navbar/cross.svg" className={`bx-x ${styles.bxX}`} alt="close sidebarmenu" />
           </div>
           <ul className={styles.links}>
             <li className={styles.list}>
-              <Link href="/" key="/" className={`${styles.outer} ${
-              "/" === pathname ? styles.activeclr:""}`}>
+              <Link href="/" key="/" className={`${styles.outer} ${"/" === pathname ? styles.activeclr : ""}`}>
                 Home
               </Link>
             </li>
             <li className={styles.list}>
-              <Link href="/about" key="/about" className={`${styles.outer} ${
-              "/about" === pathname ? styles.activeclr:""}`}>
+              <Link href="/about" key="/about" className={`${styles.outer} ${"/about" === pathname ? styles.activeclr : ""}`}>
                 About
               </Link>
             </li>
@@ -82,34 +80,44 @@ const Navbar = () => {
               />
               <ul className={`${styles.subMenu} ${styles.jssubMenu}`}>
                 <li className={`${styles.subMenulist} ${styles.list}`}>
-                  <Link href="/service1" className={styles.inner}>
-                    Custom AI Solution Development
+                  <Link href="/Service1" className={styles.inner}>
+                    AI Process Automation
                   </Link>
                 </li>
                 <li className={`${styles.subMenulist} ${styles.list}`}>
-                  <Link href="/service2" className={styles.inner}>
-                    AI-Based Security Solutions
+                  <Link href="/Service2" className={styles.inner}>
+                    Machine & Deep Learning Solutions
                   </Link>
                 </li>
                 <li className={`${styles.subMenulist} ${styles.list}`}>
-                  <a href="#" className={styles.inner}>
-                    Research and Development in AI
-                  </a>
+                  <Link href="/Service3" className={styles.inner}>
+                    Chatbots
+                  </Link>
                 </li>
                 <li className={`${styles.subMenulist} ${styles.list}`}>
-                  <a href="#" className={styles.inner}>
-                    AI in Healthcare
-                  </a>
+                  <Link href="/Service4" className={styles.inner}>
+                    AI Agents
+                  </Link>
                 </li>
                 <li className={`${styles.subMenulist} ${styles.list}`}>
-                  <a href="#" className={styles.inner}>
-                    Advanced Analytics and Data Science
-                  </a>
+                  <Link href="/Service5" className={styles.inner}>
+                    Software Development
+                  </Link>
                 </li>
                 <li className={`${styles.subMenulist} ${styles.list}`}>
-                  <a href="#" className={styles.inner}>
-                    AI Solutions for Business Process Automation
-                  </a>
+                  <Link href="/Service6" className={styles.inner}>
+                    Computer Vision
+                  </Link>
+                </li>
+                <li className={`${styles.subMenulist} ${styles.list}`}>
+                  <Link href="/Service7" className={styles.inner}>
+                    Generative AI
+                  </Link>
+                </li>
+                <li className={`${styles.subMenulist} ${styles.list}`}>
+                  <Link href="/Service8" className={styles.inner}>
+                    AI Research and Development
+                  </Link>
                 </li>
               </ul>
             </li>
@@ -120,15 +128,14 @@ const Navbar = () => {
               </Link>
             </li>
             <li className={styles.list}>
-              <Link href="/blog" className={`${styles.outer} ${
-              "/blog" === pathname ? styles.activeclr:""}`}>
+              <Link href="/blog" className={`${styles.outer} ${"/blog" === pathname ? styles.activeclr : ""}`}>
                 Blog
               </Link>
             </li>
           </ul>
         </div>
         <div className={styles.button}>
-        <Button content="Book a call"/>
+          <Link href='https://calendly.com/hassan-ali-ai/business-with-the-power-of-ai?month=2024-08&date=2024-08-30' className="duration-300 transform hover:scale-105 text-[14px] font-medium bg-[#592E83] text-white border-none py-[12px] px-[20px] rounded-[40px] cursor-pointer tracking-wide transition-transform ease-in active:scale-[0.9] focus:outline-none hover:bg-secondary sm:text-[15px] sm:py-[12px] sm:px-[25px]"  > Book a Call </Link>
         </div>
       </div>
     </nav>
