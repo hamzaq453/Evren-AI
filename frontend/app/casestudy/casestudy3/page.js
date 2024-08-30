@@ -223,7 +223,7 @@ const page = () => {
               quality={80}
               width={700}
               height={435}
-              src="/casestudy/casestudy3/main.jpg"
+              src="/casestudy/casestudy3/third.jpg"
               alt=""
             />
           </div>

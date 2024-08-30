@@ -66,7 +66,7 @@ const page = () => {
                       quality={80}
                       width={735}
                       height={435}
-                      src="/casestudy/casestudy2/main.jpg"
+                      src="/casestudy/casestudy2/main2.jpg"
                       className="-z-50 rounded-3xl transition duration-300   transform hover:scale-[1.1] overflow-hidden"
                       alt=""
                     />
@@ -92,7 +92,7 @@ const page = () => {
                       quality={80}
                       width={735}
                       height={435}
-                      src="/casestudy/casestudy3/main.png"
+                      src="/casestudy/casestudy3/main3.png"
                       className="-z-50 rounded-3xl transition duration-300   transform hover:scale-[1.1] overflow-hidden"
                       alt=""
                     />
