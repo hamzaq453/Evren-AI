@@ -12,7 +12,7 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="contant">
+      <div className="contant py-10">
         <div className="row m-0 ">
           <div className="col-lg-12 col-md-10 col-sm-10 p-5 text-center ">
             <h1
@@ -29,7 +29,7 @@ const Footer = () => {
               Book a free consultation with our AI experts and discover how our
               automation and software development solutions <br /> can elevate
               your business. Let's explore your needs and tailor a strategy to
-              drive growth and efficiency."
+              drive growth and efficiency.
             </p>
             <Link
               href="/contact"

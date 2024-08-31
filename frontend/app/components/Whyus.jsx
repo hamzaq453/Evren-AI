@@ -16,12 +16,12 @@ const Whyus = () => {
             </div>
           </div>
           <div className="col-lg-5 m-3 ">
-            <Image src='/tailered Solution.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+            <Image src='/homepage/whyus/tailered Solution.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
           </div>
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-5 m-3 ">
-            <Image src='/human centered approach.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+            <Image src='/homepage/whyus/human centered approach.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
           </div>
           <div className="col-lg-5 m-3 ">
             <div className="container ml-md-auto ">
@@ -42,12 +42,12 @@ const Whyus = () => {
             </div>
           </div>
           <div className="col-lg-5 m-3 ">
-            <Image src='/results (1).png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+            <Image src='/homepage/whyus/results (1).png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
           </div>
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-5 m-3 ">
-            <Image src='/flexibility.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+            <Image src='/homepage/whyus/flexibility.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
           </div>
           <div className="col-lg-5 m-3 ">
             <div className="container ml-md-auto ">
@@ -68,12 +68,12 @@ const Whyus = () => {
             </div>
           </div>
           <div className="col-lg-5 m-3 ">
-            <Image src='/trust (1).png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+            <Image src='/homepage/whyus/trust (1).png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
           </div>
         </div>
         <div className="row justify-content-center">
           <div className="col-lg-5 m-3 ">
-            <Image src='/expert.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+            <Image src='/homepage/whyus/expert.png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
           </div>
           <div className="col-lg-5 m-3 ">
             <div className="container ml-md-auto ">
@@ -94,7 +94,7 @@ const Whyus = () => {
             </div>
           </div>
           <div className="col-lg-5 m-3 ">
-            <Image src='/support (1).png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
+            <Image src='/homepage/whyus/support (1).png' width={100} height={50} className='whyusimg rounded mx-auto d-block ' />
           </div>
         </div>
       </div>

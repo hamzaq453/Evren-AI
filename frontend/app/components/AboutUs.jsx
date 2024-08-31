@@ -17,16 +17,16 @@ const AboutUs = () => {
         <div className="container">
 
           <div className="section-title" data-aos="fade-up">
-            <h2>About Us</h2>
+            <h2 className='text-black text-[22px] font-medium'>About Us</h2>
           </div>
 
           <div className="row content text-center ">
-            <div className="col-lg-12" data-aos="fade-up" data-aos-delay="150">
-              <h4>Unlock Your Potential with Evren AI!</h4>
-              <p className="container pr-5 mr-5 pl-5 ml-5 col-lg-10 align-content-center" >
+            <div className="col-lg-12 " data-aos="fade-up" data-aos-delay="150">
+              <h4 className='bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent  text-[30px] font-semibold'>Unlock Your Potential with Evren AI!</h4>
+              <p className="container pr-5 mr-5 pl-5 ml-5 col-lg-10 align-content-center text-black" >
                 Founded to democratize AI, Evren AI empowers businesses and individuals with cutting-edge, user-friendly tools. Discover how our innovative solutions can help you achieve your goals. Click to learn more and join the AI revolution!
               </p>
-              <Link href="/about" className="btn-learn-more">Learn More</Link>
+              <Link href="/about" className="btn-learn-more no-underline">Learn More</Link>
             </div>
           </div>
 
@@ -40,7 +40,7 @@ const AboutUs = () => {
           <div className="row">
             <div className="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay="150">
               <Image
-                src="/counts-img-svg (1).png"
+                src="/homepage/counts-img-svg (1).png"
                 alt="Counts Image"
                 className="img-fluid"
                 layout="responsive"

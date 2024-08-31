@@ -252,16 +252,16 @@ const Page = () => {
       {/* team end  */}
 
       {/* acheivments start  */}
-      <div className="bg-secondaryy w-full px-12 py-9 my-16 mx-auto  text-center maxlarge:px-10">
+      <div className="bg-secondaryy w-full px-12 py-10 my-16 mx-auto  text-center maxlarge:px-10">
         <div className="grid grid-cols-4 gap-[75px] inc:grid-cols-2 justify-center place-items-center middle:grid-cols-1">
-          <div className="bg-white py-5 px-6 flex flex-col gap-1 content-center text-center w-[250px] justify-center relative maxlarge:w-[220px] inc:w-[230px] maxlarge:px-3">
+          <div className="bg-white py-4 px-7 flex flex-col gap-1 content-center text-center w-[250px] justify-center relative maxlarge:w-[220px] inc:w-[230px] maxlarge:px-3">
             <span className="text-4xl font-bold">
               75<sup>+</sup>
             </span>
             <span className="text-[23px] font-semibold">Happy Clients</span>
             <div className="h-[7px] rounded-md bg-[#592E83] w-[40%] absolute bottom-[7px] left-[28%] "></div>
           </div>
-          <div className="bg-white py-5 px-6 flex flex-col gap-1 text-center w-[250px] relative maxlarge:w-[220px] inc:w-[230px] maxlarge:px-3">
+          <div className="bg-white py-4 px-7 flex flex-col gap-1 text-center w-[250px] relative maxlarge:w-[220px] inc:w-[230px] maxlarge:px-3">
             <span className="text-4xl font-bold">
               5<sup>+</sup>
               <span className="text-3xl font-medium">year</span>
@@ -269,7 +269,7 @@ const Page = () => {
             <span className="text-[23px] font-semibold">Experience</span>
             <div className="h-[7px] rounded-md bg-[#592E83] w-[40%] absolute  bottom-[7px] left-[28%] "></div>
           </div>
-          <div className="bg-white py-5 px-6 flex flex-col gap-1 text-center w-[250px] relative maxlarge:w-[220px] inc:w-[230px] maxlarge:px-3">
+          <div className="bg-white py-4 px-7 flex flex-col gap-1 text-center w-[250px] relative maxlarge:w-[220px] inc:w-[230px] maxlarge:px-3">
             <span className="text-4xl font-bold">4</span>
             <span className="text-[23px] font-semibold">Our Awards</span>
             <div
@@ -277,7 +277,7 @@ const Page = () => {
     bottom-[7px] left-[28%] "
             ></div>
           </div>
-          <div className="bg-white py-5 px-6 flex flex-col gap-1 text-center w-[250px] relative maxlarge:w-[220px] inc:w-[230px] maxlarge:px-3">
+          <div className="bg-white py-4 px-7 flex flex-col gap-1 text-center w-[250px] relative maxlarge:w-[220px] inc:w-[230px] maxlarge:px-3">
             <span className="text-4xl font-bold">
               100<sup>+</sup>
             </span>

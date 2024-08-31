@@ -26,7 +26,7 @@ const Navbar = () => {
     //     navLinks.style.left = "-100%";
     // };
     const closeMenu = (event) => {
-      if (event.target && event.target.classList.contains('bx-x')) {
+      if (event.target && event.target.classList.contains("bx-x")) {
         navLinks.style.left = "-100%";
       }
     };
@@ -40,39 +40,75 @@ const Navbar = () => {
     };
   }, []);
 
-
-
   return (
     <nav className={styles.nav}>
       <div className={styles.navbar}>
-        <img className={styles.bxMenu} src="/navbar/hamburgermenu.svg" alt="hamburgermenu" />
+        <img
+          className={styles.bxMenu}
+          src="/navbar/hamburgermenu.svg"
+          alt="hamburgermenu"
+        />
         <div>
           <Link href="/">
-            <Image className={styles.logo} width={200} height={475} quality={70} layout="responsive" sizes="(max-width:1200px) 160px,200px" priority={true} src="/homelogo.png" alt="EvrenAi logo" />
+            <Image
+              className={styles.logo}
+              width={200}
+              height={475}
+              quality={70}
+              layout="responsive"
+              sizes="(max-width:1200px) 160px,200px"
+              priority={true}
+              src="/homelogo.png"
+              alt="EvrenAi logo"
+            />
           </Link>
         </div>
         <div className={styles.navLinks}>
           <div className={styles.sidebarLogo}>
             <span>
-              <Image className={styles.logo} width={200} height={475} quality={70} layout="responsive" sizes="(max-width:1200px) 180px,200px" priority={true} src="/homelogo.png" alt="EvrenAi logo" />
+              <Image
+                className={styles.logo}
+                width={200}
+                height={475}
+                quality={70}
+                layout="responsive"
+                sizes="(max-width:1200px) 180px,200px"
+                priority={true}
+                src="/homelogo.png"
+                alt="EvrenAi logo"
+              />
             </span>
-            <img src="/navbar/cross.svg" className={`bx-x ${styles.bxX}`} alt="close sidebarmenu" />
+            <img
+              src="/navbar/cross.svg"
+              className={`bx-x ${styles.bxX}`}
+              alt="close sidebarmenu"
+            />
           </div>
           <ul className={styles.links}>
             <li className={styles.list}>
-              <Link href="/" key="/" className={`${styles.outer} ${"/" === pathname ? styles.activeclr : ""}`}>
+              <Link
+                href="/"
+                key="/"
+                className={`${styles.outer} ${
+                  "/" === pathname ? styles.activeclr : ""
+                }`}
+              >
                 Home
               </Link>
             </li>
             <li className={styles.list}>
-              <Link href="/about" key="/about" className={`${styles.outer} ${"/about" === pathname ? styles.activeclr : ""}`}>
+              <Link
+                href="/about"
+                key="/about"
+                className={`${styles.outer} ${
+                  "/about" === pathname ? styles.activeclr : ""
+                }`}
+              >
                 About
               </Link>
             </li>
             <li className={styles.list}>
-             <span className={styles.outer}>
-              Service
-             </span>
+              <span className={styles.outer}>Service</span>
               <img
                 className={`${styles.arrow} ${styles.jsarrow}`}
                 src="/navbar/dropdownarrow.svg"
@@ -122,20 +158,31 @@ const Navbar = () => {
               </ul>
             </li>
             <li className={styles.list}>
-              <Link href="/casestudy" className={`${styles.outer} ${
-              "/casestudy" === pathname ? styles.activeclr:""}`}>
+              <Link
+                href="/casestudy"
+                className={`${styles.outer} ${
+                  "/casestudy" === pathname ? styles.activeclr : ""
+                }`}
+              >
                 Case Studies
               </Link>
             </li>
             <li className={styles.list}>
-              <Link href="/blog" className={`${styles.outer} ${"/blog" === pathname ? styles.activeclr : ""}`}>
+              <Link
+                href="/blog"
+                className={`${styles.outer} ${
+                  "/blog" === pathname ? styles.activeclr : ""
+                }`}
+              >
                 Blog
               </Link>
             </li>
           </ul>
         </div>
         <div className={styles.button}>
-          <Link href='https://calendly.com/hassan-ali-ai/business-with-the-power-of-ai?month=2024-08&date=2024-08-30' target="_blank" className="duration-300 transform hover:scale-105 text-[14px] font-medium bg-[#592E83] text-white border-none py-[12px] px-[20px] rounded-[40px] cursor-pointer tracking-wide transition-transform ease-in active:scale-[0.9] focus:outline-none hover:bg-secondaryy sm:text-[15px] sm:py-[12px] sm:px-[25px]"  > Book a Call </Link>
+          <Link href="https://calendly.com/hassan-ali-ai/business-with-the-power-of-ai?month=2024-08&date=2024-08-30" target="_blank">
+            <Button content="Book a Call" />
+          </Link>
         </div>
       </div>
     </nav>

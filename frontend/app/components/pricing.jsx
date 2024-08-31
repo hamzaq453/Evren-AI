@@ -8,7 +8,7 @@ import Image from 'next/image';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faClipboardUser, faPeopleGroup } from '@fortawesome/free-solid-svg-icons';
 import { faSourcetree } from '@fortawesome/free-brands-svg-icons';
-
+import Button from './Button';
 
 
 function Pricing() {
@@ -45,10 +45,10 @@ function Pricing() {
                   <p style={{ color: '#230C33' }} >Starting from <span style={{ color: '#592E83', fontWeight: 'bolder', fontSize: '40px' }} > <br /> $20/hr</span> </p>
                 </div>
                 <div className="col-lg-5 col-md-5 col-sm-5 pt-3 ">
-                  <Link href='/contact' className='btn-contact' style={{ paddingTop: '25px', paddingBottom: '25px', paddingLeft: '40px', paddingRight: '40px', fontWeight: 'bolder' }}  > Contact Us </Link>
+                 <Link href="/contact"><Button content="Contact Us"/></Link>
                 </div>
               </div>
-              <div className="row p-5 ">
+              <div className="row px-5 py-3">
                 <div className="col-lg-12 cpl-md-12 col-sm-12 pb-2" style={{ borderBottom: '1px solid gray' }} >
                   <h6 style={{ color: '#230C33' }} >
                     The future of software development is here. Our team utilizes cutting-edge AI technologies to streamline your projects, enhancing efficiency and driving growth. With our expertise, we don't just meet expectations, we exceed them, delivering results that move your business forward. <br /> <br />

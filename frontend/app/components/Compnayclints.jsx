@@ -13,27 +13,27 @@ const CompanyClients = () => {
           <div className="row">
 
             <div className="col-lg-2 col-md-4 col-6">
-              <Image src="/cybervista.png" width={100} height={50} className="clientsImage" alt="" data-aos="zoom-in" />
+              <Image src="/homepage/companyclients/cybervista.png" width={100} height={50} className="clientsImage" alt="cybervista" data-aos="zoom-in" />
             </div>
 
             <div className="col-lg-2 col-md-4 col-6">
-              <Image src="/dylanstours.png" width={100} height={50} className="clientsImage" alt="" data-aos="zoom-in" data-aos-delay="100" />
+              <Image src="/homepage/companyclients/dylanstours.png" width={100} height={50} className="clientsImage" alt="dylanstours" data-aos="zoom-in" data-aos-delay="100" />
             </div>
 
             <div className="col-lg-2 col-md-4 col-6">
-              <Image src="/ecopulse.png" width={100} height={50} className="clientsImage" alt="" data-aos="zoom-in" data-aos-delay="200" />
+              <Image src="/homepage/companyclients/ecopulse.png" width={100} height={50} className="clientsImage" alt="" data-aos="zoom-in" data-aos-delay="200" />
             </div>
 
             <div className="col-lg-2 col-md-4 col-6">
-              <Image src="/hypernova.png" width={100} height={50} className="clientsImage" alt="" data-aos="zoom-in" data-aos-delay="300" />
+              <Image src="/homepage/companyclients/hypernova.png" width={100} height={50} className="clientsImage" alt="hypernova" data-aos="zoom-in" data-aos-delay="300" />
             </div>
 
             <div className="col-lg-2 col-md-4 col-6">
-              <Image src="/luminatech.png" width={100} height={50} className="clientsImage" alt="" data-aos="zoom-in" data-aos-delay="400" />
+              <Image src="/homepage/companyclients/luminatech.png" width={100} height={50} className="clientsImage" alt="luminatech" data-aos="zoom-in" data-aos-delay="400" />
             </div>
 
             <div className="col-lg-2 col-md-4 col-6">
-              <Image src="/verifiedx.png" width={100} height={50} className="clientsImage" alt="" data-aos="zoom-in" data-aos-delay="500" />
+              <Image src="/homepage/companyclients/verifiedx.png" width={100} height={50} className="clientsImage" alt="verifiedx" data-aos="zoom-in" data-aos-delay="500" />
             </div>
 
           </div>

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "./components/Button";
 import Services from "./components/Services";
 import Pricing from "./components/pricing";
@@ -10,8 +10,6 @@ import Testnomial from "./components/Testnomial";
 import CompanyClients from "./components/Compnayclints";
 import AboutUs from "./components/AboutUs";
 import Link from "next/link";
- 
-
 
 export default function Home() {
   const faqs = [
@@ -76,13 +74,14 @@ export default function Home() {
               slash costs, and unlock new possibilities, all while feeling
               confident in a trusted partner.
             </p>
-            
-              <div className="row"> 
-                <div className="col-lg-4">        
-                  <Link href='https://calendly.com/hassan-ali-ai/business-with-the-power-of-ai?month=2024-08&date=2024-08-30' className="duration-300 transform hover:scale-105 text-[14px] font-medium bg-[#592E83] text-white border-none py-[12px] px-[20px] rounded-[40px] cursor-pointer tracking-wide transition-transform ease-in active:scale-[0.9] focus:outline-none hover:bg-secondaryy sm:text-[15px] sm:py-[12px] sm:px-[25px]" > Book a Call </Link>
-                </div> 
-              </div>  
-
+            <div>
+              <Link
+                href="https://calendly.com/hassan-ali-ai/business-with-the-power-of-ai?month=2024-08&date=2024-08-30"
+                target="_blank"
+              >
+                <Button content="Book a Call" />
+              </Link>
+            </div>
           </div>
           <div className=" animate-upAndDown w-[90%] inc:w-[60%] inc:mt-11 middle:w-[70%] object-cover">
             <Image
@@ -99,8 +98,10 @@ export default function Home() {
 
       {/* hero section start end */}
 
-      <CompanyClients/>
-      <AboutUs/>
+      <div className="pt-3 pb-14">
+        <CompanyClients />
+      </div>
+      <AboutUs />
 
       {/* service section start */}
 
@@ -109,20 +110,20 @@ export default function Home() {
           <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
             Our Services
           </span>
-          <h1 className="font-extrabold  bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px] pb-5 ">
+          <h1 className="font-black text-primaryy text-[32px] large:text-[27px] middle:text-[18px] pb-5 ">
             Unleashing the Power of Data
           </h1>
-         
-          <Services/>
+
+          <Services />
         </div>
       </div>
-    
+
       {/* service section end*/}
-     
-      <Pricing/>
+
+      <Pricing />
 
       {/* Process section start*/}
-      <div>
+      <div className="pt-24">
         <div className="px-0 flex relative gap-[20px] justify-center items-center middle:pt-[60px]">
           <div className="flex max-w-[82vw] mx-auto items-center relative flex-col gap-3">
             <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
@@ -137,7 +138,12 @@ export default function Home() {
           <Timeline />
         </div>
         <div className="mx-auto text-center mt-5 ">
-          <Link href="/contact" className="duration-300 transform hover:scale-105 text-[14px] font-medium bg-[#592E83] text-white border-none py-[12px] px-[20px] rounded-[40px] cursor-pointer tracking-wide transition-transform ease-in active:scale-[0.9] focus:outline-none hover:bg-secondaryy sm:text-[15px] sm:py-[12px] sm:px-[25px] " > Lets Work together </Link>
+          <Link
+            href="/contact"
+            
+          >
+            <Button content="Let's work together" />
+          </Link>
         </div>
       </div>
       {/* Process section end*/}
@@ -159,15 +165,15 @@ export default function Home() {
           </p>
         </div>
         <div>
-            <section
-              id="features"
-              class="relative block px-6 py-10 md:py-20 md:px-10 bg-[#E6D6FA]"
-            >
-                <Whyus/>
+          <section
+            id="features"
+            class="relative block px-6 py-10 md:py-20 md:px-10 bg-[#E6D6FA]"
+          >
+            <Whyus />
 
-              <div class="absolute bottom-0 left-0 z-0 h-1/3 w-full border-b"></div>
-              <div class="absolute bottom-0 right-0 z-0 h-1/3 w-full"></div>
-            </section>
+            <div class="absolute bottom-0 left-0 z-0 h-1/3 w-full border-b"></div>
+            <div class="absolute bottom-0 right-0 z-0 h-1/3 w-full"></div>
+          </section>
         </div>
       </div>
 

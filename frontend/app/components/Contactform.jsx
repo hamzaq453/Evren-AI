@@ -33,13 +33,13 @@ const Contactform = () => {
   };
 
   return (
-    <div className="container-fluid d-flex justify-content-center align-items-center min-vh-100 bg-[#E6D6FA]">
-      <div className="col-lg-8 col-md-10 col-sm-12 bg-white p-5 rounded shadow">
+    <div className="container-fluid d-flex justify-content-center align-items-center min-vh-80 bg-[#E6D6FA] py-20">
+      <div className="col-lg-8 col-md-10 col-sm-12 bg-white py-5  rounded-3xl shadow">
         <div className="text-center mb-5">
-          <h1 className="font-bold text-[#592E83]" style={{ fontSize: '35px' }}>
+          <h1 className="font-bold text-[#592E83]" style={{ fontSize: '40px' }}>
             Contact Us
           </h1>
-          <span className="text-slate-400 text-sm">Let's Call you Back!</span>
+          <span className="text-slate-400 text-base">Let's Call you Back!</span>
         </div>
 
         {alert.show && (
@@ -59,27 +59,27 @@ const Contactform = () => {
           <div className="col-lg-10">
             <form ref={form} onSubmit={sendEmail} className="d-flex flex-column gap-4">
               <input
-                className="p-3 rounded-pill shadow-sm border-0"
+                className="p-3 rounded-pill shadow-sm border-1 focus:outline-none focus:border-secondaryy"
                 type="text"
                 name="from_name"
                 placeholder="Name"
                 required
               />
               <input
-                className="p-3 rounded-pill shadow-sm border-0"
+                className="p-3 rounded-pill shadow-sm border-1 focus:outline-none focus:border-secondaryy"
                 type="email"
                 name="from_email"
                 placeholder="Email"
                 required
               />
               <input
-                className="p-3 rounded-pill shadow-sm border-0"
+                className="p-3 rounded-pill shadow-sm border-1 focus:outline-none focus:border-secondaryy"
                 type="text"
                 name="from_Phone"
                 placeholder="Phone Number"
               />
               <textarea
-                className="p-3 rounded-3 shadow-sm border-0"
+                className="p-3 rounded-3 shadow-sm border-1 focus:outline-none focus:border-secondaryy"
                 placeholder="Message"
                 name="message"
                 rows="4"

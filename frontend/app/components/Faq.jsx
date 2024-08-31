@@ -6,10 +6,10 @@ const Faq = ({ question, answer }) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="border rounded-2xl border-gray-200 px-4 py-3 shadow-xl drop-shadow-lg small:py-2 small:px-3">
+    <div className="border rounded-2xl border-gray-200 px-4 pt-2 pb-1 shadow-xl drop-shadow-lg small:py-2 small:px-3">
       <div 
         onClick={() => setIsOpen(!isOpen)}
-        className="cursor-pointer flex justify-between items-center small:gap-4"
+        className="cursor-pointer flex justify-between items-center small:gap-4 "
       >
         <h3 className="text-base font-bold text-gray-900 hover:text-secondaryy middle:text-sm ">{question}</h3>
         <div>
@@ -25,7 +25,7 @@ const Faq = ({ question, answer }) => {
         </div>
       </div>
       {isOpen && (
-        <p className="mt-3 text-sm middle:text-xs text-gray-700">{answer}</p>
+        <p className="mt-2 text-sm middle:text-xs text-gray-700">{answer}</p>
       )}
     </div>
   );
