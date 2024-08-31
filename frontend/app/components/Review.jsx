@@ -12,7 +12,7 @@ const Review = (props) => {
           <p class="leading-relaxed mb-6 text-xs sm:text-base">{props.comment}</p>
           <a class="inline-flex items-center">
             <span class="flex-grow flex flex-col pl-4">
-              <span class="title-font font-semibold text-secondary text-sm sm:text-base">{props.names} - {props.designation}</span>
+              <span class="title-font font-semibold text-secondaryy text-sm sm:text-base">{props.names} - {props.designation}</span>
               <span class="text-gray-500 text-xs sm:text-sm">{props.platform}</span>
             </span>
           </a>

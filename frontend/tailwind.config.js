@@ -36,8 +36,8 @@ module.exports = {
           "inset -5px -5px 10px 0px rgba(255, 255, 255, 0.5), inset 5px 5px 10px 0px rgba(0, 0, 0, 0.3)",
       },
       colors: {
-        primary: "var(--primary-color)",
-        secondary: "var(--secondary-color)",
+        primaryy: "var(--primaryy-color)",
+        secondaryy: "var(--secondaryy-color)",
         ternary: "var(--ternary-color)",
         brandclr: "var(--brandclr-color)",
         'custom-purple': 'rgb(230,214,250)',

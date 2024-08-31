@@ -1,13 +1,46 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
-import './stylesheet.css'
+import "./stylesheet.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLinkedin, faXTwitter, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import {
+  faLinkedin,
+  faXTwitter,
+  faInstagram,
+} from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   return (
     <>
+      <div className="contant">
+        <div className="row m-0 ">
+          <div className="col-lg-12 col-md-10 col-sm-10 p-5 text-center ">
+            <h1
+              style={{
+                color: "#FFFFFF",
+                fontSize: "50px",
+                fontWeight: "bolder",
+              }}
+            >
+              Discover Your AI Advantage, <br />
+              Schedule a Free Consultation!
+            </h1>
+            <p className="p-5  " style={{ color: "#FFFFFF" }}>
+              Book a free consultation with our AI experts and discover how our
+              automation and software development solutions <br /> can elevate
+              your business. Let's explore your needs and tailor a strategy to
+              drive growth and efficiency."
+            </p>
+            <Link
+              href="/contact"
+              className="btn-contact pb-3 pt-3 pl-5 pr-5 m-2 "
+            >
+              {" "}
+              Book Free consultion Call Now{" "}
+            </Link>
+          </div>
+        </div>
+      </div>
       <div className="bg-ternary text-white grid grid-cols-4 gap-10 p-10 large:grid-cols-2 middle:grid-cols-1 middle:text-center">
         <div className="aboutus flex gap-6 text-left flex-col text-black">
           <div>
@@ -20,7 +53,7 @@ const Footer = () => {
               alt="EvrenAi logo"
             />
           </div>
-          <div className="text-sm" style={{ color: 'black' }} >
+          <div className="text-sm" style={{ color: "black" }}>
             Evren AI isn't just another automation tool. We partner with you to
             understand your unique challenges and deliver custom AI solutions
             that drive game-changing results. Boost efficiency, slash costs, and
@@ -31,25 +64,25 @@ const Footer = () => {
         <div className="services flex flex-col gap-5 text-black">
           <div>
             <span className="font-bold text-base">Services</span>
-            <div className="w-10 h-1 rounded-sm bg-primary mt-1 middle:absolute middle:left-[44%]"></div>
+            <div className="w-10 h-1 rounded-sm bg-primaryy mt-1 middle:absolute middle:left-[44%]"></div>
           </div>
           <ul className="text-sm ">
-            <li className="hover:text-secondary">
+            <li className="hover:text-secondaryy">
               <a href="#">- Custom AI Solution Development</a>
             </li>
-            <li className="hover:text-secondary">
+            <li className="hover:text-secondaryy">
               <a href="#">- AI-Based Security Solutions</a>
             </li>
-            <li className="hover:text-secondary">
+            <li className="hover:text-secondaryy">
               <a href="#">- Research and Development in AI</a>
             </li>
-            <li className="hover:text-secondary">
+            <li className="hover:text-secondaryy">
               <a href="#">- AI in Healthcare</a>
             </li>
-            <li className="hover:text-secondary">
+            <li className="hover:text-secondaryy">
               <a href="#">- Advanced Analytics and Data Science</a>
             </li>
-            <li className="hover:text-secondary">
+            <li className="hover:text-secondaryy">
               <a href="#">- Business Process Automation</a>
             </li>
           </ul>
@@ -57,19 +90,19 @@ const Footer = () => {
         <div className="quicklinks flex flex-col gap-5 text-black">
           <div>
             <span className="font-bold text-base">Quick Links</span>
-            <div className="w-10 h-1 rounded-sm bg-primary mt-1 middle:absolute middle:left-[42%]"></div>
+            <div className="w-10 h-1 rounded-sm bg-primaryy mt-1 middle:absolute middle:left-[42%]"></div>
           </div>
           <ul className="text-sm">
-            <li className="hover:text-secondary">
+            <li className="hover:text-secondaryy">
               <a href="/">Home</a>
             </li>
-            <li className="hover:text-secondary">
+            <li className="hover:text-secondaryy">
               <a href="/about">About us</a>
             </li>
-            <li className="hover:text-secondary">
+            <li className="hover:text-secondaryy">
               <a href="/casestudy">Case Studies</a>
             </li>
-            <li className="hover:text-secondary">
+            <li className="hover:text-secondaryy">
               <a href="/blog">Blog</a>
             </li>
           </ul>
@@ -77,7 +110,7 @@ const Footer = () => {
         <div className="contactinfo flex flex-col gap-5 text-black">
           <div>
             <span className="font-bold text-base ">Contact Info</span>
-            <div className="w-10 h-1 rounded-sm bg-primary mt-1 middle:absolute middle:left-[42%]"></div>
+            <div className="w-10 h-1 rounded-sm bg-primaryy mt-1 middle:absolute middle:left-[42%]"></div>
           </div>
           <ul className="text-sm">
             <li>Email: evrenai@gmail.com</li>
@@ -89,7 +122,7 @@ const Footer = () => {
               <a href="">
                 <button class="w-10 h-10 flex items-center justify-center relative overflow-hidden rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300 outline-none">
                   <svg
-                    class="relative z-10 fill-primary transition-all duration-300 group-hover:fill-white"
+                    class="relative z-10 fill-primaryy transition-all duration-300 group-hover:fill-white"
                     xmlns="http://www.w3.org/2000/svg"
                     width="28"
                     height="28"
@@ -109,7 +142,7 @@ const Footer = () => {
               <a href="">
                 <button class="w-10 h-10 flex items-center justify-center rounded-full relative overflow-hidden bg-white shadow-md shadow-gray-200 group transition-all duration-300 outline-none">
                   <svg
-                    class="fill-primary z-10 transition-all duration-300 group-hover:fill-white"
+                    class="fill-primaryy z-10 transition-all duration-300 group-hover:fill-white"
                     xmlns="http://www.w3.org/2000/svg"
                     width="28"
                     height="28"
@@ -130,7 +163,7 @@ const Footer = () => {
               <a href="">
                 <button class="w-10 h-10 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300 outline-none">
                   <svg
-                    class="fill-primary relative z-10 transition-all duration-300 group-hover:fill-white"
+                    class="fill-primaryy relative z-10 transition-all duration-300 group-hover:fill-white"
                     xmlns="http://www.w3.org/2000/svg"
                     width="28"
                     height="28"
@@ -151,7 +184,7 @@ const Footer = () => {
               <a href="">
                 <button class="w-10 h-10 flex relative overflow-hidden items-center justify-center rounded-full bg-white shadow-md bg-opacity-0 shadow-gray-200 group transition-all duration-500 outline-none">
                   <svg
-                    class="fill-primary relative z-10 transition-all duration-300 group-hover:fill-white"
+                    class="fill-primaryy relative z-10 transition-all duration-300 group-hover:fill-white"
                     xmlns="http://www.w3.org/2000/svg"
                     width="26"
                     height="26"

@@ -42,20 +42,20 @@ const page = () => {
       <div className="main w-full bg-custom-gradient h-[350px] bg-custom-purple grid place-content-center">
         <div className="text-center">
           <h1 className="text-3xl font-bold middle:text-2xl small:text-xl mx-5">
-            How <span className="text-primary font-extrabold">AI Chatbots</span>{" "}
+            How <span className="text-primaryy font-extrabold">AI Chatbots</span>{" "}
             Are Transforming<br></br> Businesses in the Digital Age?
           </h1>
           <div className="mt-9 mx-5 small:text-sm">
             <Link
               href="/"
-              className="font-semibold outline-none hover:text-primary"
+              className="font-semibold outline-none hover:text-primaryy"
             >
               Home
             </Link>
             <span className="mx-3 font-semibold">&gt;</span>
             <Link
               href="/blog"
-              className="font-semibold outline-none hover:text-primary"
+              className="font-semibold outline-none hover:text-primaryy"
             >
               Blog
             </Link>
@@ -109,22 +109,22 @@ const page = () => {
           </div>
           <div className="w-[30%] mt-10 maxlarge:w-[40%] large:hidden large:w-0">
             <h1 className="text-center text-2xl font-semibold mb-3 ">
-              You may like <span className="text-secondary">Other Blogs</span>
+              You may like <span className="text-secondaryy">Other Blogs</span>
             </h1>
             <div className="mx-3 rounded-md flex flex-col p-6 gap-4 bg-ternary shadow-2xl">
-              <a href="" className="hover:text-secondary">
+              <a href="" className="hover:text-secondaryy">
                 - The Transformative Impact of AI on Modern Customer Service
               </a>
-              <a href="" className="hover:text-secondary">
+              <a href="" className="hover:text-secondaryy">
                 - Machine Learning vs. Deep Learning
               </a>
-              <a href="" className="hover:text-secondary">
+              <a href="" className="hover:text-secondaryy">
                 - Personalized Marketing with AI
               </a>
-              <a href="" className="hover:text-secondary">
+              <a href="" className="hover:text-secondaryy">
                 - Ethics in AI
               </a>
-              <a href="" className="hover:text-secondary">
+              <a href="" className="hover:text-secondaryy">
                 - The Future of AI in Customer Support
               </a>
             </div>
@@ -138,7 +138,7 @@ const page = () => {
 
       <div className="mx-14 middle:text-sm middle:mx-7 small:text-xs small:mx-5">
         <h1
-          className="text-2xl font-bold bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent
+          className="text-2xl font-bold bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent
         middle:text-xl small:text-lg"
         >
           The Evolution of AI Chatbots
@@ -160,7 +160,7 @@ const page = () => {
           answering basic queries to providing complex customer support.
         </p>
 
-        <h1 className="text-2xl font-bold my-6 middle:my-3 bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent middle:text-xl small:text-lg">
+        <h1 className="text-2xl font-bold my-6 middle:my-3 bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent middle:text-xl small:text-lg">
           Benefits of AI Chatbots for Businesses
         </h1>
         <ol className=" grid grid-cols-2 gap-9 text-justify large:grid-cols-1 large:gap-3 ">
@@ -218,7 +218,7 @@ const page = () => {
           </li>
         </ol>
 
-        <h1 className="text-2xl font-bold my-6 middle:my-3 bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent middle:text-xl small:text-lg">
+        <h1 className="text-2xl font-bold my-6 middle:my-3 bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent middle:text-xl small:text-lg">
           Use Cases of AI Chatbots Across Industries
         </h1>
         <ol className="list-disc list-inside text-justify">
@@ -294,7 +294,7 @@ const page = () => {
           </li>
         </ol>
 
-        <h1 className="text-2xl font-bold my-6 middle:my-3 bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent middle:text-xl small:text-lg">
+        <h1 className="text-2xl font-bold my-6 middle:my-3 bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent middle:text-xl small:text-lg">
           How AI Chatbots Improve Operational Efficiency
         </h1>
         <ol className="list-disc list-inside text-justify">
@@ -341,7 +341,7 @@ const page = () => {
           </li>
         </ol>
 
-        <h1 className="text-2xl font-bold middle:my-3 my-6 bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent middle:text-xl small:text-lg">
+        <h1 className="text-2xl font-bold middle:my-3 my-6 bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent middle:text-xl small:text-lg">
           How Evren AI Can Help Your Business Leverage AI Chatbots
         </h1>
         <p className="middle:text-sm  small:text-xs text-justify">
@@ -398,7 +398,7 @@ const page = () => {
           </li>
         </ol>
 
-        <h1 className="text-2xl font-bold middle:my-3 my-6 bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent middle:text-xl small:text-lg">
+        <h1 className="text-2xl font-bold middle:my-3 my-6 bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent middle:text-xl small:text-lg">
           Future Trends in AI Chatbots
         </h1>
         <p className="mb-3 middle:text-sm  small:text-xs ">
@@ -454,7 +454,7 @@ const page = () => {
           </li>
         </ol>
 
-        <h1 className="text-2xl font-bold my-6 middle:my-3 bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent middle:text-xl small:text-lg">
+        <h1 className="text-2xl font-bold my-6 middle:my-3 bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent middle:text-xl small:text-lg">
           Conclusion
         </h1>
         <p className="text-justify my-3">
@@ -480,7 +480,7 @@ const page = () => {
             <span className="text-black font-extrabold text-[22px] inc:text-[19px] middle:text-[16px]">
               Frequently Asked Questions
             </span>
-            <h2 className="font-black  bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] inc:text-[27px] middle:text-[18px] text-center">
+            <h2 className="font-black  bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent text-[32px] inc:text-[27px] middle:text-[18px] text-center">
               Ready to Unlock Your Potential?
             </h2>
           </div>

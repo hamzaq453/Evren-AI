@@ -56,7 +56,7 @@ export default function App() {
           <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
             Testnomials
           </span>
-          <h2 className="font-black  bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
+          <h2 className="font-black  bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
             What our customer say?
           </h2>
         </div>

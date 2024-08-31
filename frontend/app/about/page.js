@@ -73,9 +73,9 @@ const Page = () => {
             />
           </div>
           <div className="w-[70%] middle:w-[85%] text-left flex flex-col gap-1 maxlarge:pr-0 inc:text-left  ml-[50px] inc:ml-0">
-            <h2 className="font-black text-primary text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
+            <h2 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
               About Evren AI:{" "}
-              <span className="text-3xl font-bold middle:text-xl small:text-lg text-secondary">
+              <span className="text-3xl font-bold middle:text-xl small:text-lg text-secondaryy">
                 Your AI Companion, for Tomorrow
               </span>
             </h2>
@@ -159,9 +159,9 @@ const Page = () => {
             />
           </div>
           <div className="w-[50%] middle:w-[85%] inc:w-[70%] text-left flex flex-col gap-1 maxlarge:pr-0 inc:text-left  ml-[50px] inc:ml-0">
-            <h2 className="font-black text-primary text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl tracking-wide">
+            <h2 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl tracking-wide">
               WELCOME TO{" "}
-              <span className=" text-secondary">
+              <span className=" text-secondaryy">
                 Evren AI
               </span>
             </h2>
@@ -185,8 +185,8 @@ const Page = () => {
               <span className="text-ternary font-bold text-2xl">" </span>
             </p>
             <div>
-            <h1 className="text-xl font-semibold text-primary middle:text-lg small:text-base">Tariq Mehmood</h1>
-            <span className="text-secondary middle:text-sm">CEO, Evren AI</span>
+            <h1 className="text-xl font-semibold text-primaryy middle:text-lg small:text-base">Tariq Mehmood</h1>
+            <span className="text-secondaryy middle:text-sm">CEO, Evren AI</span>
             </div>
           </div>
         </div>
@@ -199,12 +199,12 @@ const Page = () => {
         <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
           <div className="max-w-xl mb-10 mx-auto text-center lg:max-w-2xl md:mb-12">
             <div>
-              <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-secondary uppercase rounded-full bg-teal-accent-400">
+              <p className="inline-block px-3 py-px mb-4 text-xs font-semibold tracking-wider text-secondaryy uppercase rounded-full bg-teal-accent-400">
                 Core Team
               </p>
             </div>
-            <h2 className="max-w-lg mb-6 font-sans text-xl font-bold leading-none tracking-tight text-primary sm:text-4xl md:mx-auto">
-              <span className="relative inline-block text-secondary">
+            <h2 className="max-w-lg mb-6 font-sans text-xl font-bold leading-none tracking-tight text-primaryy sm:text-4xl md:mx-auto">
+              <span className="relative inline-block text-secondaryy">
                 <svg
                   viewBox="0 0 52 24"
                   fill="currentColor"
@@ -252,7 +252,7 @@ const Page = () => {
       {/* team end  */}
 
       {/* acheivments start  */}
-      <div className="bg-secondary w-full px-12 py-9 my-16 mx-auto  text-center maxlarge:px-10">
+      <div className="bg-secondaryy w-full px-12 py-9 my-16 mx-auto  text-center maxlarge:px-10">
         <div className="grid grid-cols-4 gap-[75px] inc:grid-cols-2 justify-center place-items-center middle:grid-cols-1">
           <div className="bg-white py-5 px-6 flex flex-col gap-1 content-center text-center w-[250px] justify-center relative maxlarge:w-[220px] inc:w-[230px] maxlarge:px-3">
             <span className="text-4xl font-bold">
@@ -282,7 +282,7 @@ const Page = () => {
               100<sup>+</sup>
             </span>
             <span className="text-[23px] font-semibold">Projects Done</span>
-            <div className="h-[7px] rounded-md bg-primary w-[40%] absolute bottom-[7px] left-[28%] "></div>
+            <div className="h-[7px] rounded-md bg-primaryy w-[40%] absolute bottom-[7px] left-[28%] "></div>
           </div>
         </div>
       </div>

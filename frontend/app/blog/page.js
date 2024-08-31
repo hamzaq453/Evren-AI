@@ -10,7 +10,7 @@ const page = () => {
   return (
     <div className="bg-[#FFFFFF] py-[60px] px-0 flex relative gap-[20px] justify-center items-center m-0 large:py-[50px]">
       <div className="flex w-full mx-auto items-center relative flex-col gap-1 ">
-        <h1 className="bg-gradient-to-b from-gray-400 to-primary bg-clip-text font-bold text-transparent text-[32px] large:text-[30px] middle:text-[23px]">
+        <h1 className="bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text font-bold text-transparent text-[32px] large:text-[30px] middle:text-[23px]">
           Our Blog
         </h1>
         <h1 className="mx-auto my-4 w-[75%] bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 ">

@@ -66,7 +66,7 @@ export default function Home() {
             <span className="text-black font-extrabold text-xl inc:text-lg middle:text-base">
               Ditch the Manual, Embrace the Future
             </span>
-            <h2 className="font-black text-primary text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
+            <h2 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
               Evren AI Transforms How You Do Business.
             </h2>
             <p className="text-base my-3 middle:text-sm small:text-xs text-justify ">
@@ -79,7 +79,7 @@ export default function Home() {
             
               <div className="row"> 
                 <div className="col-lg-4">        
-                  <Link href='https://calendly.com/hassan-ali-ai/business-with-the-power-of-ai?month=2024-08&date=2024-08-30' className="duration-300 transform hover:scale-105 text-[14px] font-medium bg-[#592E83] text-white border-none py-[12px] px-[20px] rounded-[40px] cursor-pointer tracking-wide transition-transform ease-in active:scale-[0.9] focus:outline-none hover:bg-secondary sm:text-[15px] sm:py-[12px] sm:px-[25px]" > Book a Call </Link>
+                  <Link href='https://calendly.com/hassan-ali-ai/business-with-the-power-of-ai?month=2024-08&date=2024-08-30' className="duration-300 transform hover:scale-105 text-[14px] font-medium bg-[#592E83] text-white border-none py-[12px] px-[20px] rounded-[40px] cursor-pointer tracking-wide transition-transform ease-in active:scale-[0.9] focus:outline-none hover:bg-secondaryy sm:text-[15px] sm:py-[12px] sm:px-[25px]" > Book a Call </Link>
                 </div> 
               </div>  
 
@@ -109,7 +109,7 @@ export default function Home() {
           <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
             Our Services
           </span>
-          <h1 className="font-extrabold  bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px] pb-5 ">
+          <h1 className="font-extrabold  bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px] pb-5 ">
             Unleashing the Power of Data
           </h1>
          
@@ -128,7 +128,7 @@ export default function Home() {
             <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
               Our Process
             </span>
-            <h2 className="font-black bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
+            <h2 className="font-black bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
               How We Work?
             </h2>
           </div>
@@ -137,7 +137,7 @@ export default function Home() {
           <Timeline />
         </div>
         <div className="mx-auto text-center mt-5 ">
-          <Link href="/contact" className="duration-300 transform hover:scale-105 text-[14px] font-medium bg-[#592E83] text-white border-none py-[12px] px-[20px] rounded-[40px] cursor-pointer tracking-wide transition-transform ease-in active:scale-[0.9] focus:outline-none hover:bg-secondary sm:text-[15px] sm:py-[12px] sm:px-[25px] " > Lets Work together </Link>
+          <Link href="/contact" className="duration-300 transform hover:scale-105 text-[14px] font-medium bg-[#592E83] text-white border-none py-[12px] px-[20px] rounded-[40px] cursor-pointer tracking-wide transition-transform ease-in active:scale-[0.9] focus:outline-none hover:bg-secondaryy sm:text-[15px] sm:py-[12px] sm:px-[25px] " > Lets Work together </Link>
         </div>
       </div>
       {/* Process section end*/}
@@ -149,7 +149,7 @@ export default function Home() {
           <span class="text-black mb-3 flex items-center justify-center font-medium uppercase tracking-wider text-[22px] large:text-[19px] middle:text-[16px]">
             Why choose us
           </span>
-          <h2 class="block w-full bg-gradient-to-b from-gray-400 to-primary bg-clip-text font-bold text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
+          <h2 class="block w-full bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text font-bold text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
             Your Success is Our Priority
           </h2>
           <p class="mx-auto my-4 w-[90%] bg-transparent font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 text-justify ">
@@ -189,7 +189,7 @@ export default function Home() {
             <span className="text-black font-extrabold text-[22px] inc:text-[19px] middle:text-[16px]">
               Frequently Asked Questions
             </span>
-            <h2 className="font-black  bg-gradient-to-b from-gray-400 to-primary bg-clip-text text-transparent text-[32px] inc:text-[27px] middle:text-[18px] text-center">
+            <h2 className="font-black  bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent text-[32px] inc:text-[27px] middle:text-[18px] text-center">
               Ready to Unlock Your Potential?
             </h2>
           </div>

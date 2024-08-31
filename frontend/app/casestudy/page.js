@@ -23,7 +23,7 @@ const page = () => {
         <div className="flex w-full mx-auto items-center relative flex-col gap-3 ">
           <div className=" grid grid-cols-1 gap-14">
             <Link href="/casestudy/casestudy1">
-              <div className="bg-secondary pr-16 pl-12 rounded-[60px] min-h-[370px] flex justify-center gap-9 maxlarge:gap-0 tracking-wide items-center maxlarge:pr-12 maxlarge:pl-7 inc:pt-14 inc:text-center inc:px-12 inc:gap-10 inc:flex-col middle:px-8 middle:pb-6 small:pt-10 small:rounded-2xl small:px-5">
+              <div className="bg-secondaryy pr-16 pl-12 rounded-[60px] min-h-[370px] flex justify-center gap-9 maxlarge:gap-0 tracking-wide items-center maxlarge:pr-12 maxlarge:pl-7 inc:pt-14 inc:text-center inc:px-12 inc:gap-10 inc:flex-col middle:px-8 middle:pb-6 small:pt-10 small:rounded-2xl small:px-5">
                 <div className="w-[600px] inc:w-auto mr-10 text-white inc:mr-0 ">
                   <h1 className="text-3xl font-bold mb-3 middle:text-2xl small:text-xl ">
                     Transforming Healthcare with AI Chatbots for Mechapal
@@ -49,7 +49,7 @@ const page = () => {
               </div>
             </Link>
             <Link href="/casestudy/casestudy2">
-              <div className="bg-secondary pr-16 pl-12 rounded-[60px] min-h-[370px] flex justify-center gap-9 maxlarge:gap-0 tracking-wide items-center maxlarge:pr-12 maxlarge:pl-7 inc:pt-14 inc:text-center inc:px-12 inc:gap-10 inc:flex-col middle:px-8 middle:pb-6 small:pt-10 small:rounded-2xl small:px-5">
+              <div className="bg-secondaryy pr-16 pl-12 rounded-[60px] min-h-[370px] flex justify-center gap-9 maxlarge:gap-0 tracking-wide items-center maxlarge:pr-12 maxlarge:pl-7 inc:pt-14 inc:text-center inc:px-12 inc:gap-10 inc:flex-col middle:px-8 middle:pb-6 small:pt-10 small:rounded-2xl small:px-5">
                 <div className=" mr-10 w-[600px] inc:w-auto text-white inc:mr-0 ">
                   <h1 className="text-3xl font-bold mb-3 middle:text-2xl small:text-xl">
                   Enhancing Construction Site Safety and Efficiency with AI
@@ -75,7 +75,7 @@ const page = () => {
               </div>
             </Link>
             <Link href="/casestudy/casestudy3">
-              <div className="bg-secondary pr-16 pl-12 rounded-[60px] min-h-[370px] flex justify-center gap-9 maxlarge:gap-0 tracking-wide items-center maxlarge:pr-12 maxlarge:pl-7 inc:pt-14 inc:text-center inc:px-12 inc:gap-10 inc:flex-col middle:px-8 middle:pb-6 small:pt-10 small:rounded-2xl small:px-5">
+              <div className="bg-secondaryy pr-16 pl-12 rounded-[60px] min-h-[370px] flex justify-center gap-9 maxlarge:gap-0 tracking-wide items-center maxlarge:pr-12 maxlarge:pl-7 inc:pt-14 inc:text-center inc:px-12 inc:gap-10 inc:flex-col middle:px-8 middle:pb-6 small:pt-10 small:rounded-2xl small:px-5">
                 <div className=" mr-10 w-[600px] inc:w-auto text-white inc:mr-0 ">
                   <h1 className="text-3xl font-bold mb-3 middle:text-2xl small:text-xl ">
                   Elevating Home Safety with AI Technology for Chris
@@ -101,7 +101,7 @@ const page = () => {
               </div>
             </Link>
             <Link href="/casestudy/casestudy4">
-              <div className="bg-secondary pr-16 pl-12 rounded-[60px] min-h-[370px] flex justify-center gap-9 maxlarge:gap-0 tracking-wide items-center maxlarge:pr-12 maxlarge:pl-7 inc:pt-14 inc:text-center inc:px-12 inc:gap-10 inc:flex-col middle:px-8 middle:pb-6 small:pt-10 small:rounded-2xl small:px-5">
+              <div className="bg-secondaryy pr-16 pl-12 rounded-[60px] min-h-[370px] flex justify-center gap-9 maxlarge:gap-0 tracking-wide items-center maxlarge:pr-12 maxlarge:pl-7 inc:pt-14 inc:text-center inc:px-12 inc:gap-10 inc:flex-col middle:px-8 middle:pb-6 small:pt-10 small:rounded-2xl small:px-5">
                 <div className=" mr-10 w-[600px] inc:w-auto text-white inc:mr-0 ">
                   <h1 className="text-3xl font-bold mb-3 middle:text-2xl small:text-xl">
                   Streamlining Recruitment with AI for Justin
@@ -127,7 +127,7 @@ const page = () => {
               </div>
             </Link>
             <Link href="/casestudy/casestudy5">
-              <div className="bg-secondary pr-16 pl-12 rounded-[60px] min-h-[370px] flex justify-center gap-9 maxlarge:gap-0 tracking-wide items-center maxlarge:pr-12 maxlarge:pl-7 inc:pt-14 inc:text-center inc:px-12 inc:gap-10 inc:flex-col middle:px-8 middle:pb-6 small:pt-10 small:rounded-2xl small:px-5">
+              <div className="bg-secondaryy pr-16 pl-12 rounded-[60px] min-h-[370px] flex justify-center gap-9 maxlarge:gap-0 tracking-wide items-center maxlarge:pr-12 maxlarge:pl-7 inc:pt-14 inc:text-center inc:px-12 inc:gap-10 inc:flex-col middle:px-8 middle:pb-6 small:pt-10 small:rounded-2xl small:px-5">
                 <div className=" mr-10 w-[600px] inc:w-auto text-white inc:mr-0">
                   <h1 className="text-3xl font-bold mb-3 middle:text-2xl small:text-xl">
                   Transforming Business Operations with AI Agents for Zenith Enterprises

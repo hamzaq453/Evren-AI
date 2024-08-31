@@ -13,9 +13,9 @@ const page = () => {
       <div className="py-[70px] px-0 flex relative gap-[20px] large:gap-0 justify-center items-center small:py-[50px]">
         <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[90vw] inc:flex-col small:max-w-[100vw]">
           <div className="w-[90%] pr-[70px] text-left flex flex-col gap-1 maxlarge:pr-[100px] inc:text-center inc:pr-0">
-            <h2 className="font-black text-primary text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
+            <h2 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
               Transforming{" "}
-              <span className="text-secondary">
+              <span className="text-secondaryy">
                 Business Operations with AI
               </span>{" "}
               Agents for Zenith Enterprises
@@ -51,25 +51,25 @@ const page = () => {
                   <div className="inc:text-left">
                     Technology Used :{" "}
                     <div className="my-2 flex flex-wrap">
-                      <div className="text-xs text-white border-2 p-3 bg-secondary rounded-3xl mx-2 mb-2 small:mx-1">
+                      <div className="text-xs text-white border-2 p-3 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
                         GraphRAG Technique
                       </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondary rounded-3xl mx-2 mb-2 small:mx-1">
+                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
                         NLP
                       </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondary rounded-3xl mx-2 mb-2 small:mx-1">
+                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
                         AI Agents
                       </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondary rounded-3xl mx-2 mb-2 small:mx-1">
+                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
                         Machine Learning Algorithms
                       </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondary rounded-3xl mx-2 mb-2 small:mx-1">
+                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
                         OpenAI
                       </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondary rounded-3xl mx-2 mb-2 small:mx-1">
+                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
                         Data Analytics Tools
                       </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondary rounded-3xl mx-2 mb-2 small:mx-1">
+                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
                         Cloud Computing Infrastructure
                       </div>{" "}
                     </div>
@@ -123,10 +123,10 @@ const page = () => {
             </div>
           </div>
           <div className="w-[60%] text-left flex flex-col gap-1 maxlarge:pr-0 inc:text-left  ml-[50px] inc:ml-0 inc:w-[85%] middle:w-[90%]">
-            <h2 className="font-black text-primary text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl tracking-wide inc:text-center">
+            <h2 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl tracking-wide inc:text-center">
               Key Challenges and Objectives to Overcome
             </h2>
-            <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondary marker:text-2xl text-justify middle:text-sm small:text-xs">
+            <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs">
               <li className="font-bold">
                 Inefficiency in Repetitive Tasks :{" "}
                 <span className="font-light">
@@ -178,7 +178,7 @@ const page = () => {
           </p>
           <a class="inline-flex items-center">
             <span class="flex-grow flex flex-col pl-4">
-              <span class="title-font font-semibold text-secondary text-sm sm:text-base">
+              <span class="title-font font-semibold text-secondaryy text-sm sm:text-base">
                 Owner of Zenith Enterprises
               </span>
               <span class="text-gray-500 text-xs sm:text-sm">
@@ -193,10 +193,10 @@ const page = () => {
       <div className="py-[70px] px-0 flex relative gap-[20px] inc:gap-0 justify-center items-center small:py-[50px]">
         <div className="flex max-w-[82vw] mx-auto  items-center relative maxlarge:max-w-[90vw] inc:flex-col small:max-w-[100vw]">
           <div className="w-[80%] pr-[50px] text-left flex flex-col gap-1 maxlarge:pr-[100px] large:text-center inc:pr-0 inc:w-[85%] middle:w-[90%]">
-            <h2 className="font-black text-primary text-4xl pr-55 large:text-3xl middle:text-2xl small:text-xl tracking-wide">
+            <h2 className="font-black text-primaryy text-4xl pr-55 large:text-3xl middle:text-2xl small:text-xl tracking-wide">
               Evren AI's Strategic Approach
             </h2>
-            <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondary marker:text-2xl text-justify middle:text-sm small:text-xs">
+            <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs">
               <li className="font-bold">
                 AI-Powered Process Automation :{" "}
                 <span className="font-light">
@@ -255,7 +255,7 @@ const page = () => {
       {/* approach section end */}
       {/* result section start */}
       <div>
-        <div className="mx-auto text-center text-5xl font-bold my-7 tracking-wide text-primary inc:text-4xl middle:text-3xl ">
+        <div className="mx-auto text-center text-5xl font-bold my-7 tracking-wide text-primaryy inc:text-4xl middle:text-3xl ">
           The Results
         </div>
         <div className=" w-full py-9 my-16 mx-auto  text-center small:py-5 middle:my-7">
@@ -288,7 +288,7 @@ const page = () => {
                     innovations.
                   </p>
                 </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-secondary opacity-100 blur-[12px] animate-blob-bounce"></div>
+                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-secondaryy opacity-100 blur-[12px] animate-blob-bounce"></div>
               </div>
             </div>
             <div class=" lg:w-[63]">
@@ -319,7 +319,7 @@ const page = () => {
                     of a growing client base.
                   </p>
                 </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-primary opacity-100 blur-[12px] animate-blob-bounce"></div>
+                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-primaryy opacity-100 blur-[12px] animate-blob-bounce"></div>
               </div>
             </div>
           </div>
@@ -331,7 +331,7 @@ const page = () => {
        <div>
         <div className="grid place-content-center py-20 large:py-14 middle:py-10 w-full text-center">
           <div className="text-center">
-            <h1 className="text-4xl font-bold mb-4 large:text-3xl middle:text-xl text-primary">
+            <h1 className="text-4xl font-bold mb-4 large:text-3xl middle:text-xl text-primaryy">
               Discover our most recent projects.
             </h1>
             <p className="text-lg large:text-lg middle:mx-3 text-center middle:text-sm mx-3">

@@ -9,7 +9,7 @@ const Teammember = (props) => {
           src={props.image}
         />
         <div className="absolute inset-0 flex flex-col justify-end px-5 py-4 text-center transition-opacity duration-300 bg-[#9984D4] bg-opacity-75 opacity-0 hover:opacity-100">
-          <div className="bg-primary p-2">
+          <div className="bg-primaryy p-2">
             <p className="mb-1 text-[11px] sm:text-[14px] font-bold text-white">
               {props.names}
             </p>
