@@ -767,3 +767,35 @@ section {
   text-align: right;
 }
 
+/*
+ Team Members 
+ */
+ .team-member {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.overlay-content {
+  background-color: rgba(153, 132, 212, 0.75);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.team-member:hover .overlay-content {
+  opacity: 1;
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+}
+
+.bg-primaryy {
+  background-color: #592E83; /* Replace with your desired color */
+}
