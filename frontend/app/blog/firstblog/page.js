@@ -41,21 +41,22 @@ const page = () => {
 
       <div className="main w-full bg-custom-gradient h-[350px] bg-custom-purple grid place-content-center">
         <div className="text-center">
-          <h1 className="text-3xl font-bold middle:text-2xl small:text-xl mx-5">
+          <h1 className="text-3xl font-bold middle:text-2xl small:text-xl mx-5 text-white"
+          >
             How <span className="text-primaryy font-extrabold">AI Chatbots</span>{" "}
             Are Transforming<br></br> Businesses in the Digital Age?
           </h1>
           <div className="mt-9 mx-5 small:text-sm">
             <Link
               href="/"
-              className="font-semibold outline-none hover:text-primaryy"
+              className="font-semibold outline-none text-primaryy"
             >
               Home
             </Link>
             <span className="mx-3 font-semibold">&gt;</span>
             <Link
               href="/blog"
-              className="font-semibold outline-none hover:text-primaryy"
+              className="font-semibold outline-none text-primaryy"
             >
               Blog
             </Link>
@@ -163,7 +164,7 @@ const page = () => {
         <h1 className="text-2xl font-bold my-6 middle:my-3 bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent middle:text-xl small:text-lg">
           Benefits of AI Chatbots for Businesses
         </h1>
-        <ol className=" grid grid-cols-2 gap-9 text-justify large:grid-cols-1 large:gap-3 ">
+        <ol className=" grid grid-cols-2 gap-9 text-justify large:grid-cols-1 large:gap-3 p-0">
           <li className="text-lg font-semibold middle:text-base small:text-sm ">
             24/7 Customer Support{" "}
             <p className="text-base text-justify mt-2 font-extralight middle:text-sm  small:text-xs ">
@@ -221,7 +222,7 @@ const page = () => {
         <h1 className="text-2xl font-bold my-6 middle:my-3 bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent middle:text-xl small:text-lg">
           Use Cases of AI Chatbots Across Industries
         </h1>
-        <ol className="list-disc list-inside text-justify">
+        <ol className="list-disc list-inside text-justify p-0">
           <li className="text-lg font-semibold middle:text-base small:text-sm ">
             E-commerce{" "}
             <p className="text-base text-justify mt-2 font-extralight middle:text-sm  small:text-xs ">
@@ -297,7 +298,7 @@ const page = () => {
         <h1 className="text-2xl font-bold my-6 middle:my-3 bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent middle:text-xl small:text-lg">
           How AI Chatbots Improve Operational Efficiency
         </h1>
-        <ol className="list-disc list-inside text-justify">
+        <ol className="list-disc list-inside text-justify p-0">
           <li className="text-lg font-semibold middle:text-base small:text-sm ">
             Streamlining Workflows{" "}
             <p className="text-base text-justify mt-2 font-extralight middle:text-sm  small:text-xs ">
@@ -350,7 +351,7 @@ const page = () => {
           engagement strategies. Here’s how our expertise can be your key to
           unlocking the full potential of AI chatbots:
         </p>
-        <ol className="list-disc list-inside text-justify">
+        <ol className="list-disc list-inside text-justify p-0">
           <li className="text-lg font-semibold middle:text-base small:text-sm ">
             Customized AI Chatbot Solutions{" "}
             <p className="text-base text-justify mt-2 font-extralight middle:text-sm  small:text-xs ">
@@ -407,7 +408,7 @@ const page = () => {
           ahead of the curve by adopting and implementing the latest trends in
           AI chatbot technology. Here’s what we see on the horizon:
         </p>
-        <ol className="grid grid-cols-2 gap-9 text-justify large:grid-cols-1 large:gap-3">
+        <ol className="grid grid-cols-2 gap-9 text-justify large:grid-cols-1 large:gap-3 p-0">
           <li className="text-lg font-semibold middle:text-base small:text-sm ">
             Voice-Activated Chatbots{" "}
             <p className="text-base text-justify mt-2 font-extralight middle:text-sm  small:text-xs ">

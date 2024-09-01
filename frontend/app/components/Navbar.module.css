@@ -30,6 +30,8 @@
 .links {
   display: flex;
   gap: 7px;
+  margin-bottom: 0;
+  padding-left: 0;
 }
 .list {
   position: relative;
@@ -70,7 +72,7 @@
 }
 .subMenu {
   position: absolute;
-  top: 55px;
+  top: 50px;
   left: 0;
   line-height: 40px;
   width: 290px;

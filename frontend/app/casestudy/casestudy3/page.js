@@ -109,7 +109,7 @@ const page = () => {
             <h2 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl tracking-wide inc:text-center">
               Key Challenges and Objectives to Overcome
             </h2>
-            <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs">
+            <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs p-0">
               <li className="font-bold">
                 Rising Safety Concerns :{" "}
                 <span className="font-light">
@@ -175,7 +175,7 @@ const page = () => {
             <h2 className="font-black text-primaryy text-4xl pr-55 large:text-3xl middle:text-2xl small:text-xl tracking-wide">
               Evren AI's Strategic Approach
             </h2>
-            <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs">
+            <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs p-0">
               <li className="font-bold">
                 AI-Driven Hazard Detection :{" "}
                 <span className="font-light">
@@ -238,8 +238,8 @@ const page = () => {
         <div className=" w-full py-9 my-16 mx-auto  text-center small:py-5 middle:my-7">
           <div className="grid grid-cols-4 place-content-center gap-0 maxlarge:grid-cols-2 maxlarge:gap-10 justify-center place-items-center middle:grid-cols-1">
             <div class="lg:w-[63]">
-              <div class="relative w-[250px] h-[300px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class="absolute top-[5px] left-[7px] w-[235px] h-[285px] z-20 bg-white/95 backdrop-blur-[24px] rounded-lg overflow-hidden outline outline-2 outline-white grid place-content-center text-center px-3">
+              <div class="my-7 relative w-[250px] h-[320px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
+                <div class="absolute top-[6px] left-[7px] w-[235px] h-[305px] z-20 bg-white/95 backdrop-blur-[24px] rounded-lg overflow-hidden outline outline-2 outline-white grid place-content-center text-center px-3">
                   <h1 className="text-xl font-bold mb-4 small:text-lg ">
                     Enhanced Household Safety
                   </h1>
@@ -253,8 +253,8 @@ const page = () => {
               </div>
             </div>
             <div class=" lg:w-[63]">
-              <div class="relative w-[250px] h-[300px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class="absolute top-[5px] left-[7px] w-[235px] h-[285px] z-20 bg-white/95 backdrop-blur-[24px] rounded-lg overflow-hidden outline outline-2 outline-white grid place-content-center text-center px-3">
+              <div class="my-7 relative w-[250px] h-[320px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
+                <div class="absolute top-[6px] left-[7px] w-[235px] h-[305px] z-20 bg-white/95 backdrop-blur-[24px] rounded-lg overflow-hidden outline outline-2 outline-white grid place-content-center text-center px-3">
                   <h1 className="text-xl font-bold mb-4 small:text-lg">
                     Operational Efficiency
                   </h1>
@@ -269,8 +269,8 @@ const page = () => {
               </div>
             </div>
             <div class=" lg:w-[63]">
-              <div class="relative w-[250px] h-[300px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class="absolute top-[5px] left-[7px] w-[235px] h-[285px] z-20 bg-white/95 backdrop-blur-[24px] rounded-lg overflow-hidden outline outline-2 outline-white grid place-content-center text-center px-3">
+              <div class="my-7 relative w-[250px] h-[320px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
+                <div class="absolute top-[6px] left-[7px] w-[235px] h-[305px] z-20 bg-white/95 backdrop-blur-[24px] rounded-lg overflow-hidden outline outline-2 outline-white grid place-content-center text-center px-3">
                   <h1 className="text-xl font-bold mb-4 small:text-lg">
                     Scalable and Future-Ready
                   </h1>
@@ -284,8 +284,8 @@ const page = () => {
               </div>
             </div>
             <div class=" lg:w-[63]">
-              <div class="relative w-[250px] h-[300px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class="absolute top-[5px] left-[7px] w-[235px] h-[285px] z-20 bg-white/95 backdrop-blur-[24px] rounded-lg overflow-hidden outline outline-2 outline-white grid place-content-center text-center px-3">
+              <div class="my-7 relative w-[250px] h-[320px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
+                <div class="absolute top-[6px] left-[7px] w-[235px] h-[305px] z-20 bg-white/95 backdrop-blur-[24px] rounded-lg overflow-hidden outline outline-2 outline-white grid place-content-center text-center px-3">
                   <h1 className="text-xl font-bold mb-4 small:text-lg">
                     Valuable Data Insights
                   </h1>
@@ -330,7 +330,7 @@ const page = () => {
                   alt=""
                 />
               </div>
-              <div className="mt-4">
+              <div className="mt-4 text-black">
                 <h1 className="text-2xl font-bold middle:text-lg">
                 Transforming Healthcare with AI Chatbots for Mechapal
                 </h1>
@@ -355,7 +355,7 @@ const page = () => {
                   alt=""
                 />
               </div>
-              <div className="mt-4">
+              <div className="mt-4 text-black">
                 <h1 className="text-2xl font-bold middle:text-lg">
                 Enhancing Construction Site Safety and Efficiency with AI
                 </h1>
@@ -380,7 +380,7 @@ const page = () => {
                   alt=""
                 />
               </div>
-              <div className="mt-4">
+              <div className="mt-4 text-black">
                 <h1 className="text-2xl font-bold middle:text-lg">
                   Streamlining Recruitment with AI for Justin
                 </h1>
@@ -405,7 +405,7 @@ const page = () => {
                   alt=""
                 />
               </div>
-              <div className="mt-4">
+              <div className="mt-4 text-black">
                 <h1 className="text-2xl font-bold middle:text-lg">
                   Transforming Business Operations with AI Agents for Zenith
                   Enterprises

@@ -15,7 +15,7 @@ const Teammember = (props) => {
             <p className="mb-1 small font-weight-bold text-white">
               {props.names}
             </p>
-            <p className="mb-1 small text-white">
+            <p className="mb-1 text-xs text-white">
               {props.position}
             </p>
             <div className="d-flex justify-content-center">

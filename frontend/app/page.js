@@ -60,14 +60,14 @@ export default function Home() {
 
       <div className="py-[70px] px-0 flex relative gap-[20px] inc:gap-0 justify-center items-center small:py-[50px]">
         <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[90vw] inc:flex-col small:max-w-[100vw]">
-          <div className="w-[80%] pr-[50px] text-left flex flex-col gap-1 maxlarge:pr-[100px] inc:text-center inc:pr-0">
+          <div className="w-[80%] pr-[50px] text-left flex flex-col gap-1 maxlarge:pr-[100px] inc:text-center inc:pr-0 inc:gap-0">
             <span className="text-black font-extrabold text-xl inc:text-lg middle:text-base">
               Ditch the Manual, Embrace the Future
             </span>
             <h2 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
               Evren AI Transforms How You Do Business.
             </h2>
-            <p className="text-base my-3 middle:text-sm small:text-xs text-justify ">
+            <p className="text-base my-3 middle:text-sm small:text-xs text-justify inc:text-center inc:my-0 ">
               Evren AI isn't just another automation tool. We partner with you
               to understand your unique challenges and deliver custom AI
               solutions that drive game-changing results. Boost efficiency,
@@ -98,7 +98,7 @@ export default function Home() {
 
       {/* hero section start end */}
 
-      <div className="pt-3 pb-14">
+      <div className="pt-4 pb-14">
         <CompanyClients />
       </div>
       <AboutUs />
@@ -158,7 +158,7 @@ export default function Home() {
           <h2 class="block w-full bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text font-bold text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
             Your Success is Our Priority
           </h2>
-          <p class="mx-auto my-4 w-[90%] bg-transparent font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 text-justify ">
+          <p class="mx-auto my-4 w-[90%] bg-transparent font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 text-center ">
             Your success is at the heart of everything we do. We work closely
             with you to understand your objectives and challenges, offering
             strategic guidance and support to help you thrive in your industry.

@@ -20,12 +20,12 @@ const page = () => {
         </p>
         <div>
           <section class="text-gray-600 body-font">
-            <div class=" px-5 py-14 mx-auto">
+            <div class=" px-5 py-3 mx-auto">
               <div className="row m-0">
                 <div className="col-lg-12 col-md-12 col-sm-12">
                   <div class="flex flex-wrap -m-4">
                     <div class="p-2 mb-8 lg:w-1/3 md:w-1/2">
-                      <div class="min-h-[590px] small:min-h-[520px] max-h-[640px] bg-ternary bg-opacity-75 p-5 rounded-lg overflow-hidden text-center relative transition duration-300 transform shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl pb-3">
+                      <div class="min-h-[590px] small:min-h-[520px] max-h-[640px] bg-ternary bg-opacity-75 p-4 rounded-lg overflow-hidden text-center relative transition duration-300 transform shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl pb-3">
                         <div className="w-full">
                           <Image
                             priority={true}
@@ -56,7 +56,7 @@ const page = () => {
                       </div>
                     </div>
                     <div class="p-2 mb-8 lg:w-1/3 md:w-1/2">
-                      <div class="min-h-[590px] small:min-h-[520px] max-h-[640px] bg-ternary bg-opacity-75 p-5 rounded-lg overflow-hidden text-center relative transition duration-300 transform shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl pb-3">
+                      <div class="min-h-[590px] small:min-h-[520px] max-h-[640px] bg-ternary bg-opacity-75 p-4 rounded-lg overflow-hidden text-center relative transition duration-300 transform shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl pb-3">
                         <div className="w-full">
                           <Image
                             priority={true}
@@ -86,7 +86,7 @@ const page = () => {
                       </div>
                     </div>
                     <div class="p-2 mb-8 lg:w-1/3 md:w-1/2 ">
-                      <div class="min-h-[590px] small:min-h-[500px] max-h-[640px] bg-ternary bg-opacity-75 p-5 rounded-lg overflow-hidden text-center relative transition duration-300 transform shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl pb-3">
+                      <div class="min-h-[590px] small:min-h-[500px] max-h-[640px] bg-ternary bg-opacity-75 p-4 rounded-lg overflow-hidden text-center relative transition duration-300 transform shadow-lg lg:hover:-translate-y-2 hover:shadow-2xl pb-3">
                         <div className="w-full">
                           <Image
                             priority={true}

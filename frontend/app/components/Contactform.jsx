@@ -34,12 +34,12 @@ const Contactform = () => {
 
   return (
     <div className="container-fluid d-flex justify-content-center align-items-center min-vh-80 bg-[#E6D6FA] py-20">
-      <div className="col-lg-8 col-md-10 col-sm-12 bg-white py-5  rounded-3xl shadow">
+      <div className="w-[750px] bg-white py-5  rounded-3xl shadow">
         <div className="text-center mb-5">
-          <h1 className="font-bold text-[#592E83]" style={{ fontSize: '40px' }}>
+          <h1 className="font-bold text-[#592E83] text-[40px] middle:text-[30px]" >
             Contact Us
           </h1>
-          <span className="text-slate-400 text-base">Let's Call you Back!</span>
+          <span className="text-slate-400 text-base middle:text-sm">Let's Call you Back!</span>
         </div>
 
         {alert.show && (
@@ -55,31 +55,32 @@ const Contactform = () => {
           </div>
         )}
 
-        <div className="row justify-content-center">
+        <div className="row justify-content-center inc:px-10 middle:px-4">
           <div className="col-lg-10">
             <form ref={form} onSubmit={sendEmail} className="d-flex flex-column gap-4">
               <input
-                className="p-3 rounded-pill shadow-sm border-1 focus:outline-none focus:border-secondaryy"
+                className="p-3 middle:text-sm rounded-pill shadow-sm border-1 focus:outline-none focus:border-secondaryy"
                 type="text"
                 name="from_name"
                 placeholder="Name"
                 required
               />
               <input
-                className="p-3 rounded-pill shadow-sm border-1 focus:outline-none focus:border-secondaryy"
+                className="p-3 middle:text-sm rounded-pill shadow-sm border-1 focus:outline-none focus:border-secondaryy"
                 type="email"
                 name="from_email"
                 placeholder="Email"
                 required
               />
               <input
-                className="p-3 rounded-pill shadow-sm border-1 focus:outline-none focus:border-secondaryy"
+                className="p-3 middle:text-sm rounded-pill shadow-sm border-1 focus:outline-none focus:border-secondaryy"
                 type="text"
                 name="from_Phone"
                 placeholder="Phone Number"
+                required
               />
               <textarea
-                className="p-3 rounded-3 shadow-sm border-1 focus:outline-none focus:border-secondaryy"
+                className="p-3 middle:text-sm rounded-3 shadow-sm border-1 focus:outline-none focus:border-secondaryy"
                 placeholder="Message"
                 name="message"
                 rows="4"

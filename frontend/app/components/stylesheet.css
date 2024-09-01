@@ -799,3 +799,13 @@ section {
 .bg-primaryy {
   background-color: #592E83; /* Replace with your desired color */
 }
+
+/* footer  */
+
+.linkage{
+  color: black;
+  text-decoration: none;
+}
+.linkage:hover{
+  color: #9984D4;
+}

@@ -44,8 +44,8 @@ function generativeAI() {
       <div className="container p-5 ">
         <div className="row m-0">
           <div className="col-lg-12 col-md-10 col-sm-8">
-            <h1 className='head2 text-center p-3 ' >Service Description</h1>
-            <p className='text-center' >Our Generative AI service empowers businesses to create unique content, designs, and solutions using advanced artificial intelligence. <br /> From generating text and images to creating music and video content, Generative AI opens up new possibilities for creativity and innovation. <br />  Whether you're looking to automate content creation, develop new product designs, or explore AI-generated art, our Generative AI solutions can help you push the boundaries of what's possible.</p>
+            <h1 className='text-primaryy font-semibold text-center ' >Service Description</h1>
+            <p className='text-center mt-4' >Our Generative AI service empowers businesses to create unique content, designs, and solutions using advanced artificial intelligence. <br /><br />  From generating text and images to creating music and video content, Generative AI opens up new possibilities for creativity and innovation. <br /> <br />  Whether you're looking to automate content creation, develop new product designs, or explore AI-generated art, our Generative AI solutions can help you push the boundaries of what's possible.</p>
           </div>
         </div>
       </div>
@@ -69,55 +69,57 @@ function generativeAI() {
         <div className="container p-5 ">
           <div className="row m-0">
             <div className="col-lg-12 col-md-10 col-sm-10">
-              <h2 className='head2' >Benefits</h2>
-              <p>
+              <h2 className='mb-[30px] text-4xl mt-[45px] text-primaryy' >Benefits</h2>
+              <ul className='className="list-outside list-disc marker:text-2xl text-justify marker:text-secondaryy"'>
+              <li>
                 <strong>
                   Creative Process Automation: 
                 </strong> 
                   Automate the generation of content, designs, and other creative outputs, saving time and reducing the workload on creative teams.
-              </p>
-              <p>
+              </li>
+              <li>
                 <strong>
                 Unlimited Creative Potential: 
                 </strong> 
                 Explore new ideas and concepts that would be difficult or time-consuming to develop manually, pushing the boundaries of creativity.
-              </p>
-              <p>
+              </li>
+              <li>
                 <strong>
                 Personalization at Scale:
                 </strong> 
                 Generate personalized content for individual customers or audiences on a large scale, enhancing engagement and satisfaction. 
-              </p>
-              <p>
+              </li>
+              <li>
                 <strong>
                 Cost-Effective Content Creation:
                 </strong>  
                 Reduce the cost of producing high-quality content by leveraging AI to generate text, images, and other media. 
-              </p>
-              <p>
+              </li>
+              <li>
                 <strong>
                 Rapid Prototyping:
                 </strong> 
                 Quickly generate and iterate on design concepts, allowing for faster experimentation and innovation. 
-              </p>
-              <p>
+              </li>
+              <li>
                 <strong>
                 Customization:
                 </strong> 
                 Tailor AI-generated outputs to align with your brand's voice, style, and guidelines, ensuring consistency across all content.
-              </p>
-              <p>
+              </li>
+              <li>
                 <strong>
                 Increased Efficiency:
                 </strong>  
                 Produce large volumes of creative content in a fraction of the time it would take manually, enabling faster project completion.
-              </p>
-              <p>
+              </li>
+              <li>
                 <strong>
                 Enhanced Creativity and Innovation: 
                 </strong>  
                 Use AI as a tool to inspire new ideas and approaches, leading to more innovative products, campaigns, and designs.
-              </p>
+              </li>
+              </ul>
             </div>
           </div>
         </div>
@@ -162,31 +164,25 @@ function generativeAI() {
           </div>
         </div>
 
-        <div className="row m-0 mb-5 justify-content-evenly ">
-          <div className="col-lg-5 col-md-5 col-sm-5">
-            <div className="py-[70px] middle:pt-[10px]  px-0 flex relative gap-[20px] justify-center items-start">
-              <div className="flex max-w-[82vw] mx-auto items-center relative gap-20 maxlarge:max-w-[93vw] large:flex-col middle:gap-[15px]">
-                <div className="animate-upAndDown large:w-[60%] large:mt-11 middle:mt-7 middle:w-[80%] small:w-[90%]">
-                  <Image
-                    priority={true}
-                    quality={80}
-                    width={700}
-                    height={1000}
-                    src="/faq-concept.png"
-                    alt=""
-                  />
-                </div>
-              </div>
-            </div>
+        <div className="py-[20px] middle:pt-[10px]  px-0 flex relative gap-[20px] justify-center items-start inc:py-[30px]">
+        <div className="flex max-w-[82vw] mx-auto items-center relative gap-20 maxlarge:max-w-[93vw] inc:flex-col middle:gap-[15px]">
+          <div className="animate-upAndDown inc:w-[60%] inc:mt-11 middle:mt-7 middle:w-[80%] small:w-[90%]">
+            <Image
+              priority={true}
+              quality={80}
+              width={700}
+              height={1000}
+              src="/FaqImage.png"
+              alt=" Frequently Asked Questions"
+            />
           </div>
-          <div className="col-lg-5 col-md-5 col-sm-5 pt-5 pr-5 ">
-              <div class="w-[700px] pl-[50px] pt-[120px] pr-[100px]  text-left  flex flex-col gap-3 large:w-[500px] large:p-0 middle:w-[350px] small:w-[300px]">
-                {faqs.map((faq, index) => (
-                  <Faq key={index} question={faq.question} answer={faq.answer} style={{padding:'200px'}} />
-                ))}
-              </div>
-            </div>
+          <div class="w-[700px] pl-[50px] text-left flex flex-col gap-3 inc:w-[500px] inc:p-0 middle:w-[350px] small:w-[300px]">
+            {faqs.map((faq, index) => (
+              <Faq key={index} question={faq.question} answer={faq.answer} />
+            ))}
           </div>
+        </div>
+      </div>
 
     </>
   )
