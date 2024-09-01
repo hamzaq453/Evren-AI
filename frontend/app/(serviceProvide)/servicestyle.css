@@ -1,0 +1,241 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.herobg{
+  background-image: url('/web 1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  width: 100%;
+  height: auto;  
+}
+.heading1{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 5%;
+  padding-left: 2%;
+  padding-right: 2%;
+  font-weight: bolder;
+  font-size: 60px;
+}
+.paragraph{
+  color: #ffffff;
+  text-align: center;
+  padding-left: 2%;
+  padding-bottom: 5%;
+  padding-right: 2%;
+}
+.head2{
+  color: #230C33;
+  font-weight: bold;
+  font-size: 40px;
+}
+.sideimg{
+  border-radius: 5%;
+  display: flex;
+  width: 100%;
+  height: 650px;
+}
+.listitems{
+  border-bottom: #230C33 solid 1px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+.fonticon2{
+  margin-right: 5px;
+  margin-top: 10px;
+  font-size: 20px;
+  color: #592e83;
+  display: inline;
+}
+
+.processh{
+  font-size: 20px ;
+  color: #FFFFFF;
+  font-weight: bold;
+}
+
+.application_h{
+  color: #592e83;
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+}
+.industry_div{
+  border: 2px solid #CAA8F5;
+  border-radius: 10px;
+  border-radius: 5px;
+}
+.div_h{
+  color: #592e83;
+  font-weight: bold;
+  padding: 1px;
+}
+.divicon{
+  font-size: 30px;
+  color: #CAA8F5;
+  margin: 3px;
+}
+
+.industry_div:hover {
+  border: 2px solid #FFFFFF;
+  background-color: #CAA8F5;
+  color: #FFFFFF;
+}
+.industry_div:hover .div_h{
+  color: #FFFFFF;
+}
+.industry_div:hover .divicon{
+  color: #FFFFFF;
+}
+
+/* Process for Service 1 */
+
+.process-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #FFFFFF, #FFFFFF);
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: bolder;
+  margin-bottom: 60px;
+  color: #592e83;
+}
+
+.hexagon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hexagon {
+  width: 200px;
+  height: 230px;
+  margin: 25px;
+  background-color: var(--color);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.hexagon:hover {
+  transform: scale(1.05);
+}
+
+.hexagon-content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.iconp {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 18px;
+}
+
+.pp {
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .hexagon-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hexagon {
+    margin: 15px 0;
+  }
+}
+
+/* Process for Service 2 */
+
+.ai-process-section {
+  padding: 50px 20px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #FFFFFF, #FFFFFF);
+}
+
+.h2s2 {
+  margin-bottom: 40px;
+  color: #592e83;
+  font-size: 2.5em;
+}
+
+.hexagon-containers2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hexagons2 {
+  width: 220px;
+  height: 250px;
+  margin: 25px;
+  background-color: var(--color);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.hexagons2:hover {
+  transform: scale(1.05) translateY(-10px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+}
+
+.hexagon-contents2 {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.icons2 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.h3s2 {
+  margin: 10px 0;
+  font-size: 20px;
+}
+
+.ps2 {
+  font-size: 14px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+@media (max-width: 768px) {
+  .hexagon-containers2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hexagons2 {
+    margin: 15px 0;
+  }
+}
+
+/* Process for Service 3 */
