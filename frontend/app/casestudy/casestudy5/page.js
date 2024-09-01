@@ -85,7 +85,7 @@ const page = () => {
               width={700}
               height={1000}
               src="/casestudy/casestudy5/main5.png"
-              alt=""
+              alt="Transforming Business Operations with AI Agents for Zenith Enterprises"
             />
           </div>
         </div>
@@ -351,7 +351,7 @@ const page = () => {
                   height={435}
                   src="/casestudy/casestudy1/AIChatbots.png"
                   className="-z-50 rounded-xl transition duration-300   transform hover:scale-[1.1]"
-                  alt=""
+                  alt="Transforming Healthcare with AI Chatbots for Mechapal"
                 />
               </div>
               <div className="mt-4 text-black">
@@ -376,7 +376,7 @@ const page = () => {
                   height={435}
                   src="/casestudy/casestudy2/main2.jpg"
                   className="-z-50 rounded-xl transition duration-300   transform hover:scale-[1.1]"
-                  alt=""
+                  alt="Enhancing Construction Site Safety and Efficiency with AI"
                 />
               </div>
               <div className="mt-4 text-black">
@@ -401,7 +401,7 @@ const page = () => {
                   height={435}
                   src="/casestudy/casestudy3/main3.png"
                   className="-z-50 rounded-xl transition duration-300   transform hover:scale-[1.1]"
-                  alt=""
+                  alt="Elevating Home Safety with AI Technology for Chris"
                 />
               </div>
               <div className="mt-4 text-black">
@@ -426,7 +426,7 @@ const page = () => {
                   height={435}
                   src="/casestudy/casestudy4/main4.png"
                   className="-z-50 rounded-xl transition duration-300   transform hover:scale-[1.1]"
-                  alt=""
+                  alt="Streamlining Recruitment with AI for Justin"
                 />
               </div>
               <div className="mt-4 text-black">

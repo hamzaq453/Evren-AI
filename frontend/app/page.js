@@ -90,7 +90,7 @@ export default function Home() {
               width={700}
               height={1000}
               src="/homepage/homeimage2.png"
-              alt=""
+              alt="homepage image"
             />
           </div>
         </div>{" "}
