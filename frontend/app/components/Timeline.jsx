@@ -47,7 +47,7 @@ const Timeline = () => {
                       <p className="text-sm middle:text-xs font-light text-justify ">
                         We conduct a comprehensive analysis to identify and
                         evaluate various data sources. These may encompass the
-                        customer's proprietary corporate data assets as well
+                        customer&apos;s proprietary corporate data assets as well
                         as information available in public databases.
                       </p>
                     </div>
@@ -72,7 +72,7 @@ const Timeline = () => {
                         {" "}
                         After assessing the technical and business aspects, we
                         choose the right technology stack, plan out the
-                        product's structure, and outline an implementation
+                        product&apos;s structure, and outline an implementation
                         strategy. If needed, we can also offer a Proof of
                         Concept (PoC) to check if the solution is doable and
                         economically viable, and to identify any potential

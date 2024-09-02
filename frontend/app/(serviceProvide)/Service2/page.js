@@ -20,7 +20,7 @@ import {
 import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import Faq from "../../components/Faq";
 
-function machineDeepLearningSolutions() {
+function MachineDeepLearningSolutions() {
   const processes = [
     {
       name: "Data Collection",
@@ -127,6 +127,7 @@ function machineDeepLearningSolutions() {
               src="/Machine & Deep Learning Solutions.jpg"
               width={500}
               height={300}
+              alt="Side Image"
               className="sideimg"
             />
           </div>
@@ -343,4 +344,4 @@ function machineDeepLearningSolutions() {
   );
 }
 
-export default machineDeepLearningSolutions;
+export default MachineDeepLearningSolutions;

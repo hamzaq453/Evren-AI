@@ -97,7 +97,7 @@ const page = () => {
               and drive growth. This article explores how AI chatbots are
               helping businesses thrive in the digital age.
             </p>
-            <img src="/divider.jpg" className="my-4" alt="" />
+            <Image src="/divider.jpg" width={200} height={100} className="my-4" alt="" />
             <p className="text-justify">
               An <b>AI chatbot </b>is a software application that uses
               artificial intelligence to simulate human conversation. It
@@ -185,7 +185,7 @@ const page = () => {
               service tasks, companies can significantly lower the need for a
               large customer support team. This scalability allows businesses to
               handle a growing number of customer interactions without a
-              proportional increase in costs. Whether it's a small business or a
+              proportional increase in costs. Whether it&apos;s a small business or a
               large enterprise, AI chatbots provide a cost-efficient way to
               maintain high-quality customer service.
             </p>
@@ -304,7 +304,7 @@ const page = () => {
             <p className="text-base text-justify mt-2 font-extralight middle:text-sm  small:text-xs ">
               AI chatbots are instrumental in streamlining workflows by
               automating repetitive tasks that would otherwise consume valuable
-              time and resources. Whether it's handling customer inquiries,
+              time and resources. Whether it&apos;s handling customer inquiries,
               processing orders, or managing reservations, chatbots can take on
               these tasks with minimal human intervention. This automation
               allows employees to focus on more complex and strategic
@@ -363,7 +363,7 @@ const page = () => {
               manage sales inquiries, or automate internal workflows, our team
               of AI experts will work closely with you to develop a solution
               that meets your specific requirements. Our chatbots are not just
-              generic tools—they are crafted to reflect your brand's voice and
+              generic tools—they are crafted to reflect your brand&apos;s voice and
               provide a seamless experience for your customers.
             </p>
           </li>

@@ -17,7 +17,7 @@ import {
 import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import Faq from "@/app/components/Faq";
 
-function computerVision() {
+function ComputerVision() {
   const processes = [
     {
       name: "Requirement Gathering",
@@ -89,7 +89,7 @@ function computerVision() {
             <p className="text-center my-4">
               Our Computer Vision service leverages advanced AI to interpret and
               analyze visual data, enabling your business to gain valuable
-              insights from images and videos. <br /> <br /> Whether it's
+              insights from images and videos. <br /> <br /> Whether it&apos;s
               automating quality control on production lines, enhancing security
               with real-time surveillance, or improving customer experience
               through visual search, our computer vision solutions are designed
@@ -108,6 +108,7 @@ function computerVision() {
               src="/ComputerV.jpg"
               width={500}
               height={300}
+              alt="Side Image"
               className="sideimg"
             />
           </div>
@@ -288,4 +289,4 @@ function computerVision() {
   );
 }
 
-export default computerVision;
+export default ComputerVision;

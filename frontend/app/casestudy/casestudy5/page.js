@@ -31,7 +31,7 @@ const page = () => {
               productivity, accuracy, and cost-efficiency.
             </p>
             <div>
-              <img src="/divider.jpg" alt="" />
+              <Image src="/divider.jpg" width={100} height={50} alt="" />
             </div>
             <div className="mt-4">
               <div className="">
@@ -140,7 +140,7 @@ const page = () => {
                 High Operational Costs :{" "}
                 <span className="font-light">
                   Manual processes contributed to increased operational costs,
-                  impacting the company's profitability and limiting its ability
+                  impacting the company&apos;s profitability and limiting its ability
                   to scale efficiently.
                 </span>
               </li>
@@ -194,7 +194,7 @@ const page = () => {
         <div className="flex max-w-[82vw] mx-auto  items-center relative maxlarge:max-w-[90vw] inc:flex-col small:max-w-[100vw]">
           <div className="w-[80%] pr-[50px] text-left flex flex-col gap-1 maxlarge:pr-[100px] large:text-center inc:pr-0 inc:w-[85%] middle:w-[90%]">
             <h2 className="font-black text-primaryy text-4xl pr-55 large:text-3xl middle:text-2xl small:text-xl tracking-wide">
-              Evren AI's Strategic Approach
+              Evren AI&apos;s Strategic Approach
             </h2>
             <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs p-0">
               <li className="font-bold">
@@ -204,7 +204,7 @@ const page = () => {
                   We deployed advanced AI Agents to automate repetitive tasks
                   such as data entry, inventory management, order processing,
                   and supply chain coordination. These AI Agents were designed
-                  to learn and adapt to Zenith's specific workflows, ensuring
+                  to learn and adapt to Zenith&apos;s specific workflows, ensuring
                   seamless integration with existing systems.
                 </span>
               </li>
@@ -234,7 +234,7 @@ const page = () => {
                   The automation of routine tasks minimized human errors,
                   leading to improved consistency in operations and higher
                   quality service delivery. This boosted client satisfaction and
-                  strengthened Zenith's reputation in the market.
+                  strengthened Zenith&apos;s reputation in the market.
                 </span>
               </li>
             </ul>
@@ -283,7 +283,7 @@ const page = () => {
                   </h1>
                   <p className="text-base small:text-sm">
                     The implementation of AI Agents resulted in a 40% reduction
-                    in operational costs, contributing directly to Zenith's
+                    in operational costs, contributing directly to Zenith&apos;s
                     bottom line and enabling reinvestment into further
                     innovations.
                   </p>

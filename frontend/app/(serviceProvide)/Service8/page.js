@@ -8,7 +8,7 @@ import { faCoins, faRobot, faSuitcaseMedical , faSearch, faDraftingCompass , faC
 import { faCircleCheck } from '@fortawesome/free-regular-svg-icons';
 import Faq from '@/app/components/Faq';
 
-function aiResearchandDevelopment() {
+function AiResearchandDevelopment() {
 
   const processes = [
     { name: 'Exploration', icon: faSearch, color: '#3498db', description: 'Investigating and gathering insights' },
@@ -45,14 +45,14 @@ function aiResearchandDevelopment() {
         <div className="row m-0">
           <div className="col-lg-12 col-md-10 col-sm-8">
             <h1 className='text-primaryy font-semibold text-center ' >Service Description</h1>
-            <p className='text-center mt-4' >Our AI Research and Development (R&D) service is designed for businesses looking to explore the frontiers of AI technology. <br /><br />  We work with you to develop innovative solutions that address specific challenges, pushing the boundaries of what AI can achieve. <br /><br />  Whether you're interested in developing new algorithms, exploring AI applications in a novel field, or conducting groundbreaking research, our R&D team has the expertise to bring your vision to life.</p>
+            <p className='text-center mt-4' >Our AI Research and Development (R&D) service is designed for businesses looking to explore the frontiers of AI technology. <br /><br />  We work with you to develop innovative solutions that address specific challenges, pushing the boundaries of what AI can achieve. <br /><br />  Whether you&apos;re interested in developing new algorithms, exploring AI applications in a novel field, or conducting groundbreaking research, our R&D team has the expertise to bring your vision to life.</p>
           </div>
         </div>
       </div>
       <div className="container">
         <div className="row m-0">
           <div className="col-lg-5 col-md-4 col-md-4 p-3 ">
-              <Image src="/AI Research.jpg" width={500} height={300} className="sideimg" />
+              <Image src="/AI Research.jpg" width={500} height={300} alt="Side Image" className="sideimg" />
             </div>
             <div className="col-lg-5 col-md-4 col-sm-4 p-3 align-items-center ">
               <ul>
@@ -194,4 +194,4 @@ function aiResearchandDevelopment() {
   )
 }
 
-export default aiResearchandDevelopment;
+export default AiResearchandDevelopment;

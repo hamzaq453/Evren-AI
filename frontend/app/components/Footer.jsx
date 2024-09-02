@@ -23,7 +23,7 @@ const Footer = () => {
             <p className=" text-white text-base middle:text-sm my-5 ">
               Book a free consultation with our AI experts and discover how our
               automation and software development solutions <br /> can elevate
-              your business. Let's explore your needs and tailor a strategy to
+              your business. Let&apos;s explore your needs and tailor a strategy to
               drive growth and efficiency.
             </p>
             <Link
@@ -50,7 +50,7 @@ const Footer = () => {
             />
           </div>
           <div className="text-sm" style={{ color: "black" }}>
-            Evren AI isn't just another automation tool. We partner with you to
+            Evren AI isn&apos;t just another automation tool. We partner with you to
             understand your unique challenges and deliver custom AI solutions
             that drive game-changing results. Boost efficiency, slash costs, and
             unlock new possibilities, all while feeling confident in a trusted

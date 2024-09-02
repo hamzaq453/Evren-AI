@@ -77,7 +77,7 @@ export default function App() {
             className="mySwiper"
           >
             {review.map((item, index) => (
-              <SwiperSlide>
+              <SwiperSlide key={""} >
                 <Review
                   comment={item.comment}
                   names={item.names}

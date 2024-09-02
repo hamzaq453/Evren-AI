@@ -1,14 +1,17 @@
 import React from "react";
 import './stylesheet.css';
+import Image from "next/image";
 
 const Teammember = (props) => {
   return (
     <>
       <div className="team-member card border-0 shadow-sm hover-shadow">
-        <img
+        <Image
           className="card-img-top img-fluid"
           src={props.image}
           alt={props.names}
+          width={200}
+          height={150}
         />
         <div className="card-img-overlay d-flex flex-column justify-content-end text-center overlay-content">
           <div className="bg-primaryy p-2">
