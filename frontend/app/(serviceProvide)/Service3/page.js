@@ -105,6 +105,7 @@ function Chatbots() {
               src="/Chatbots.jpg"
               width={500}
               height={300}
+              alt="Side Image"
               className="sideimg"
             />
           </div>

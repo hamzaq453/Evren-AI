@@ -43,8 +43,10 @@ const Navbar = () => {
   return (
     <nav className={styles.nav}>
       <div className={styles.navbar}>
-        <img
+        <Image
           className={styles.bxMenu}
+          width={50}
+          height={25}
           src="/navbar/hamburgermenu.svg"
           alt="hamburgermenu"
         />
@@ -78,8 +80,10 @@ const Navbar = () => {
                 alt="EvrenAi logo"
               />
             </span>
-            <img
+            <Image
               src="/navbar/cross.svg"
+              width={50}
+              height={25}
               className={`bx-x ${styles.bxX}`}
               alt="close sidebarmenu"
             />
@@ -89,9 +93,8 @@ const Navbar = () => {
               <Link
                 href="/"
                 key="/"
-                className={`${styles.outer} ${
-                  "/" === pathname ? styles.activeclr : ""
-                }`}
+                className={`${styles.outer} ${"/" === pathname ? styles.activeclr : ""
+                  }`}
               >
                 Home
               </Link>
@@ -100,18 +103,19 @@ const Navbar = () => {
               <Link
                 href="/about"
                 key="/about"
-                className={`${styles.outer} ${
-                  "/about" === pathname ? styles.activeclr : ""
-                }`}
+                className={`${styles.outer} ${"/about" === pathname ? styles.activeclr : ""
+                  }`}
               >
                 About
               </Link>
             </li>
             <li className={styles.list}>
               <span className={styles.outer}>Service</span>
-              <img
+              <Image
                 className={`${styles.arrow} ${styles.jsarrow}`}
                 src="/navbar/dropdownarrow.svg"
+                width={20}
+                height={10}
                 alt="dropdown arrrow sub services"
               />
               <ul className={`${styles.subMenu} ${styles.jssubMenu}`}>
@@ -160,9 +164,8 @@ const Navbar = () => {
             <li className={styles.list}>
               <Link
                 href="/casestudy"
-                className={`${styles.outer} ${
-                  "/casestudy" === pathname ? styles.activeclr : ""
-                }`}
+                className={`${styles.outer} ${"/casestudy" === pathname ? styles.activeclr : ""
+                  }`}
               >
                 Case Studies
               </Link>
@@ -170,9 +173,8 @@ const Navbar = () => {
             <li className={styles.list}>
               <Link
                 href="/blog"
-                className={`${styles.outer} ${
-                  "/blog" === pathname ? styles.activeclr : ""
-                }`}
+                className={`${styles.outer} ${"/blog" === pathname ? styles.activeclr : ""
+                  }`}
               >
                 Blog
               </Link>

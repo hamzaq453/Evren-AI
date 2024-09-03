@@ -17,7 +17,7 @@ import {
 import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import Faq from "@/app/components/Faq";
 
-function ai_Agents() {
+function Ai_Agents() {
   const processes = [
     {
       name: "Requirement Analysis",
@@ -105,6 +105,7 @@ function ai_Agents() {
               src="/AI Agents.jpg"
               width={500}
               height={300}
+              alt="Side Image"
               className="sideimg"
             />
           </div>
@@ -282,4 +283,4 @@ function ai_Agents() {
   );
 }
 
-export default ai_Agents;
+export default Ai_Agents;

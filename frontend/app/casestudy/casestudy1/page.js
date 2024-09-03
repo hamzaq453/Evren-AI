@@ -29,7 +29,7 @@ const page = () => {
               health-conscious individuals.
             </p>
             <div>
-              <img src="/divider.jpg" alt="" />
+              <Image src="/divider.jpg" width={100} height={50} alt="" />
             </div>
             <div className="mt-4">
               <div className="">
@@ -187,7 +187,7 @@ const page = () => {
         <div className="flex max-w-[82vw] mx-auto  items-center relative maxlarge:max-w-[90vw] inc:flex-col small:max-w-[100vw]">
           <div className="w-[80%] pr-[50px] text-left flex flex-col gap-1 maxlarge:pr-[100px] large:text-center inc:pr-0 inc:w-[85%] middle:w-[90%]">
             <h2 className="font-black text-primaryy text-4xl pr-55 large:text-3xl middle:text-2xl small:text-xl tracking-wide">
-              Evren AI's Strategic Approach
+              Evren AI&apos;s Strategic Approach
             </h2>
             <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs p-0">
               <li className="font-bold">
@@ -202,7 +202,7 @@ const page = () => {
               <li className="font-bold">
                 Advanced AI Agents :{" "}
                 <span className="font-light">
-                  We integrated sophisticated AI Agents, enhancing the chatbots'
+                  We integrated sophisticated AI Agents, enhancing the chatbots&apos;
                   ability to engage in complex, personalized dialogues with
                   users.
                 </span>
@@ -295,7 +295,7 @@ const page = () => {
                     Scalable AI Solutions
                   </h1>
                   <p className="text-base small:text-sm">
-                    The chatbots' success demonstrated the scalability of AI
+                    The chatbots&apos; success demonstrated the scalability of AI
                     solutions in the healthcare industry, opening doors for
                     future innovations.
                   </p>

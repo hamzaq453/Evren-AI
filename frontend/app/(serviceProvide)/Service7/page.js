@@ -8,7 +8,7 @@ import { faMagnifyingGlassChart, faMusic, faPencil , faLightbulb, faDatabase, fa
 import { faCircleCheck } from '@fortawesome/free-regular-svg-icons';
 import Faq from '@/app/components/Faq';
 
-function generativeAI() {
+function GenerativeAI() {
 
   const processes = [
     { name: 'Concept Development', icon: faLightbulb, color: '#3498db', description: 'Formulating and refining the initial concept' },
@@ -45,14 +45,14 @@ function generativeAI() {
         <div className="row m-0">
           <div className="col-lg-12 col-md-10 col-sm-8">
             <h1 className='text-primaryy font-semibold text-center ' >Service Description</h1>
-            <p className='text-center mt-4' >Our Generative AI service empowers businesses to create unique content, designs, and solutions using advanced artificial intelligence. <br /><br />  From generating text and images to creating music and video content, Generative AI opens up new possibilities for creativity and innovation. <br /> <br />  Whether you're looking to automate content creation, develop new product designs, or explore AI-generated art, our Generative AI solutions can help you push the boundaries of what's possible.</p>
+            <p className='text-center mt-4' >Our Generative AI service empowers businesses to create unique content, designs, and solutions using advanced artificial intelligence. <br /><br />  From generating text and images to creating music and video content, Generative AI opens up new possibilities for creativity and innovation. <br /> <br />  Whether you&apos;re looking to automate content creation, develop new product designs, or explore AI-generated art, our Generative AI solutions can help you push the boundaries of what&apos;s possible.</p>
           </div>
         </div>
       </div>
       <div className="container">
         <div className="row m-0">
           <div className="col-lg-5 col-md-4 col-md-4 p-3 ">
-              <Image src="/Gen ai 2.jpg" width={500} height={300} className="sideimg" />
+              <Image src="/Gen ai 2.jpg" width={500} height={300} alt="Side Image" className="sideimg" />
             </div>
             <div className="col-lg-5 col-md-4 col-sm-4 p-3 align-items-center ">
               <ul>
@@ -105,7 +105,7 @@ function generativeAI() {
                 <strong>
                 Customization:
                 </strong> 
-                Tailor AI-generated outputs to align with your brand's voice, style, and guidelines, ensuring consistency across all content.
+                Tailor AI-generated outputs to align with your brand&apos;s voice, style, and guidelines, ensuring consistency across all content.
               </li>
               <li>
                 <strong>
@@ -188,4 +188,4 @@ function generativeAI() {
   )
 }
 
-export default generativeAI;
+export default GenerativeAI;

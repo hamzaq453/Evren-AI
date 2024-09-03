@@ -16,7 +16,7 @@ import {
 import { faEnvelope, faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import Faq from "@/app/components/Faq";
 
-function softwareDevelopment() {
+function SoftwareDevelopment() {
   const processes = [
     {
       name: "Consultation",
@@ -106,6 +106,7 @@ function softwareDevelopment() {
               src="/Software Dev.jpg"
               width={500}
               height={300}
+              alt="Side Image"
               className="sideimg"
             />
           </div>
@@ -292,4 +293,4 @@ function softwareDevelopment() {
   );
 }
 
-export default softwareDevelopment;
+export default SoftwareDevelopment;

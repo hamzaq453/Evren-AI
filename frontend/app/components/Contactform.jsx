@@ -39,7 +39,7 @@ const Contactform = () => {
           <h1 className="font-bold text-[#592E83] text-[40px] middle:text-[30px]" >
             Contact Us
           </h1>
-          <span className="text-slate-400 text-base middle:text-sm">Let's Call you Back!</span>
+          <span className="text-slate-400 text-base middle:text-sm">Let&apos;s Call you Back!</span>
         </div>
 
         {alert.show && (

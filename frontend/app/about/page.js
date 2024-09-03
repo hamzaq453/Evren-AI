@@ -13,6 +13,72 @@ export const metadata = {
               capabilities.`,
 };
 const Page = () => {
+<<<<<<< HEAD
+=======
+  const team = [
+    {
+      names: "TARIQ MEHMOOD",
+      image: "/about/teammembers/CEO.png",
+      position: "CEO/CTO",
+    },
+    {
+      names: "HASSAN ALI",
+      image: "/about/teammembers/coo.jpeg",
+      position: "COO & ML/AI ENGINEER",
+    },
+    {
+      names: "MOAZZAM ALI",
+      image: "/about/teammembers/team-1.jpeg",
+      position: "Senior AI Consultant",
+    },
+    {
+      names: "Dr. MUHAMMAD AZHAR",
+      image: "/about/teammembers/team-2.jpeg",
+      position: "SENIOR AI ENGINEER",
+    },
+    {
+      names: "DOCTOR INAMULLAH",
+      image: "/about/teammembers/team-3.jpeg",
+      position: "ML & AI ENGINEER",
+    },
+    {
+      names: "ZULQARNAIN",
+      image: "/about/teammembers/team-2.jpeg",
+      position: "AI ENGINEER",
+    },
+    {
+      names: "SABAHAT FATIMA",
+      image: "/about/teammembers/team-4.jpeg",
+      position: "FULL STACK DEVELOPER",
+    },
+    {
+      names: "ATIKA QASIM",
+      image: "/about/teammembers/team-4.jpeg",
+      position: "FULL STACK DEVELOPER",
+    },
+    {
+      names: "AFRAH FATIMA",
+      image: "/about/teammembers/team-4.jpeg",
+      position: "SENIOR UI/UX  DESIGNER",
+    },
+    {
+      names: "HAMNA HAMEED",
+      image: "/about/teammembers/team-4.jpeg",
+      position: "SENIOR VIDEO EDITOR",
+    },
+    {
+      names: "MUHAMMAD AHTSHAM",
+      image: "/about/teammembers/team-3.jpeg",
+      position: "VIDEO EDITOR & DOP",
+    },
+    {
+      names: "MUHAMMAD ATEEQ",
+      image: "/about/teammembers/team-2.jpeg",
+      position: "SENIOR SOCIAL MEDIA STRATEGIST ",
+    },
+  ];
+
+>>>>>>> d18291c820abac028f8f44d2c4b68269fe0e668f
   return (
     <div>
       {/* about start  */}
@@ -36,7 +102,7 @@ const Page = () => {
               </span>
             </h2>
             <p className="text-base my-3 middle:text-sm small:text-xs text-justify">
-              Evren AI was founded by individuals who believe in AI's potential.
+              Evren AI was founded by individuals who believe in AI&apos;s potential.
               Our journey started with a simple question: how can we make AI
               accessible and beneficial to all? Driven by this mission, we
               created AI tools that empower businesses and individuals to
@@ -119,23 +185,38 @@ const Page = () => {
               WELCOME TO <span className=" text-secondaryy">Evren AI</span>
             </h2>
             <p className="text-base my-3 middle:text-sm small:text-xs text-justify">
+<<<<<<< HEAD
               <span className="text-ternary font-bold text-2xl">" </span>I am
               proud to lead a team at <b>Evren AI</b>, passionate about driving
               the boundaries in artificial intelligence and automation. It's our
+=======
+              <span className="text-ternary font-bold text-2xl">&quot; </span>
+              I am proud to lead a team at <b>Evren AI</b>, passionate about driving
+              the boundaries in artificial intelligence and automation. It&apos;s our
+>>>>>>> d18291c820abac028f8f44d2c4b68269fe0e668f
               mission to empower businesses to achieve unparalleled efficiency,
               innovation, and growth through the deployment of cutting edge
               technologies.At <b>Evren AI</b>, we hold a firm belief in the
               transformative power of AI, not merely to enhance operations, but
               to unveil new opportunities that once lay beyond the realm of
-              imagination. Each solution we craft is tailored to our client's
+              imagination. Each solution we craft is tailored to our client&apos;s
               distinct needs, guaranteeing that we not only fulfill but surpass
               their expectations.
+<<<<<<< HEAD
               <br></br>
               <br></br>I invite you to explore our website and discover how we
               can partner with you to drive success in the digital age.
               Together, we can achieve great things. We are grateful for your
               presence on this journey with us.
               <span className="text-ternary font-bold text-2xl">" </span>
+=======
+              <br></br><br></br>
+              I invite you to explore our website and
+              discover how we can partner with you to drive success in the
+              digital age. Together, we can achieve great things. We are
+              grateful for your presence on this journey with us.
+              <span className="text-ternary font-bold text-2xl">&quot; </span>
+>>>>>>> d18291c820abac028f8f44d2c4b68269fe0e668f
             </p>
             <div>
               <h1 className="text-xl font-semibold text-primaryy middle:text-lg small:text-base">

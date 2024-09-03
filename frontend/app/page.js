@@ -68,7 +68,7 @@ export default function Home() {
               Evren AI Transforms How You Do Business.
             </h2>
             <p className="text-base my-3 middle:text-sm small:text-xs text-justify inc:text-center inc:my-0 ">
-              Evren AI isn't just another automation tool. We partner with you
+              Evren AI isn&apos;t just another automation tool. We partner with you
               to understand your unique challenges and deliver custom AI
               solutions that drive game-changing results. Boost efficiency,
               slash costs, and unlock new possibilities, all while feeling

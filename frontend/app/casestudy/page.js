@@ -14,7 +14,7 @@ const page = () => {
             Case Studies
           </h1>
           <span className="text-xl large:text-lg middle:mx-3 text-center middle:text-base">
-            Explore some of the transformative journeys of Devsinc's global
+            Explore some of the transformative journeys of Devsinc&apos;s global
             clients.
           </span>
         </div>
