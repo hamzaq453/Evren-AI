@@ -400,6 +400,7 @@ const Page = () => {
                   MUHAMMAD ATEEQ
                   </h1>
                   <p className="text-base small:text-sm">SENIOR SOCIAL MEDIA STRATEGIST</p>
+
                 </div>
                 <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-ternary opacity-100 blur-[12px] animate-blob-bounce"></div>
               </div>
