@@ -1,5 +1,4 @@
 import React from "react";
-// import Testnomial from "../components/Testnomial";
 import Button from "../components/Button";
 import Image from "next/image";
 import Link from "next/link";
@@ -180,12 +179,10 @@ const Page = () => {
           </div>
           <div className="w-[50%] middle:w-[85%] inc:w-[70%] text-left flex flex-col gap-1 maxlarge:pr-0 inc:text-left  ml-[50px] inc:ml-0">
             <h2 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl tracking-wide">
-              WELCOME TO{" "}
-              <span className=" text-secondaryy">
-                Evren AI
-              </span>
+              WELCOME TO <span className=" text-secondaryy">Evren AI</span>
             </h2>
             <p className="text-base my-3 middle:text-sm small:text-xs text-justify">
+
               <span className="text-primaryy font-bold text-2xl">&quot; </span>
               I am proud to lead a team at <b>Evren AI</b>, passionate about driving
               the boundaries in artificial intelligence and automation. It is our
@@ -194,7 +191,7 @@ const Page = () => {
               technologies.At <b>Evren AI</b>, we hold a firm belief in the
               transformative power of AI, not merely to enhance operations, but
               to unveil new opportunities that once lay beyond the realm of
-              imagination. Each solution we craft is tailored to our client&apos;s
+              imagination. Each solution we craft is tailored to our client,s
               distinct needs, guaranteeing that we not only fulfill but surpass
               their expectations.
               <br></br><br></br>
@@ -205,8 +202,12 @@ const Page = () => {
               <span className="text-primaryy font-bold text-2xl">&quot; </span>
             </p>
             <div>
-            <h1 className="text-xl font-semibold text-primaryy middle:text-lg small:text-base">Tariq Mehmood</h1>
-            <span className="text-secondaryy middle:text-sm">CEO, Evren AI</span>
+              <h1 className="text-xl font-semibold text-primaryy middle:text-lg small:text-base">
+                Tariq Mehmood
+              </h1>
+              <span className="text-secondaryy middle:text-sm">
+                CEO, Evren AI
+              </span>
             </div>
           </div>
         </div>
