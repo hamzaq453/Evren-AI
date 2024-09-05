@@ -11,7 +11,7 @@ const Whyus = () => {
             <div className="container ml-md-auto ">
               <h3 class=" ml-0 mt-6 text-[#592E83] font-bold">Tailored Solutions</h3>
               <p class="ml-0 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 text-justify ">
-                We don&apos;t believe in one-size-fits-all AI. We collaborate with you to understand your specific needs and craft custom solutions that address them precisely.
+                We don&apos;t believe in one size fits all AI. We collaborate with you to understand your specific needs and craft custom solutions that address them precisely.
               </p>
             </div>
           </div>
@@ -27,7 +27,7 @@ const Whyus = () => {
             <div className="container ml-md-auto ">
               <h3 class=" ml-0 mt-6 text-[#592E83] font-bold">Human-Centered Approach</h3>
               <p class="ml-0 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 text-justify ">
-                AI is powerful, but it&apos;s most effective when paired with human expertise. We blend cutting-edge technology with a human touch, ensuring your AI journey is smooth and successful.
+                AI is powerful, but it is most effective when paired with human expertise. We blend cutting-edge technology with a human touch, ensuring your AI journey is smooth and successful.
               </p>
             </div>
           </div>
@@ -37,7 +37,7 @@ const Whyus = () => {
             <div className="container ml-md-auto ">
               <h3 class=" ml-0 mt-6 text-[#592E83] font-bold">Proven Results</h3>
               <p class="ml-0 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 text-justify ">
-                We&apos;re not just about promises, we deliver. Our track record speaks for itself, with measurable results in increased efficiency, cost reduction, and growth for our clients.
+                We are not just about promises, we deliver. Our track record speaks for itself, with measurable results in increased efficiency, cost reduction, and growth for our clients.
               </p>
             </div>
           </div>
@@ -53,7 +53,7 @@ const Whyus = () => {
             <div className="container ml-md-auto ">
               <h3 class=" ml-0 mt-6 text-[#592E83] font-bold">Scalable and Flexible</h3>
               <p class="ml-0 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 text-justify ">
-                Whether you&apos;re a small startup or a large enterprise, we have solutions that adapt to your size and evolve with your needs.
+                Whether you are a small startup or a large enterprise, we have solutions that adapt to your size and evolve with your needs.
               </p>
             </div>
           </div>
@@ -63,7 +63,7 @@ const Whyus = () => {
             <div className="container ml-md-auto ">
               <h3 class=" ml-0 mt-6 text-[#592E83] font-bold">Trust and Transparency</h3>
               <p class="ml-0 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 text-justify ">
-                We understand your data is your lifeblood. We prioritize security and transparency, ensuring your data is safe with us and you&apos;re always in control.
+                We understand your data is your lifeblood. We prioritize security and transparency, ensuring your data is safe with us and you are always in control.
               </p>
             </div>
           </div>
@@ -79,7 +79,7 @@ const Whyus = () => {
             <div className="container ml-md-auto ">
               <h3 class=" ml-0 mt-6 text-[#592E83] font-bold">Expert Team</h3>
               <p class="ml-0 mb-0 font-normal text-sm leading-relaxed tracking-wide text-black small:text-xs p-2 text-justify ">
-                Our team is made up of passionate AI professionals with extensive experience in various industries. We&apos;re constantly learning and innovating to bring you the best possible solutions.
+                Our team is made up of passionate AI professionals with extensive experience in various industries. We are constantly learning and innovating to bring you the best possible solutions.
               </p>
             </div>
           </div>

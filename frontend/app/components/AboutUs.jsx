@@ -17,12 +17,12 @@ const AboutUs = () => {
         <div className="container">
 
           <div className="section-title" data-aos="fade-up">
-            <h2 className='text-black text-[22px] font-medium'>About Us</h2>
+            <h2 className='text-[#592E83] font-medium' style={{ fontSize: '40px' }}>About Us</h2>
           </div>
 
           <div className="row content text-center ">
             <div className="col-lg-12 " data-aos="fade-up" data-aos-delay="150">
-              <h4 className='bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent  text-[30px] font-semibold'>Unlock Your Potential with Evren AI!</h4>
+              <h2 className=' text-[#9984D4] text-[25px] large:text-[27px] middle:text-[18px] pb-5 font-black' >Unlock Your Potential with Evren AI!</h2>
               <p className="container pr-5 mr-5 pl-5 ml-5 col-lg-10 align-content-center text-black" >
                 Founded to democratize AI, Evren AI empowers businesses and individuals with cutting-edge, user-friendly tools. Discover how our innovative solutions can help you achieve your goals. Click to learn more and join the AI revolution!
               </p>

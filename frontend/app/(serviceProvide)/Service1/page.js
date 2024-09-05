@@ -88,7 +88,7 @@ function AIProcessAutomation() {
               {" "}
               Our AI Process Automation service is designed to transform your
               business operations by automating repetitive, time-consuming tasks
-              using advanced artificial intelligence. <br /> <br/> Whether it&apos;s
+              using advanced artificial intelligence. <br /> <br/> Whether it is
               automating document processing, streamlining workflows, or
               optimizing supply chain management, our AI solutions help reduce
               operational costs, increase productivity, and improve accuracy.{" "}

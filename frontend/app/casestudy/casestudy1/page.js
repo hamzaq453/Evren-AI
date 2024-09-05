@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
-  title: "Transforming Healthcare with AI Chatbots for Mechapal | Success Stories",
+  title: "Evren AI",
   description:
     "Our agency partnered with Mechapal to develop two cutting-edge AI chatbots: an AI Dietitian and an AI Psychiatrist. Utilizing the latest GraphRAG technique from unstructured data, combined with advanced AI agents, we created intelligent, responsive, and user-friendly chatbots designed to meet the diverse needs of health-conscious individuals.",
 };
@@ -122,7 +122,7 @@ const page = () => {
               Key Challenges and Objectives to Overcome
             </h2>
             <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs p-0">
-              <li className="font-bold">
+              <li className="font-bold ">
                 Handling Unstructured Health Data :{" "}
                 <span className="font-light">
                   {" "}
@@ -340,8 +340,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI-driven monitoring boosts construction site safety and streamlines operations in real-time.
                 </p>
               </div>
             </div>
@@ -365,8 +364,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI-enhanced home safety with proactive hazard detection and remote caregiving.
                 </p>
               </div>
             </div>
@@ -390,8 +388,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI automates resume screening, accelerating hiring and eliminating bias.
                 </p>
               </div>
             </div>
@@ -416,8 +413,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI automates tasks, boosting productivity and reducing costs for scalable growth.
                 </p>
               </div>
             </div>

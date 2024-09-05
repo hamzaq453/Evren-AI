@@ -31,7 +31,7 @@ export default function Home() {
     {
       question: "How long does it take to get started with Evren AI?",
       answer:
-        "Our implementation process is fast and efficient. We can tailor it to your specific needs and timeline, typically onboarding new clients within weeks.",
+        "Our implementation process is fast and efficient. We can tailor it to your specific needs and timeline, typically onboarding new clients within days.",
     },
     {
       question: "Is Evren AI safe and secure?",
@@ -41,16 +41,16 @@ export default function Home() {
     {
       question: "How do I know if Evren AI is right for my business?",
       answer:
-        "We offer a free consultation to discuss your specific needs and challenges. We'll work with you to understand your goals and recommend the best AI solutions to help you achieve them. There's no obligation, and you can get valuable insights on how AI can benefit your business.",
+        "We offer a free consultation to discuss your specific needs and challenges. We well work with you to understand your goals and recommend the best AI solutions to help you achieve them. There's no obligation, and you can get valuable insights on how AI can benefit your business.",
     },
     {
       question: "How can Evren AI help my business?",
       answer: `Evren AI can help your business in many ways, from automating repetitive tasks to gaining deeper insights from your data. We offer a variety of solutions ,including
-      - AI-powered automation
-      - Advanced analytics and data science
-      - Custom AI solutions
-      - AI in healthcare
-      - AI-based security solutions.
+       AI-powered automation
+      , Advanced analytics and data science
+      , Custom AI solutions
+      , AI in healthcare
+      and AI-based security solutions.
  `,
     },
   ];
@@ -65,10 +65,10 @@ export default function Home() {
               Ditch the Manual, Embrace the Future
             </span>
             <h2 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
-              Evren AI Transforms How You Do Business.
+              Evren AI Transforms, How You Do Business
             </h2>
             <p className="text-base my-3 middle:text-sm small:text-xs text-justify inc:text-center inc:my-0 ">
-              Evren AI isn&apos;t just another automation tool. We partner with you
+              Evren AI is not just another automation tool. We partner with you
               to understand your unique challenges and deliver custom AI
               solutions that drive game-changing results. Boost efficiency,
               slash costs, and unlock new possibilities, all while feeling
@@ -107,10 +107,10 @@ export default function Home() {
 
       <div className="bg-[#FFFFFF] py-[110px] px-0 flex relative gap-[20px] justify-center items-center m-0 large:py-[50px]">
         <div className="flex w-full mx-auto items-center relative flex-col gap-3 ">
-          <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
+          <h2 className='text-[#592E83] font-medium' style={{ fontSize: '40px' }}>
             Our Services
-          </span>
-          <h1 className="font-black text-primaryy text-[32px] large:text-[27px] middle:text-[18px] pb-5 ">
+          </h2>
+          <h1 className="font-black text-secondaryy text-[25px] large:text-[27px] middle:text-[18px] pb-5 ">
             Unleashing the Power of Data
           </h1>
 
@@ -126,10 +126,10 @@ export default function Home() {
       <div className="pt-24">
         <div className="px-0 flex relative gap-[20px] justify-center items-center middle:pt-[60px]">
           <div className="flex max-w-[82vw] mx-auto items-center relative flex-col gap-3">
-            <span className="text-black font-bold text-[22px] large:text-[19px] middle:text-[16px]">
+            <span className='text-[#592E83] font-medium' style={{ fontSize: '40px' }}>
               Our Process
             </span>
-            <h2 className="font-black bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
+            <h2 className="font-black text-secondaryy text-[25px] large:text-[27px] middle:text-[18px] pb-5 ">
               How We Work?
             </h2>
           </div>
@@ -152,13 +152,13 @@ export default function Home() {
 
       <div className="m-0">
         <div class="relative mx-auto max-w-5xl text-center pt-5 mt-14 middle:pt-10">
-          <span class="text-black mb-3 flex items-center justify-center font-medium uppercase tracking-wider text-[22px] large:text-[19px] middle:text-[16px]">
+          <h2 className='text-[#592E83] font-medium' style={{ fontSize: '40px' }}>
             Why choose us
-          </span>
-          <h2 class="block w-full bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text font-bold text-transparent text-[32px] large:text-[27px] middle:text-[18px]">
+          </h2>
+          <h2 className="font-black text-secondaryy text-[25px] large:text-[27px] middle:text-[18px] p-1 ">
             Your Success is Our Priority
           </h2>
-          <p class="mx-auto my-4 w-[90%] bg-transparent font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 text-center ">
+          <p class="mx-auto my-4 w-[90%] bg-transparent font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 text-center text-[#230C33] pb-5 ">
             Your success is at the heart of everything we do. We work closely
             with you to understand your objectives and challenges, offering
             strategic guidance and support to help you thrive in your industry.

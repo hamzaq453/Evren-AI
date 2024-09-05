@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
-  title: "Transforming Business Operations with AI Agents for Zenith Enterprises | Success Stories",
+  title: "Evren AI",
   description:
     "Zenith Enterprises, a leading player in the manufacturing and supply chain industry, partnered with Evren AI to enhance its operational efficiency. Michael Thompson, the visionary owner of Zenith Enterprises, recognized the need to automate repetitive and time-consuming business processes to stay ahead in a competitive market. We introduced state-of-the-art AI Agents to automate key operational workflows, leading to significant improvements in productivity, accuracy, and cost-efficiency.",
 };
@@ -127,7 +127,7 @@ const page = () => {
               Key Challenges and Objectives to Overcome
             </h2>
             <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs p-0">
-              <li className="font-bold">
+              <li className="font-bold " >
                 Inefficiency in Repetitive Tasks :{" "}
                 <span className="font-light">
                   {" "}
@@ -360,8 +360,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI-powered chatbots delivering personalized, real-time health consultations with empathy and precision.
                 </p>
               </div>
             </div>
@@ -385,8 +384,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI-driven monitoring boosts construction site safety and streamlines operations in real-time.
                 </p>
               </div>
             </div>
@@ -410,8 +408,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI-enhanced home safety with proactive hazard detection and remote caregiving.
                 </p>
               </div>
             </div>
@@ -435,8 +432,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI automates resume screening, accelerating hiring and eliminating bias.
                 </p>
               </div>
             </div>

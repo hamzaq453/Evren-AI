@@ -27,7 +27,7 @@ const Footer = () => {
               drive growth and efficiency.
             </p>
             <Link
-              href="/contact"
+              href="https://calendly.com/hassan-ali-ai/business-with-the-power-of-ai?month=2024-08&date=2024-08-30"
               className="btn-contact pb-3 pt-3 pl-5 pr-5 m-2 no-underline "
             >
               {" "}
@@ -139,8 +139,7 @@ const Footer = () => {
             <div className="w-10 h-1 rounded-sm bg-primaryy mt-1 middle:absolute middle:left-[42%]"></div>
 
             <ul className="text-sm p-[0] m-[0] mt-[15px] ">
-              <li>Email: evrenai@gmail.com</li>
-              <li>Phone: +1 123-456-7890</li>
+              <li>Email: contact@evrenai.com</li>
               <div class=" h-auto flex gap-3 flex-wrap middle:justify-center py-[15px] m-[0]  ">
 
                 {/* linkedin */}

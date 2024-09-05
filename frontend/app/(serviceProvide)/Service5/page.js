@@ -173,7 +173,7 @@ function SoftwareDevelopment() {
             <ul className="list-outside list-disc marker:text-2xl text-justify marker:text-secondaryy">
               <li>
                 <strong>Custom Solutions: </strong> Get software that is
-                specifically designed to meet your business’s unique needs,
+                specifically designed to meet your business is unique needs,
                 ensuring it supports your goals and workflows.{" "}
               </li>
               <li>

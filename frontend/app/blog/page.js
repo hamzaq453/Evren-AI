@@ -14,9 +14,9 @@ const page = () => {
           Our Blog
         </h1>
         <p className="mx-auto my-4 w-[75%] bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 ">
-          &quot;Welcome to our blog, where we explore the latest trends and insights
+          Welcome to our blog, where we explore the latest trends and insights
           in AI. Discover valuable perspectives and expert opinions to help you
-          stay ahead and harness the power of artificial intelligence.&quot;
+          stay ahead and harness the power of artificial intelligence.
         </p>
         <div>
           <section class="text-gray-600 body-font">
@@ -79,9 +79,9 @@ const page = () => {
                           for business owners and AI enthusiasts alike.
                         </p>
                         <div className="mb-9 small:mb-0">
-                          <a class=" text-center">
+                          <Link class=" text-center" href="/blog/secondblog">
                             <Button content="Learn More" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>
@@ -108,9 +108,9 @@ const page = () => {
                           from complex, unstructured data, requiring more resources
                         </p>
                         <div className="mb-8 small:mb-0">
-                          <a class=" text-center">
+                          <Link class=" text-center" href="/blog/thirdblog">
                             <Button content="Learn More" />
-                          </a>
+                          </Link>
                         </div>
                       </div>
                     </div>

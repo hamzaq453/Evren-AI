@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
-  title: "Enhancing Construction Site Safety and Efficiency with AI | Success Stories",
+  title: "Evren AI",
   description:
     "Erven AI partnered with Alex to develop a sophisticated Computer Vision System designed to monitor safety compliance and track progress in real-time across multiple construction sites. The system, deployed on NVIDIA Jetson Xavier, utilizes state-of-the-art AI models to analyze video streams and detect critical safety parameters.",
 };
@@ -333,8 +333,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI-powered chatbots delivering personalized, real-time health consultations with empathy and precision.
                 </p>
               </div>
             </div>
@@ -358,8 +357,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI-enhanced home safety with proactive hazard detection and remote caregiving.
                 </p>
               </div>
             </div>
@@ -383,8 +381,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI automates resume screening, accelerating hiring and eliminating bias.
                 </p>
               </div>
             </div>
@@ -409,8 +406,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI automates tasks, boosting productivity and reducing costs for scalable growth.
                 </p>
               </div>
             </div>

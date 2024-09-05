@@ -27,7 +27,7 @@ function GenerativeAI() {
     },
     {
       question:'Can Generative AI be customized to fit our brand`s style?',
-      answer:'Yes, Generative AI models can be trained on your specific data and guidelines to produce content that aligns with your brand’s style and voice.',
+      answer:'Yes, Generative AI models can be trained on your specific data and guidelines to produce content that aligns with your brand is style and voice.',
     },
     {
       question:'Is Generative AI suitable for all industries?',
@@ -45,7 +45,7 @@ function GenerativeAI() {
         <div className="row m-0">
           <div className="col-lg-12 col-md-10 col-sm-8">
             <h1 className='text-primaryy font-semibold text-center ' >Service Description</h1>
-            <p className='text-center mt-4' >Our Generative AI service empowers businesses to create unique content, designs, and solutions using advanced artificial intelligence. <br /><br />  From generating text and images to creating music and video content, Generative AI opens up new possibilities for creativity and innovation. <br /> <br />  Whether you&apos;re looking to automate content creation, develop new product designs, or explore AI-generated art, our Generative AI solutions can help you push the boundaries of what&apos;s possible.</p>
+            <p className='text-center mt-4' >Our Generative AI service empowers businesses to create unique content, designs, and solutions using advanced artificial intelligence. <br /><br />  From generating text and images to creating music and video content, Generative AI opens up new possibilities for creativity and innovation. <br /> <br />  Whether you are looking to automate content creation, develop new product designs, or explore AI-generated art, our Generative AI solutions can help you push the boundaries of what is possible.</p>
           </div>
         </div>
       </div>
@@ -105,7 +105,7 @@ function GenerativeAI() {
                 <strong>
                 Customization:
                 </strong> 
-                Tailor AI-generated outputs to align with your brand&apos;s voice, style, and guidelines, ensuring consistency across all content.
+                Tailor AI-generated outputs to align with your brand is voice, style, and guidelines, ensuring consistency across all content.
               </li>
               <li>
                 <strong>

@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
-  title: "Success Stories | Evren AI",
+  title: "Evren AI",
   description:`Discover how we've helped businesses across industries harness the power of AI. Our case studies showcase real-world applications of our solutions, highlighting the challenges faced, strategies implemented, and the transformative results achieved. See how EvrenAI's tailored AI strategies have empowered companies to optimize processes, enhance customer experiences, and drive innovation.`,
 }
 const page = () => {
@@ -29,8 +29,7 @@ const page = () => {
                     Transforming Healthcare with AI Chatbots for Mechapal
                   </h1>
                   <span className="text-base middle:text-sm small:text-xs">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ratione atque, vitae officiis porro dicta sit.
+                    AI-powered chatbots delivering personalized, real-time health consultations with empathy and precision.
                   </span>
                 </div>
                 <div className="flex justify-end flex-col h-full ">
@@ -55,8 +54,7 @@ const page = () => {
                   Enhancing Construction Site Safety and Efficiency with AI
                   </h1>
                   <span className="text-base middle:text-sm small:text-xs">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ratione atque, vitae officiis porro dicta sit.
+                    AI-driven monitoring boosts construction site safety and streamlines operations in real-time.
                   </span>
                 </div>
                 <div className="flex justify-end flex-col h-full">
@@ -81,8 +79,7 @@ const page = () => {
                   Elevating Home Safety with AI Technology for Chris
                   </h1>
                   <span className="text-base middle:text-sm small:text-xs">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ratione atque, vitae officiis porro dicta sit.
+                    AI-enhanced home safety with proactive hazard detection and remote caregiving.
                   </span>
                 </div>
                 <div className="flex justify-end flex-col h-full">
@@ -107,8 +104,7 @@ const page = () => {
                   Streamlining Recruitment with AI for Justin
                   </h1>
                   <span className="text-base middle:text-sm small:text-xs">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ratione atque, vitae officiis porro dicta sit.
+                    AI automates resume screening, accelerating hiring and eliminating bias.
                   </span>
                 </div>
                 <div className="flex justify-end flex-col h-full">
@@ -133,8 +129,7 @@ const page = () => {
                   Transforming Business Operations with AI Agents for Zenith Enterprises
                   </h1>
                   <span className="text-base middle:text-sm small:text-xs">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Ratione atque, vitae officiis porro dicta sit.
+                    AI automates tasks, boosting productivity and reducing costs for scalable growth.
                   </span>
                 </div>
                 <div className="flex justify-end flex-col h-full ">

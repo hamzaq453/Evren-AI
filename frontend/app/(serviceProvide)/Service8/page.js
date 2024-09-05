@@ -45,7 +45,7 @@ function AiResearchandDevelopment() {
         <div className="row m-0">
           <div className="col-lg-12 col-md-10 col-sm-8">
             <h1 className='text-primaryy font-semibold text-center ' >Service Description</h1>
-            <p className='text-center mt-4' >Our AI Research and Development (R&D) service is designed for businesses looking to explore the frontiers of AI technology. <br /><br />  We work with you to develop innovative solutions that address specific challenges, pushing the boundaries of what AI can achieve. <br /><br />  Whether you&apos;re interested in developing new algorithms, exploring AI applications in a novel field, or conducting groundbreaking research, our R&D team has the expertise to bring your vision to life.</p>
+            <p className='text-center mt-4' >Our AI Research and Development (R&D) service is designed for businesses looking to explore the frontiers of AI technology. <br /><br />  We work with you to develop innovative solutions that address specific challenges, pushing the boundaries of what AI can achieve. <br /><br />  Whether you are interested in developing new algorithms, exploring AI applications in a novel field, or conducting groundbreaking research, our R&D team has the expertise to bring your vision to life.</p>
           </div>
         </div>
       </div>

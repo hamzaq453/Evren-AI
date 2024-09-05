@@ -23,7 +23,7 @@ export default function App() {
     {
       names: "Mark Davis",
       comment:
-        "Cold calling was always a drag for our sales reps. Evren AI's outbound chatbot pre-qualified leads and engaged prospects in natural conversation, setting up successful meetings for our reps. Now, our reps only talk to genuinely interested prospects, which has boosted their conversion rate by 50%. They're thrilled, and our sales are skyrocketing!",
+        "Cold calling was always a drag for our sales reps. Evren AI's outbound chatbot pre-qualified leads and engaged prospects in natural conversation, setting up successful meetings for our reps. Now, our reps only talk to genuinely interested prospects, which has boosted their conversion rate by 50%. They are thrilled, and our sales are skyrocketing!",
       designation: "VP of Sales",
       platform: "Software Company",
     },
@@ -66,7 +66,7 @@ export default function App() {
             centeredSlides={true}
             loop={true}
             autoplay={{
-              delay: 2500,
+              delay: 10000,
               disableOnInteraction: false,
             }}
             pagination={{

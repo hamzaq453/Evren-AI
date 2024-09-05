@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
-  title: "Streamlining Recruitment with AI for Justin | Success Stories",
+  title: "Evren AI",
   description:
     "In the highly competitive recruitment landscape, Justin partnered with Evren AI to revolutionize the hiring process. The Resume Ranking System we developed automates the screening and ranking of resumes, transforming traditional hiring workflows into efficient, bias-free, and highly accurate operations. This system leverages advanced AI and NLP technologies to ensure that only the most qualified candidates are identified, drastically reducing time-to-hire and improving overall recruitment outcomes.",
 };
@@ -341,8 +341,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI-powered chatbots delivering personalized, real-time health consultations with empathy and precision.
                 </p>
               </div>
             </div>
@@ -366,8 +365,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI-driven monitoring boosts construction site safety and streamlines operations in real-time.
                 </p>
               </div>
             </div>
@@ -391,8 +389,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI-enhanced home safety with proactive hazard detection and remote caregiving.
                 </p>
               </div>
             </div>
@@ -417,8 +414,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Ratione atque, vitae officiis porro dicta sit.
+                  AI automates tasks, boosting productivity and reducing costs for scalable growth.
                 </p>
               </div>
             </div>

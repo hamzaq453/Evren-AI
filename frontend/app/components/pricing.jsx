@@ -19,7 +19,7 @@ function Pricing() {
           <div className="col-lg-6 col-md-5 col-sm-5 pl-3 ">
             <p style={{ color: '#9984D4' }} > Pricing </p>
             <h2 style={{ fontWeight: 'bolder', color: '#502E83', fontSize: '35px' }} >Harness the Power of <span style={{ color: '#9984D4', fontWeight: 'bold' }} >Advanced AI Solutions </span> to Deliver Superior Technology, <span style={{ color: '#9984D4' }} >On-Time and Within Budget</span>.</h2>
-            <p style={{ color: '#230C33', paddingRight: '30px' }} >We&apos;ve been committed to providing custom, high-quality services designed to help your business innovate, grow, and excel. Let us be your partner in bringing cutting-edge technology to life.</p>
+            <p style={{ color: '#230C33', paddingRight: '30px' }} >We have been committed to providing custom, high-quality services designed to help your business innovate, grow, and excel. Let us be your partner in bringing cutting-edge technology to life.</p>
             <h3 style={{ color: '#592E83', fontWeight: 'bold' }}>Explore Our Success Stories</h3>
             <div className="row">
               <div className="col-lg-5 col-md-5 col-sm-5">
@@ -53,7 +53,7 @@ function Pricing() {
                   <h6 style={{ color: '#230C33' }} >
                     The future of software development is here. Our team utilizes cutting-edge AI technologies to streamline your projects, enhancing efficiency and driving growth. With our expertise, we don&apos;t just meet expectations, we exceed them, delivering results that move your business forward. <br /> <br />
                     Take advantage of a complimentary 2-week trial to see how our solutions can elevate your project. <br /> <br />
-                    We&apos;re so confident in our ability to deliver value that if you&apos;re not satisfied, we&apos;ll keep working until you are, at no extra cost.
+                    We are so confident in our ability to deliver value that if you are not satisfied, we well keep working until you are, at no extra cost.
                   </h6>
                 </div>
               </div>

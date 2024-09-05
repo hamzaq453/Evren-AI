@@ -89,7 +89,7 @@ function ComputerVision() {
             <p className="text-center my-4">
               Our Computer Vision service leverages advanced AI to interpret and
               analyze visual data, enabling your business to gain valuable
-              insights from images and videos. <br /> <br /> Whether it&apos;s
+              insights from images and videos. <br /> <br /> Whether it is
               automating quality control on production lines, enhancing security
               with real-time surveillance, or improving customer experience
               through visual search, our computer vision solutions are designed
