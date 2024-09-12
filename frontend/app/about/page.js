@@ -13,69 +13,6 @@ export const metadata = {
               capabilities.`,
 };
 const Page = () => {
-  const team = [
-    {
-      names: "TARIQ MEHMOOD",
-      image: "/about/teammembers/CEO.png",
-      position: "CEO",
-    },
-    {
-      names: "HASSAN ALI",
-      image: "/about/teammembers/coo.jpeg",
-      position: "COO & ML/AI ENGINEER",
-    },
-    {
-      names: "MOAZZAM ALI",
-      image: "/about/teammembers/team-1.jpeg",
-      position: "Senior AI Consultant",
-    },
-    {
-      names: "Dr. MUHAMMAD AZHAR",
-      image: "/about/teammembers/team-2.jpeg",
-      position: "SENIOR AI ENGINEER",
-    },
-    {
-      names: "DOCTOR INAMULLAH",
-      image: "/about/teammembers/team-3.jpeg",
-      position: "ML & AI ENGINEER",
-    },
-    {
-      names: "ZULQARNAIN",
-      image: "/about/teammembers/team-2.jpeg",
-      position: "AI ENGINEER",
-    },
-    {
-      names: "SABAHAT FATIMA",
-      image: "/about/teammembers/team-4.jpeg",
-      position: "FULL STACK DEVELOPER",
-    },
-    {
-      names: "ATIKA QASIM",
-      image: "/about/teammembers/team-4.jpeg",
-      position: "FULL STACK DEVELOPER",
-    },
-    {
-      names: "AFRAH FATIMA",
-      image: "/about/teammembers/team-4.jpeg",
-      position: "SENIOR UI/UX  DESIGNER",
-    },
-    {
-      names: "HAMNA HAMEED",
-      image: "/about/teammembers/team-4.jpeg",
-      position: "SENIOR VIDEO EDITOR",
-    },
-    {
-      names: "MUHAMMAD AHTSHAM",
-      image: "/about/teammembers/team-3.jpeg",
-      position: "VIDEO EDITOR & DOP",
-    },
-    {
-      names: "MUHAMMAD ATEEQ",
-      image: "/about/teammembers/team-2.jpeg",
-      position: "SENIOR SOCIAL MEDIA STRATEGIST ",
-    },
-  ];
-
   return (
     <div>
       {/* about start  */}
