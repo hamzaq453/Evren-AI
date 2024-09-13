@@ -140,7 +140,7 @@ const page = () => {
               </p>
             <h4 className=" pl-3  text-secondaryy" >Reinforcement Learning:</h4>
               <p className=" pl-3 text-[#230C33]" >
-                This type of learning involves an agent that interacts with an environment to maximize some notion of cumulative reward. It's often used in robotics, game playing, and navigation.
+                This type of learning involves an agent that interacts with an environment to maximize some notion of cumulative reward. It is often used in robotics, game playing, and navigation.
               </p>
         </span>
         <h2 className=" font-bolder text-primaryy p-1">
@@ -227,7 +227,7 @@ const page = () => {
         <p className="text-justify my-3 text-[#230C33] ">
           Despite their immense potential, both machine learning and deep learning come with challenges. Machine learning models require clean, structured data and can struggle with unstructured data. Deep learning, while powerful, demands significant computational resources and large datasets, which may not be feasible for all organizations. <br />
 
-          Moreover, the "black box" nature of deep learning models can be a barrier in industries where explainability and transparency are critical. As AI continues to evolve, researchers and practitioners are working to address these challenges and make these technologies more accessible and interpretable.
+          Moreover, the &quot;black box&quot; nature of deep learning models can be a barrier in industries where explainability and transparency are critical. As AI continues to evolve, researchers and practitioners are working to address these challenges and make these technologies more accessible and interpretable.
         </p>
 
         <h2 className=" font-bolder text-primaryy p-1">

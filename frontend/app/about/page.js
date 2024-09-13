@@ -107,12 +107,13 @@ const Page = () => {
               capabilities.
             </p>
             <div>
-              <img src="/divider.jpg" alt="divider" />
+              <Image src="/divider.jpg" width={150}
+              height={150} alt="divider" />
             </div>
             <div className="mt-4 flex flex-col gap-4">
               <div className="flex middle:flex-col middle:text-center gap-4  justify-center place-items-center">
                 <div className="w-[100px] middle:w-[50px]">
-                  <img src="/about/svg/team.svg" alt="our expert staff" />
+                  <Image src="/about/svg/team.svg" width={50} height={50} alt="our expert staff" />
                 </div>
                 <div>
                   <div className="font-semibold text-lg text-[#592E83]">
@@ -127,7 +128,7 @@ const Page = () => {
               </div>
               <div className="flex  middle:flex-col middle:text-center gap-4 justify-center place-items-center">
                 <div className="w-[100px] middle:w-[50px]">
-                  <img src="/about/svg/classreward.svg" alt="our mission" />
+                  <Image src="/about/svg/classreward.svg" width={50} height={50} alt="our mission" />
                 </div>
 
                 <div>
@@ -143,7 +144,7 @@ const Page = () => {
               </div>
               <div className="flex  middle:flex-col middle:text-center gap-4 justify-center place-items-center">
                 <div className="w-[100px] middle:w-[50px]">
-                  <img src="/about/svg/reward.svg" alt="our approach" />
+                  <Image src="/about/svg/reward.svg" width={50} height={50} alt="our approach" />
                 </div>
 
                 <div>

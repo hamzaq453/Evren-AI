@@ -92,7 +92,7 @@ const page = () => {
             </div>
             <h2 className="mt-9 text-justify text-primaryy font-bolder " > Introduction </h2>
             <p className="mt-9 text-justify text-[#230C33] ">
-              In today's rapidly evolving digital landscape, the adoption of Artificial Intelligence (AI) has fundamentally reshaped how businesses interact with their customers. <br /> Whether through AI-powered chatbots or intelligent call centers, AI is not only improving efficiency but also redefining customer experiences. As companies strive to meet the ever-growing demands of their clients, understanding the transformative impact of AI on modern customer services has become essential.
+              In today is rapidly evolving digital landscape, the adoption of Artificial Intelligence (AI) has fundamentally reshaped how businesses interact with their customers. <br /> Whether through AI-powered chatbots or intelligent call centers, AI is not only improving efficiency but also redefining customer experiences. As companies strive to meet the ever-growing demands of their clients, understanding the transformative impact of AI on modern customer services has become essential.
             </p>
 
           </div>
@@ -137,7 +137,7 @@ const page = () => {
         <p className="text-justify my-3 text-[#230C33] ">
           While chatbots are revolutionizing digital interactions, AI is also making a significant impact on traditional call centers. AI-driven call centers are equipped with tools that assist human agents in providing faster and more accurate service. From predictive analytics to real-time sentiment analysis, AI is enabling call centers to operate more efficiently and effectively.<br />
 
-          For instance, AI can route calls to the most suitable agent based on the nature of the query and the caller's history, ensuring that customers receive personalized service. Moreover, AI systems can analyze the tone and mood of a caller in real-time, allowing agents to adjust their responses to better meet the customer's needs. This not only improves customer satisfaction but also enhances the overall efficiency of the call center.
+          For instance, AI can route calls to the most suitable agent based on the nature of the query and the caller is history, ensuring that customers receive personalized service. Moreover, AI systems can analyze the tone and mood of a caller in real-time, allowing agents to adjust their responses to better meet the customer &apos;s needs. This not only improves customer satisfaction but also enhances the overall efficiency of the call center.
         </p>
         <h2 className=" font-bolder text-primaryy p-1">
           Personalization at Scale: The AI Advantage
@@ -145,7 +145,7 @@ const page = () => {
         <p className="text-justify my-3 text-[#230C33] ">
           One of the most significant advantages of AI in customer service is its ability to deliver personalized experiences at scale. AI systems can analyze vast amounts of data to understand customer preferences, behaviors, and needs. This enables businesses to offer tailored solutions and recommendations, which in turn fosters customer loyalty and drives sales. <br />
 
-          For example, an AI-powered system can analyze a customer's previous interactions and purchase history to offer personalized product recommendations during a chat session. This level of personalization was previously unattainable without significant human resources, but AI has made it possible to deliver these experiences seamlessly and efficiently.
+          For example, an AI-powered system can analyze a customeris previous interactions and purchase history to offer personalized product recommendations during a chat session. This level of personalization was previously unattainable without significant human resources, but AI has made it possible to deliver these experiences seamlessly and efficiently.
         </p>
 
         <h2 className=" font-bolder text-primaryy p-1">
@@ -161,7 +161,7 @@ const page = () => {
           The Role of AI in Omnichannel Customer Support
         </h2>
         <p className="text-justify my-3 text-[#230C33] ">
-          In today's multi-channel world, customers expect seamless interactions across various platforms, whether it's a phone call, chat, email, or social media. AI plays a crucial role in enabling omnichannel support by ensuring consistency and coherence across all customer touchpoints. AI systems can integrate data from multiple channels to provide a unified view of the customer, ensuring that each interaction is informed by previous ones. <br />
+          In today is multi-channel world, customers expect seamless interactions across various platforms, whether it is a phone call, chat, email, or social media. AI plays a crucial role in enabling omnichannel support by ensuring consistency and coherence across all customer touchpoints. AI systems can integrate data from multiple channels to provide a unified view of the customer, ensuring that each interaction is informed by previous ones. <br />
 
           This holistic approach to customer service not only improves the customer experience but also boosts operational efficiency. For example, if a customer starts an inquiry via chat and later follows up with a phone call, the AI system can provide the call center agent with all relevant details from the chat conversation, enabling a smooth and uninterrupted service experience.
         </p>
@@ -179,7 +179,7 @@ const page = () => {
           Conclusion
         </h2>
         <p className="text-justify my-3 text-[#230C33] ">
-          AI has ushered in a new era of customer service, transforming the way businesses interact with their customers. From AI-powered chatbots to intelligent call centers, the technology is driving efficiencies and delivering personalized experiences that were once unimaginable. As AI continues to advance, its impact on customer service will only deepen, offering businesses new opportunities to connect with their customers in more meaningful ways. Embracing AI is no longer just an option, it is a necessity for businesses looking to stay competitive in today's fast-paced digital world.
+          AI has ushered in a new era of customer service, transforming the way businesses interact with their customers. From AI-powered chatbots to intelligent call centers, the technology is driving efficiencies and delivering personalized experiences that were once unimaginable. As AI continues to advance, its impact on customer service will only deepen, offering businesses new opportunities to connect with their customers in more meaningful ways. Embracing AI is no longer just an option, it is a necessity for businesses looking to stay competitive in today is fast-paced digital world.
         </p>
       </div>
 
