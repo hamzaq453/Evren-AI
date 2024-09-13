@@ -28,7 +28,7 @@ const Footer = () => {
             </p>
             <Link
               href="https://calendly.com/hassan-ali-ai/business-with-the-power-of-ai?month=2024-08&date=2024-08-30"
-              className="btn-contact pb-3 pt-3 pl-5 pr-5 m-2 no-underline "
+              className="btn-contact pb-3 pt-3 pl-5 pr-5 m-2 no-underline " target="_blank"
             >
               {" "}
               Book Free consultion Call Now{" "}

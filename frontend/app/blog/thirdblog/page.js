@@ -3,7 +3,7 @@ import Image from "next/image";
 import Faq from "@/app/components/Faq";
 import Link from "next/link";
 export const metadata = {
-  title: "EvrenAI Blog",
+  title: "EvrenAI",
   description: `Explore how AI chatbots are reshaping the digital business landscape by enhancing customer interactions, streamlining operations, and driving growth. Discover the key benefits, real-world examples, and future potential of chatbots in transforming how businesses engage with their customers in the digital age.`,
 };
 

@@ -158,7 +158,7 @@ export default function Home() {
           <h2 className="font-black text-secondaryy text-[25px] large:text-[27px] middle:text-[18px] p-1 ">
             Your Success is Our Priority
           </h2>
-          <p class="mx-auto my-4 w-[90%] bg-transparent font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 text-center text-[#230C33] pb-5 ">
+          <p class="mx-auto my-4 w-[90%] bg-transparent font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 text-center pb-5 ">
             Your success is at the heart of everything we do. We work closely
             with you to understand your objectives and challenges, offering
             strategic guidance and support to help you thrive in your industry.

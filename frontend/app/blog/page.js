@@ -3,7 +3,7 @@ import Button from "../components/Button";
 import Image from "next/image";
 import Link from "next/link";
 export const metadata = {
-  title: "EvrenAI Blog | AI Trends and Tips",
+  title: "EvrenAI",
   description: `Explore insights, trends, and expert opinions on the latest in artificial intelligence. Our blog covers everything from cutting-edge AI technologies and industry innovations to practical tips for integrating AI into your business. Stay informed and inspired as we delve into how AI is transforming industries, driving growth, and shaping the future.`,
 };
 const page = () => {
