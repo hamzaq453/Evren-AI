@@ -11,6 +11,8 @@ import CompanyClients from "./components/Compnayclints";
 import AboutUs from "./components/AboutUs";
 import Link from "next/link";
 
+
+
 export default function Home() {
   const faqs = [
     {
