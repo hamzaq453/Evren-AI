@@ -2,6 +2,9 @@ import React from "react";
 import Button from "../components/Button";
 import Image from "next/image";
 import Link from "next/link";
+import { FaUserTie, FaCode, FaRobot, FaVideo, FaBrain, FaLaptopCode } from "react-icons/fa";
+import { MdEngineering } from "react-icons/md";
+import { BsPersonWorkspace } from "react-icons/bs";
 
 export const metadata = {
   title: "Evren AI",
@@ -119,7 +122,7 @@ const Page = () => {
             <h2 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl tracking-wide">
               WELCOME TO <span className=" text-secondaryy">Evren AI</span>
             </h2>
-            <p className="text-base my-3 middle:text-sm small:text-xs text-justify">
+            <p className="text-lg my-3 middle:text-sm small:text-xs text-justify">
 
               <span className="text-primaryy font-bold text-2xl">&quot; </span>
               I am proud to lead a team at <b>Evren AI</b>, passionate about driving
@@ -143,7 +146,7 @@ const Page = () => {
               <h1 className="text-xl font-semibold text-primaryy middle:text-lg small:text-base">
                 Tariq Mehmood
               </h1>
-              <span className="text-secondaryy middle:text-sm">
+              <span className="text-primaryy middle:text-sm">
                 CEO, Evren AI
               </span>
             </div>
@@ -196,223 +199,102 @@ const Page = () => {
               and drive success.
             </p>
           </div>
-          <div className="grid gap-10 place-items-center sm:grid-cols-2 lg:grid-cols-4">
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                    TARIQ MEHMOOD
-                  </h1>
-                  <p className="text-base small:text-sm">CEO</p>
-                  <div className="flex justify-center">
-                    {" "}
-                    <Link
-                      href="https://www.linkedin.com/in/tariq-evrenai/"
-                      target="_blank"
-                    >
-                      <button class="w-9 h-9 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300 outline-none focus:outline-none">
-                        <svg
-                          class="fill-primaryy relative z-10 transition-all duration-300 group-hover:fill-white"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="28"
-                          height="28"
-                          viewBox="0 0 72 72"
-                          fill="none"
-                        >
-                          <path
-                            d="M24.7612 55.999V28.3354H15.5433V55.999H24.7621H24.7612ZM20.1542 24.5591C23.3679 24.5591 25.3687 22.4348 25.3687 19.7801C25.3086 17.065 23.3679 15 20.2153 15C17.0605 15 15 17.065 15 19.7799C15 22.4346 17.0001 24.5588 20.0938 24.5588H20.1534L20.1542 24.5591ZM29.8633 55.999H39.0805V40.5521C39.0805 39.7264 39.1406 38.8985 39.3841 38.3088C40.0502 36.6562 41.5668 34.9455 44.1138 34.9455C47.4484 34.9455 48.7831 37.4821 48.7831 41.2014V55.999H58V40.1376C58 31.6408 53.4532 27.6869 47.3887 27.6869C42.4167 27.6869 40.233 30.4589 39.0198 32.347H39.0812V28.3364H29.8638C29.9841 30.9316 29.8631 56 29.8631 56L29.8633 55.999Z"
-                            fill=""
-                          />
-                        </svg>
-                        <div class="absolute top-full left-0 w-full h-full rounded-full bg-[#006699] z-0 transition-all duration-500 group-hover:top-0"></div>
-                      </button>
-                    </Link>
-                  </div>
+          <div className="grid gap-8 place-items-center sm:grid-cols-2 lg:grid-cols-4">
+            {/* Template for all team member cards - update this section */}
+            <div className="w-[280px] bg-gradient-to-br from-[#f8f9fa] via-[#e9ecef] to-[#dee2e6] rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl border border-gray-100">
+              <div className="h-[160px] w-full relative bg-gradient-to-br from-primaryy/20 to-secondaryy/20 flex items-center justify-center">
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primaryy to-secondaryy flex items-center justify-center transform transition-all duration-300 hover:scale-110">
+                  <FaUserTie className="w-12 h-12 text-white" />
                 </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-primaryy opacity-50 blur-[12px] animate-blob-bounce"></div>
               </div>
-            </div>
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden  grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                    HASSAN ALI
-                  </h1>
-                  <p className="text-base small:text-sm">
-                    CTO & ML/AI ENGINEER
-                  </p>
-                  <div className="flex justify-center">
-                    {" "}
-                    <Link
-                      href="https://www.linkedin.com/in/harryali"
-                      target="_blank"
-                    >
-                      <button class="w-9 h-9 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300 outline-none focus:outline-none">
-                        <svg
-                          class="fill-primaryy relative z-10 transition-all duration-300 group-hover:fill-white"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="28"
-                          height="28"
-                          viewBox="0 0 72 72"
-                          fill="none"
-                        >
-                          <path
-                            d="M24.7612 55.999V28.3354H15.5433V55.999H24.7621H24.7612ZM20.1542 24.5591C23.3679 24.5591 25.3687 22.4348 25.3687 19.7801C25.3086 17.065 23.3679 15 20.2153 15C17.0605 15 15 17.065 15 19.7799C15 22.4346 17.0001 24.5588 20.0938 24.5588H20.1534L20.1542 24.5591ZM29.8633 55.999H39.0805V40.5521C39.0805 39.7264 39.1406 38.8985 39.3841 38.3088C40.0502 36.6562 41.5668 34.9455 44.1138 34.9455C47.4484 34.9455 48.7831 37.4821 48.7831 41.2014V55.999H58V40.1376C58 31.6408 53.4532 27.6869 47.3887 27.6869C42.4167 27.6869 40.233 30.4589 39.0198 32.347H39.0812V28.3364H29.8638C29.9841 30.9316 29.8631 56 29.8631 56L29.8633 55.999Z"
-                            fill=""
-                          />
-                        </svg>
-                        <div class="absolute top-full left-0 w-full h-full rounded-full bg-[#006699] z-0 transition-all duration-500 group-hover:top-0"></div>
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-secondaryy opacity-50 blur-[12px] animate-blob-bounce"></div>
-              </div>
-            </div>
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden  grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                    MOAZZAM ALI
-                  </h1>
-                  <p className="text-base small:text-sm">
-                    Senior AI Consultant
-                  </p>
-                  <div className="flex justify-center">
-                    {" "}
-                    <Link
-                      href="https://www.linkedin.com/in/meermoazzam/"
-                      target="_blank"
-                    >
-                      <button class="w-9 h-9 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300 outline-none focus:outline-none">
-                        <svg
-                          class="fill-primaryy relative z-10 transition-all duration-300 group-hover:fill-white"
-                          xmlns="http://www.w3.org/2000/svg"
-                          width="28"
-                          height="28"
-                          viewBox="0 0 72 72"
-                          fill="none"
-                        >
-                          <path
-                            d="M24.7612 55.999V28.3354H15.5433V55.999H24.7621H24.7612ZM20.1542 24.5591C23.3679 24.5591 25.3687 22.4348 25.3687 19.7801C25.3086 17.065 23.3679 15 20.2153 15C17.0605 15 15 17.065 15 19.7799C15 22.4346 17.0001 24.5588 20.0938 24.5588H20.1534L20.1542 24.5591ZM29.8633 55.999H39.0805V40.5521C39.0805 39.7264 39.1406 38.8985 39.3841 38.3088C40.0502 36.6562 41.5668 34.9455 44.1138 34.9455C47.4484 34.9455 48.7831 37.4821 48.7831 41.2014V55.999H58V40.1376C58 31.6408 53.4532 27.6869 47.3887 27.6869C42.4167 27.6869 40.233 30.4589 39.0198 32.347H39.0812V28.3364H29.8638C29.9841 30.9316 29.8631 56 29.8631 56L29.8633 55.999Z"
-                            fill=""
-                          />
-                        </svg>
-                        <div class="absolute top-full left-0 w-full h-full rounded-full bg-[#006699] z-0 transition-all duration-500 group-hover:top-0"></div>
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-brandclr opacity-50 blur-[12px] animate-blob-bounce"></div>
+              <div className="p-5 bg-gradient-to-br from-white/50 via-white/70 to-transparent backdrop-blur-sm">
+                <h3 className="text-xl font-bold text-primaryy mb-2">TARIQ MEHMOOD</h3>
+                <p className="text-gray-600 text-lg font-sans mb-3">CEO</p>
               </div>
             </div>
 
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden  grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                    Dr. MUHAMMAD AZHAR
-                  </h1>
-                  <p className="text-base small:text-sm">SENIOR AI ENGINEER</p>
+            {/* Update all other team member cards with the same structure */}
+            <div className="w-[280px] bg-gradient-to-br from-[#f8f9fa] via-[#e9ecef] to-[#dee2e6] rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl border border-gray-100">
+              <div className="h-[160px] w-full relative bg-gradient-to-br from-primaryy/20 to-secondaryy/20 flex items-center justify-center">
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primaryy to-secondaryy flex items-center justify-center transform transition-all duration-300 hover:scale-110">
+                  <FaRobot className="w-12 h-12 text-white" />
                 </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-custom-purple opacity-100 blur-[12px] animate-blob-bounce"></div>
+              </div>
+              <div className="p-5 bg-gradient-to-br from-white/50 via-white/70 to-transparent backdrop-blur-sm">
+                <h3 className="text-xl font-bold text-primaryy mb-2">HASSAN ALI</h3>
+                <p className="text-gray-600 text-lg font-sans mb-3">CTO</p>
               </div>
             </div>
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden  grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                    ATIKA QASIM
-                  </h1>
-                  <p className="text-base small:text-sm">
-                    FULL STACK DEVELOPER
-                  </p>
-                </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-brandclr opacity-50 blur-[12px] animate-blob-bounce"></div>
-              </div>
-            </div>
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden  grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                  MUHAMMAD ATEEQ
-                  </h1>
-                  <p className="text-base small:text-sm">SENIOR SOCIAL MEDIA STRATEGIST</p>
 
+            <div className="w-[280px] bg-gradient-to-br from-[#f8f9fa] via-[#e9ecef] to-[#dee2e6] rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl border border-gray-100">
+              <div className="h-[160px] w-full relative bg-gradient-to-br from-primaryy/20 to-secondaryy/20 flex items-center justify-center">
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primaryy to-secondaryy flex items-center justify-center transform transition-all duration-300 hover:scale-110">
+                  <MdEngineering className="w-12 h-12 text-white" />
                 </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-ternary opacity-100 blur-[12px] animate-blob-bounce"></div>
+              </div>
+              <div className="p-5 bg-gradient-to-br from-white/50 via-white/70 to-transparent backdrop-blur-sm">
+                <h3 className="text-xl font-bold text-primaryy mb-2">MOAZZAM ALI</h3>
+                <p className="text-gray-600 text-lg font-sans mb-3">SENIOR AI CONSULTANT</p>
               </div>
             </div>
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden  grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                    ZULQARNAIN
-                  </h1>
-                  <p className="text-base small:text-sm">AI ENGINEER</p>
+
+            <div className="w-[280px] bg-gradient-to-br from-[#f8f9fa] via-[#e9ecef] to-[#dee2e6] rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl border border-gray-100">
+              <div className="h-[160px] w-full relative bg-gradient-to-br from-primaryy/20 to-secondaryy/20 flex items-center justify-center">
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primaryy to-secondaryy flex items-center justify-center transform transition-all duration-300 hover:scale-110">
+                  <FaBrain className="w-12 h-12 text-white" />
                 </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-secondaryy opacity-50 blur-[12px] animate-blob-bounce"></div>
+              </div>
+              <div className="p-5 bg-gradient-to-br from-white/50 via-white/70 to-transparent backdrop-blur-sm">
+                <h3 className="text-xl font-bold text-primaryy mb-2">ZULQARNAIN</h3>
+                <p className="text-gray-600 text-lg font-sans mb-3">AI ENGINEER</p>
               </div>
             </div>
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden  grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                    SABAHAT FATIMA
-                  </h1>
-                  <p className="text-base small:text-sm">
-                    FULL STACK DEVELOPER
-                  </p>
+
+            <div className="w-[280px] bg-gradient-to-br from-[#f8f9fa] via-[#e9ecef] to-[#dee2e6] rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl border border-gray-100">
+              <div className="h-[160px] w-full relative bg-gradient-to-br from-primaryy/20 to-secondaryy/20 flex items-center justify-center">
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primaryy to-secondaryy flex items-center justify-center transform transition-all duration-300 hover:scale-110">
+                  <FaLaptopCode className="w-12 h-12 text-white" />
                 </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-primaryy opacity-50 blur-[12px] animate-blob-bounce"></div>
+              </div>
+              <div className="p-5 bg-gradient-to-br from-white/50 via-white/70 to-transparent backdrop-blur-sm">
+                <h3 className="text-xl font-bold text-primaryy mb-2">SABAHAT FATIMA</h3>
+                <p className="text-gray-600 text-lg font-sans mb-3">FULL STACK DEVELOPER</p>
               </div>
             </div>
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden  grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                    AFRAH FATIMA
-                  </h1>
-                  <p className="text-base small:text-sm">
-                    SENIOR UI/UX  DESIGNER
-                  </p>
+
+            <div className="w-[280px] bg-gradient-to-br from-[#f8f9fa] via-[#e9ecef] to-[#dee2e6] rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl border border-gray-100">
+              <div className="h-[160px] w-full relative bg-gradient-to-br from-primaryy/20 to-secondaryy/20 flex items-center justify-center">
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primaryy to-secondaryy flex items-center justify-center transform transition-all duration-300 hover:scale-110">
+                  <FaCode className="w-12 h-12 text-white" />
                 </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-primaryy opacity-50 blur-[12px] animate-blob-bounce"></div>
+              </div>
+              <div className="p-5 bg-gradient-to-br from-white/50 via-white/70 to-transparent backdrop-blur-sm">
+                <h3 className="text-xl font-bold text-primaryy mb-2">MUHAMMAD BILAL</h3>
+                <p className="text-gray-600 text-lg font-sans mb-3">LEAD AI ENGINEER</p>
               </div>
             </div>
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden  grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                    HAMNA HAMEED
-                  </h1>
-                  <p className="text-base small:text-sm">SENIOR VIDEO EDITOR</p>
+
+            <div className="w-[280px] bg-gradient-to-br from-[#f8f9fa] via-[#e9ecef] to-[#dee2e6] rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl border border-gray-100">
+              <div className="h-[160px] w-full relative bg-gradient-to-br from-primaryy/20 to-secondaryy/20 flex items-center justify-center">
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primaryy to-secondaryy flex items-center justify-center transform transition-all duration-300 hover:scale-110">
+                  <FaBrain className="w-12 h-12 text-white" />
                 </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-secondaryy opacity-50 blur-[12px] animate-blob-bounce"></div>
+              </div>
+              <div className="p-5 bg-gradient-to-br from-white/50 via-white/70 to-transparent backdrop-blur-sm">
+                <h3 className="text-xl font-bold text-primaryy mb-2">HAMZA QURESHI</h3>
+                <p className="text-gray-600 text-lg font-sans mb-3">SENIOR AI ENGINEER</p>
               </div>
             </div>
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden  grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                    DOCTOR INAMULLAH
-                  </h1>
-                  <p className="text-base small:text-sm">
-                    ML & AI ENGINEER
-                  </p>
+
+            <div className="w-[280px] bg-gradient-to-br from-[#f8f9fa] via-[#e9ecef] to-[#dee2e6] rounded-xl overflow-hidden shadow-lg transition-all duration-300 hover:-translate-y-2 hover:shadow-xl border border-gray-100">
+              <div className="h-[160px] w-full relative bg-gradient-to-br from-primaryy/20 to-secondaryy/20 flex items-center justify-center">
+                <div className="w-24 h-24 rounded-full bg-gradient-to-br from-primaryy to-secondaryy flex items-center justify-center transform transition-all duration-300 hover:scale-110">
+                  <BsPersonWorkspace className="w-12 h-12 text-white" />
                 </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-brandclr opacity-50 blur-[12px] animate-blob-bounce"></div>
               </div>
-            </div>
-            <div class="lg:w-[63]">
-              <div class="my-7 relative w-[250px] h-[250px] rounded-xl z-[1111] overflow-hidden flex flex-col items-center justify-center shadow-[20px_20px_60px_#bebebe,-20px_-20px_60px_#ffffff]">
-                <div class=" absolute top-[6px] left-[7px] w-[235px] h-[238px] z-20 backdrop-blur-[24px] rounded-lg overflow-hidden  grid place-content-center text-center px-3">
-                  <h1 className="text-xl font-bold mb-4 small:text-lg ">
-                    MUHAMMAD AHTSHAM
-                  </h1>
-                  <p className="text-base small:text-sm">VIDEO EDITOR & DOP</p>
-                </div>
-                <div class="absolute z-10 top-1/2 left-1/2 w-[150px] h-[150px] rounded-full bg-ternary opacity-100 blur-[12px] animate-blob-bounce"></div>
+              <div className="p-5 bg-gradient-to-br from-white/50 via-white/70 to-transparent backdrop-blur-sm">
+                <h3 className="text-xl font-bold text-primaryy mb-2">DR. INAMULLAH</h3>
+                <p className="text-gray-600 text-lg font-normal font-medium mb-3">AI/ML ENGINEER</p>
               </div>
             </div>
           </div>
