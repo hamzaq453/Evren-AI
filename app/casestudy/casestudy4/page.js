@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaIndustry, FaMapMarkerAlt, FaCode } from "react-icons/fa";
+
 export const metadata = {
   title: "Evren AI",
   description:
@@ -31,38 +33,56 @@ const page = () => {
             <div>
               <Image src="/divider.jpg" width={100} height={50} alt="" />
             </div>
-            <div className="mt-4">
-              <div className="">
-                <div className="flex gap-24 middle:gap-10 text-lg text-gray-500 middle:text-base small:text-sm">
-                  <div className="">
-                    Industry :{" "}
-                    <span className="font-bold text-black">
-                      Recruitment & HR
-                    </span>
+            <div className="mt-6 space-y-8">
+              {/* Industry & Location */}
+              <div className="flex flex-wrap gap-6 inc:gap-4">
+                <div className="flex items-center gap-3">
+                  <div className="bg-primaryy/10 p-3 rounded-lg">
+                    <FaIndustry className="text-primaryy text-xl" />
                   </div>
                   <div>
-                    Location :{" "}
-                    <span className="font-bold text-black">Norway</span>
+                    <div className="text-sm text-gray-500 font-medium">Industry</div>
+                    <div className="text-lg font-semibold text-primaryy">Recruitment & HR</div>
                   </div>
                 </div>
-                <div className="mt-3 text-lg text-gray-500 middle:text-base small:text-sm ">
-                  <div className="inc:text-left">
-                    Technology Used :{" "}
-                    <div className="my-2 flex flex-wrap">
-                      <div className="text-xs text-white border-2 p-3 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        Cloud Computing
-                      </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        NLP
-                      </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        AI
-                      </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        Machine Learning
-                      </div>
-                    </div>
+
+                <div className="flex items-center gap-3">
+                  <div className="bg-primaryy/10 p-3 rounded-lg">
+                    <FaMapMarkerAlt className="text-primaryy text-xl" />
                   </div>
+                  <div>
+                    <div className="text-sm text-gray-500 font-medium">Location</div>
+                    <div className="text-lg font-semibold text-primaryy">Norway</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Technology Stack */}
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="bg-primaryy/10 p-3 rounded-lg">
+                    <FaCode className="text-primaryy text-xl" />
+                  </div>
+                  <div className="text-lg text-primaryy font-semibold">Technology Stack</div>
+                </div>
+                
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    "Cloud Computing",
+                    "NLP",
+                    "AI",
+                    "Machine Learning"
+                  ].map((tech, index) => (
+                    <div 
+                      key={index}
+                      className="px-4 py-2 rounded-full bg-gradient-to-r from-primaryy/10 to-secondaryy/10 
+                                 border border-primaryy/20 text-primaryy text-sm font-medium
+                                 hover:from-primaryy/20 hover:to-secondaryy/20 transition-all duration-300
+                                 hover:scale-105 cursor-default"
+                    >
+                      {tech}
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
@@ -160,10 +180,10 @@ const page = () => {
           </svg>
           <p class="leading-relaxed mb-6 text-xs sm:text-base">
             The Resume Ranking System developed by Evren AI has revolutionized
-            our hiring process. It’s faster, more accurate, and has eliminated
-            bias from our recruitment efforts. We’ve seen tremendous
+            our hiring process. It's faster, more accurate, and has eliminated
+            bias from our recruitment efforts. We've seen tremendous
             improvements in our ability to attract and retain top talent, all
-            thanks to Evren AI’s innovative solution.
+            thanks to Evren AI's innovative solution.
           </p>
           <a class="inline-flex items-center">
             <span class="flex-grow flex flex-col pl-4">
@@ -180,7 +200,7 @@ const page = () => {
         <div className="flex max-w-[82vw] mx-auto  items-center relative maxlarge:max-w-[90vw] inc:flex-col small:max-w-[100vw]">
           <div className="w-[60%] pr-[50px] text-left flex flex-col gap-1 maxlarge:pr-[100px] large:text-center inc:pr-0 inc:w-[85%] middle:w-[90%]">
             <h2 className="font-black text-primaryy text-4xl pr-55 large:text-3xl middle:text-2xl small:text-xl tracking-wide">
-              Evren AI&apos;s Strategic Approach
+              Evren AI's Strategic Approach
             </h2>
             <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs p-0">
               <li className="font-bold">
@@ -265,7 +285,7 @@ const page = () => {
                     Enhanced Matching Accuracy
                   </h1>
                   <p className="text-base small:text-sm">
-                    The system&apos;s ranking algorithm improved the alignment
+                    The system's ranking algorithm improved the alignment
                     between job requirements and candidate qualifications,
                     leading to better hiring outcomes.
                   </p>

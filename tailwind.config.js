@@ -48,9 +48,14 @@ module.exports = {
         "0%, 100%": { transform: "translateY(0)" },
         "50%": { transform: "translateY(-20px)" },
       },
+      slide: {
+        '0%': { transform: 'translateX(0)' },
+        '100%': { transform: 'translateX(-33.33%)' }  // Only move by one-third since we have 3 sets
+      }
     },
     animation: {
       upAndDown: "upAndDown 2s ease-in-out infinite",
+      'slide': 'slide 20s linear infinite',
     },
   },
   plugins: [],

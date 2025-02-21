@@ -1,6 +1,8 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaIndustry, FaMapMarkerAlt, FaCode } from "react-icons/fa";
+
 export const metadata = {
   title: "Evren AI",
   description:
@@ -30,33 +32,55 @@ const page = () => {
             <div>
               <Image src="/divider.jpg" width={100} height={50} alt="" />
             </div>
-            <div className="mt-4">
-              <div className="">
-                <div className="flex gap-24 middle:gap-10 text-lg text-gray-500 middle:text-base small:text-sm">
-                  <div className="">
-                    Industry :{" "}
-                    <span className="font-bold text-black">Home Security</span>
+            <div className="mt-6 space-y-8">
+              {/* Industry & Location */}
+              <div className="flex flex-wrap gap-6 inc:gap-4">
+                <div className="flex items-center gap-3">
+                  <div className="bg-primaryy/10 p-3 rounded-lg">
+                    <FaIndustry className="text-primaryy text-xl" />
                   </div>
                   <div>
-                    Location :{" "}
-                    <span className="font-bold text-black">Scotland</span>
+                    <div className="text-sm text-gray-500 font-medium">Industry</div>
+                    <div className="text-lg font-semibold text-primaryy">Home Security</div>
                   </div>
                 </div>
-                <div className="mt-3 text-lg text-gray-500 middle:text-base small:text-sm ">
-                  <div className="inc:text-left">
-                    Technology Used :{" "}
-                    <div className="my-2 flex flex-wrap">
-                      <div className="text-xs text-white border-2 p-3 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        NVIDIA Jetson Xavier
-                      </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        DeepStream SDK
-                      </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        SOTA AI Models
-                      </div>
-                    </div>
+
+                <div className="flex items-center gap-3">
+                  <div className="bg-primaryy/10 p-3 rounded-lg">
+                    <FaMapMarkerAlt className="text-primaryy text-xl" />
                   </div>
+                  <div>
+                    <div className="text-sm text-gray-500 font-medium">Location</div>
+                    <div className="text-lg font-semibold text-primaryy">Scotland</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Technology Stack */}
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="bg-primaryy/10 p-3 rounded-lg">
+                    <FaCode className="text-primaryy text-xl" />
+                  </div>
+                  <div className="text-lg text-primaryy font-semibold">Technology Stack</div>
+                </div>
+                
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    "NVIDIA Jetson Xavier",
+                    "DeepStream SDK",
+                    "SOTA AI Models"
+                  ].map((tech, index) => (
+                    <div 
+                      key={index}
+                      className="px-4 py-2 rounded-full bg-gradient-to-r from-primaryy/10 to-secondaryy/10 
+                                 border border-primaryy/20 text-primaryy text-sm font-medium
+                                 hover:from-primaryy/20 hover:to-secondaryy/20 transition-all duration-300
+                                 hover:scale-105 cursor-default"
+                    >
+                      {tech}
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>

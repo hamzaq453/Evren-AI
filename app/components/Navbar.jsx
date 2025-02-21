@@ -22,21 +22,33 @@ const Navbar = () => {
       navLinks.style.left = "0";
     };
 
-    // const closeMenu = (event) => {
-    //     navLinks.style.left = "-100%";
-    // };
-    const closeMenu = (event) => {
-      if (event.target && event.target.classList.contains("bx-x")) {
-        navLinks.style.left = "-100%";
+    const closeMenu = () => {
+      navLinks.style.left = "-100%";
+    };
+
+    // Close menu when clicking any link
+    const handleLinkClick = () => {
+      if (window.innerWidth <= 768) { // Only close on mobile
+        closeMenu();
       }
     };
+
+    // Add click listeners to all links
+    const links = document.querySelectorAll(`.${styles.links} a`);
+    links.forEach(link => {
+      link.addEventListener('click', handleLinkClick);
+    });
 
     menuOpenBtn.addEventListener("click", openMenu);
     menuCloseBtn.addEventListener("click", closeMenu);
 
+    // Cleanup
     return () => {
       menuOpenBtn.removeEventListener("click", openMenu);
       menuCloseBtn.removeEventListener("click", closeMenu);
+      links.forEach(link => {
+        link.removeEventListener('click', handleLinkClick);
+      });
     };
   }, []);
 

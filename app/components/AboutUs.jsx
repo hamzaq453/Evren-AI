@@ -15,21 +15,40 @@ const AboutUs = () => {
       {/* <!-- ======= About Us Section ======= --> */}
       <section id="about" className="about">
         <div className="container">
+          <div className="text-center space-y-4" data-aos="fade-up">
+            {/* Eyebrow text */}
+            <span className="inline-block px-4 py-1.5 rounded-full bg-gradient-to-r from-primaryy/10 to-secondaryy/10 text-primaryy text-lg font-semibold">
+              About Us
+            </span>
+            
+            {/* Main heading with gradient */}
+            <h2 className="text-4xl font-bold mb-8 large:text-3xl middle:text-2xl">
+              Unlock Your Potential with{" "}
+              <span className="bg-gradient-to-r from-primaryy to-secondaryy bg-clip-text text-transparent">
+                Evren AI
+              </span>
+            </h2>
 
-          <div className="section-title" data-aos="fade-up">
-            <h2 className='text-[#592E83] font-medium' style={{ fontSize: '40px' }}>About Us</h2>
-          </div>
+            {/* Description */}
+            <p className="max-w-3xl mx-auto text-lg text-gray-700 leading-relaxed middle:text-base">
+              Founded to democratize AI, we empower businesses and individuals with cutting-edge, 
+              user-friendly tools. Discover how our innovative solutions can help you achieve your goals 
+              and join the AI revolution!
+            </p>
 
-          <div className="row content text-center ">
-            <div className="col-lg-12 " data-aos="fade-up" data-aos-delay="150">
-              <h2 className=' text-[#9984D4] text-[25px] large:text-[27px] middle:text-[18px] pb-5 font-black' >Unlock Your Potential with Evren AI!</h2>
-              <p className="container pr-5 mr-5 pl-5 ml-5 col-lg-10 align-content-center text-black" >
-                Founded to democratize AI, Evren AI empowers businesses and individuals with cutting-edge, user-friendly tools. Discover how our innovative solutions can help you achieve your goals. Click to learn more and join the AI revolution!
-              </p>
-              <Link href="/about" className="btn-learn-more no-underline">Learn More</Link>
+            {/* CTA Button */}
+            <div className="mt-8">
+              <Link 
+                href="/about" 
+                className="inline-flex items-center px-6 py-3 rounded-full bg-gradient-to-r from-primaryy to-secondaryy text-white font-semibold transition-all duration-300 hover:scale-105 hover:shadow-lg"
+              >
+                Learn More
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                  <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+                </svg>
+              </Link>
             </div>
           </div>
-
         </div>
       </section>
       {/* <!-- End About Us Section --> */}

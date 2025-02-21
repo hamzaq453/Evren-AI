@@ -13,7 +13,7 @@ const page = () => {
         <h1 className="bg-gradient-to-b from-gray-400 to-primaryy bg-clip-text font-bold text-transparent text-[32px] large:text-[30px] middle:text-[23px]">
           Our Blog
         </h1>
-        <p className="mx-auto my-4 w-[75%] bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-400 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 ">
+        <p className="mx-auto my-4 w-[75%] bg-transparent text-center font-medium leading-relaxed tracking-wide text-gray-800 large:text-base middle:text-sm small:text-xs middle:max-w-lg small:max-w-sm middle:my-2 ">
           Welcome to our blog, where we explore the latest trends and insights
           in AI. Discover valuable perspectives and expert opinions to help you
           stay ahead and harness the power of artificial intelligence.

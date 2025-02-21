@@ -12,56 +12,74 @@ import {
 const Footer = () => {
   return (
     <>
-      <div className="contant py-10 ">
-        <div className="row m-0 grid place-content-center ">
-          <div className="my-10 middle:p-2 text-center ">
-            <h1 className="mt-14 text-[50px] text-white font-bold middle:text-[30px]"
-            >
+      {/* Contact CTA Section */}
+      <div 
+        className="relative py-20"
+        style={{
+          backgroundImage: 'url("/purplebg2.jpeg")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed'
+        }}
+      >
+        {/* Gradient Overlay */}
+        <div className="absolute inset-0 bg-gradient-to-br from-[#230C33]/95 via-[#592E83]/90 to-[#230C33]/95"></div>
+
+        <div className="relative z-10 max-w-6xl mx-auto px-4 text-center">
+          <div className="space-y-8" data-aos="fade-up">
+            <h1 className="text-5xl font-bold text-white middle:text-3xl">
               Discover Your AI Advantage, <br />
               Schedule a Free Consultation!
             </h1>
-            <p className=" text-white text-base middle:text-sm my-5 ">
+            <p className="text-lg text-gray-300 max-w-3xl mx-auto middle:text-base">
               Book a free consultation with our AI experts and discover how our
-              automation and software development solutions <br /> can elevate
+              automation and software development solutions can elevate
               your business. Let&apos;s explore your needs and tailor a strategy to
               drive growth and efficiency.
             </p>
             <Link
               href="https://calendly.com/hassan-ali-ai/business-with-the-power-of-ai?month=2024-08&date=2024-08-30"
-              className="btn-contact pb-3 pt-3 pl-5 pr-5 m-2 no-underline " target="_blank"
+              target="_blank"
+              className="inline-flex items-center px-8 py-4 rounded-full bg-gradient-to-r from-primaryy to-secondaryy text-white font-semibold transition-all duration-300 hover:scale-105 hover:shadow-xl hover:shadow-primaryy/20"
             >
-              {" "}
-              Book Free consultion Call Now{" "}
+              Book Free Consultation Call Now
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 ml-2" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd" />
+              </svg>
             </Link>
           </div>
         </div>
       </div>
 
+      {/* Footer Content */}
       <div className="bg-ternary text-white grid grid-cols-4 gap-10 p-10 large:grid-cols-2 middle:grid-cols-1 middle:text-center">
-        <div className="aboutus flex gap-6 text-left flex-col text-black">
-          <div>
-            <Image
-              width={200}
-              height={475}
-              quality={70}
-              priority={true}
-              src="/homelogo.png"
-              alt="EvrenAi logo"
-            />
-          </div>
-          <div className="text-sm" style={{ color: "black" }}>
+        {/* About Section */}
+        <div className="flex flex-col gap-6 text-left middle:text-center">
+          <Image
+            width={200}
+            height={475}
+            quality={70}
+            priority={true}
+            src="/homelogo.png"
+            alt="EvrenAi logo"
+            className="middle:mx-auto"
+          />
+          <p className="text-sm text-black">
             Evren AI isn&apos;t just another automation tool. We partner with you to
             understand your unique challenges and deliver custom AI solutions
             that drive game-changing results. Boost efficiency, slash costs, and
             unlock new possibilities, all while feeling confident in a trusted
-            partner..
-          </div>
+            partner.
+          </p>
         </div>
-        <div className="services flex flex-col gap-5 text-black">
-          <div>
+
+        {/* Services Section */}
+        <div className="flex flex-col gap-5 text-black">
+          <div className="relative">
             <span className="font-bold text-base">Services</span>
             <div className="w-10 h-1 rounded-sm bg-primaryy mt-1 middle:absolute middle:left-[44%]"></div>
-            <ul className="text-sm p-[0] m-[0]  mt-[15px] text-black">
+            <ul className="mt-4 space-y-2">
               <li>
                 <Link href="/Service1" className="linkage">
                   - AI Process Automation
@@ -105,11 +123,13 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="quicklinks flex flex-col gap-5 text-black">
-          <div>
+
+        {/* Quick Links Section */}
+        <div className="flex flex-col gap-5 text-black">
+          <div className="relative">
             <span className="font-bold text-base">Quick Links</span>
             <div className="w-10 h-1 rounded-sm bg-primaryy mt-1 middle:absolute middle:left-[42%]"></div>
-            <ul className="text-sm p-[0] m-[0] mt-[15px] ">
+            <ul className="mt-4 space-y-2">
               <li>
                 <Link href="/" className="linkage">
                   Home
@@ -133,15 +153,15 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className="contactinfo flex flex-col gap-5 text-black">
-          <div>
-            <span className="font-bold text-base ">Contact Info</span>
+
+        {/* Contact Info Section */}
+        <div className="flex flex-col gap-5 text-black">
+          <div className="relative">
+            <span className="font-bold text-base">Contact Info</span>
             <div className="w-10 h-1 rounded-sm bg-primaryy mt-1 middle:absolute middle:left-[42%]"></div>
-
-            <ul className="text-sm p-[0] m-[0] mt-[15px] ">
+            <ul className="mt-4 space-y-2">
               <li>Email: contact@evrenai.com</li>
-              <div class=" h-auto flex gap-3 flex-wrap middle:justify-center py-[15px] m-[0]  ">
-
+              <div className="flex gap-3 flex-wrap middle:justify-center py-4">
                 {/* linkedin */}
                 <Link href="https://www.linkedin.com/company/evren-ai/" target="_blank">
                   <button class="w-9 h-9 flex items-center relative overflow-hidden justify-center rounded-full bg-white shadow-md shadow-gray-200 group transition-all duration-300 outline-none focus:outline-none">
@@ -161,7 +181,6 @@ const Footer = () => {
                     <div class="absolute top-full left-0 w-full h-full rounded-full bg-[#006699] z-0 transition-all duration-500 group-hover:top-0"></div>
                   </button>
                 </Link>
-
 
                 {/* instagram */}
                 <Link href="https://www.instagram.com/evren_ai/" target="_blank">
