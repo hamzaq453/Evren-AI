@@ -42,150 +42,88 @@ const page = () => {
   ];
   return (
     <>
-      {/* hero section start  */}
-
-      <div className="main w-full bg-custom-gradient h-[350px] bg-custom-purple grid place-content-center">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold middle:text-2xl small:text-xl mx-5 text-white"
-          >
+      {/* Hero section with parallax effect */}
+      <div 
+        className="main w-full h-[450px] grid place-content-center relative overflow-hidden"
+        style={{
+          backgroundImage: 'url("/purplebg1.jpeg")',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          backgroundAttachment: 'fixed'
+        }}
+      >
+        {/* Enhanced overlay with gradient */}
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60"></div>
+        
+        <div className="text-center relative z-10 max-w-4xl mx-auto px-4">
+          <div className="mb-6 text-white/80 uppercase tracking-wider font-medium">AI & Technology</div>
+          <h1 className="text-4xl sm:text-5xl font-bold middle:text-3xl small:text-2xl mx-5 text-white leading-tight">
             The <span className="text-primaryy font-extrabold">Transformative Impact of AI</span>{" "}
             on Modern Customer Services<br></br> (Both Calling and Chat)
           </h1>
-          <div className="mt-9 mx-5 small:text-sm">
-            <Link
-              href="/"
-              className="font-semibold outline-none text-primaryy"
-            >
-              Home
-            </Link>
-            <span className="mx-3 font-semibold">&gt;</span>
-            <Link
-              href="/blog"
-              className="font-semibold outline-none text-primaryy"
-            >
-              Blog
-            </Link>
-            <span className="mx-3 font-semibold">&gt;</span>
-            <span>
-              The Transformative Impact of AI on Modern Customer Services (Both Calling and Chat)
-            </span>
+          <div className="mt-6 flex items-center justify-center gap-4 text-white/80">
+            <span>By Evren AI Team</span>
+            <span>•</span>
+            <span>5 min read</span>
           </div>
         </div>
       </div>
 
-      {/* hero section end  */}
-
-      {/* main section start  */}
-      <div className="my-16 mx-14 maxlarge:mx-5 large:mx-14 middle:text-sm small:text-xs small:mx-5 middle:mx-7 middle:my-8">
-        <div className="flex ">
-          <div className="w-[70%] maxlarge:w-[60%] large:w-full">
-            <div className="large:w-full">
+      {/* Main content with enhanced layout */}
+      <div className="max-w-7xl mx-auto px-4 py-16">
+        <div className="flex flex-col lg:flex-row gap-12">
+          {/* Main article */}
+          <div className="lg:w-2/3">
+            {/* Featured image with enhanced presentation */}
+            <div className="relative rounded-2xl overflow-hidden shadow-2xl mb-12">
               <Image
                 priority={true}
-                quality={80}
-                width={730}
-                height={435}
+                quality={100}
+                width={1200}
+                height={675}
                 src="/blog/customerservice.jpg"
-                className="rounded-lg"
-                alt="Chatbot"
+                className="w-full object-cover hover:scale-105 transition-transform duration-500"
+                alt="Customer Service AI"
               />
             </div>
-            <h2 className="mt-9 text-justify text-primaryy font-bolder " > Introduction </h2>
-            <p className="mt-9 text-justify text-[#230C33] ">
+
+            {/* Article content with improved typography */}
+            <article className="prose prose-lg max-w-none">
+              <h2 className="text-3xl font-bold text-primaryy mb-8">
+                Introduction
+              </h2>
+              <p className="text-justify text-[#230C33] ">
               In today is rapidly evolving digital landscape, the adoption of Artificial Intelligence (AI) has fundamentally reshaped how businesses interact with their customers. <br /> Whether through AI-powered chatbots or intelligent call centers, AI is not only improving efficiency but also redefining customer experiences. As companies strive to meet the ever-growing demands of their clients, understanding the transformative impact of AI on modern customer services has become essential.
             </p>
-
+            </article>
           </div>
-          <div className="w-[30%] mt-10 maxlarge:w-[40%] large:hidden large:w-0">
-            <h1 className="text-center text-2xl font-semibold mb-3 ">
-              You may like <span className="text-secondaryy">Other Blogs</span>
-            </h1>
-            <div className="mx-3 rounded-md flex flex-col p-6 gap-4 bg-ternary shadow-2xl">
-              <a href="/blog/firstblog" className="hover:text-secondaryy">
-                - How AI Chatbots Are Transforming Businesses in the Digital Age?
-              </a>
-              <a href="/blog/thirdblog" className="hover:text-secondaryy">
-                - Machine Learning vs. Deep Learning
-              </a>
+
+          {/* Sidebar */}
+          <div className="lg:w-1/3">
+            {/* Related articles */}
+            <div className="bg-white rounded-2xl shadow-lg p-6">
+              <h4 className="font-bold text-primaryy mb-6 text-xl">Related Articles</h4>
+              <div className="space-y-6">
+                <a href="/blog/firstblog" className="block group">
+                  <div className="font-medium text-blue-800 group-hover:text-primaryy transition-colors text-lg">
+                    How AI Chatbots Are Transforming Businesses in the Digital Age?
+                  </div>
+                  <div className="text-sm text-gray-600 mt-2">5 min read</div>
+                </a>
+                <a href="/blog/thirdblog" className="block group">
+                  <div className="font-medium text-blue-800 group-hover:text-primaryy transition-colors text-lg">
+                    Machine Learning vs. Deep Learning
+                  </div>
+                  <div className="text-sm text-gray-600 mt-2">5 min read</div>
+                </a>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* main section end  */}
-
-      {/* content section start  */}
- 
-      <div className="mx-14 middle:text-sm middle:mx-7 small:text-xs small:mx-5">
-        <h2 className=" font-bolder text-primaryy p-1">
-          AI in Customer Service: Revolutionizing Interactions
-        </h2>
-        <p className="text-justify my-3 text-[#230C33] ">
-          In the competitive world of customer service, businesses are constantly seeking ways to enhance the customer experience while maintaining efficiency. AI has emerged as a game-changer, providing solutions that are not only cost-effective but also significantly improve service delivery.
-        </p>
-        <h2 className=" font-bolder text-primaryy p-1">
-          AI-Powered Chatbots: The New Frontline of Customer Support
-        </h2>
-        <p className="text-justify my-3 text-[#230C33] ">
-          Chatbots powered by AI have become a cornerstone of modern customer service. These intelligent systems are capable of handling a wide range of customer inquiries, providing instant responses, and operating 24/7 without fatigue. For businesses, this means they can offer consistent and reliable service without the need for a large team of customer service representatives. <br />
-
-          AI chatbots excel in understanding natural language, allowing them to interact with customers in a way that feels personal and human-like. This level of interaction is made possible through Natural Language Processing (NLP) technologies, which enable chatbots to comprehend and respond to complex queries. Furthermore, the ability of these bots to learn from interactions and improve over time makes them invaluable to businesses looking to enhance customer satisfaction.
-        </p>
-        <h2 className=" font-bolder text-primaryy p-1">
-          Transforming Call Centers with AI
-        </h2>
-        <p className="text-justify my-3 text-[#230C33] ">
-          While chatbots are revolutionizing digital interactions, AI is also making a significant impact on traditional call centers. AI-driven call centers are equipped with tools that assist human agents in providing faster and more accurate service. From predictive analytics to real-time sentiment analysis, AI is enabling call centers to operate more efficiently and effectively.<br />
-
-          For instance, AI can route calls to the most suitable agent based on the nature of the query and the caller is history, ensuring that customers receive personalized service. Moreover, AI systems can analyze the tone and mood of a caller in real-time, allowing agents to adjust their responses to better meet the customer &apos;s needs. This not only improves customer satisfaction but also enhances the overall efficiency of the call center.
-        </p>
-        <h2 className=" font-bolder text-primaryy p-1">
-          Personalization at Scale: The AI Advantage
-        </h2>
-        <p className="text-justify my-3 text-[#230C33] ">
-          One of the most significant advantages of AI in customer service is its ability to deliver personalized experiences at scale. AI systems can analyze vast amounts of data to understand customer preferences, behaviors, and needs. This enables businesses to offer tailored solutions and recommendations, which in turn fosters customer loyalty and drives sales. <br />
-
-          For example, an AI-powered system can analyze a customeris previous interactions and purchase history to offer personalized product recommendations during a chat session. This level of personalization was previously unattainable without significant human resources, but AI has made it possible to deliver these experiences seamlessly and efficiently.
-        </p>
-
-        <h2 className=" font-bolder text-primaryy p-1">
-          Enhancing Customer Satisfaction Through AI-Driven Insights
-        </h2>
-        <p className="text-justify my-3 text-[#230C33] ">
-          Customer satisfaction is the cornerstone of any successful business, and AI is playing a pivotal role in improving it. By analyzing customer interactions across multiple channels, AI provides businesses with valuable insights into customer behavior and preferences. These insights can be used to refine service strategies, optimize operations, and ultimately, deliver better customer experiences. <br />
-
-          For instance, AI can identify common pain points in customer interactions, enabling businesses to address these issues proactively. Additionally, AI-driven analytics can track customer satisfaction in real-time, allowing companies to make data-driven decisions that enhance service quality.
-        </p>
-
-        <h2 className=" font-bolder text-primaryy p-1">
-          The Role of AI in Omnichannel Customer Support
-        </h2>
-        <p className="text-justify my-3 text-[#230C33] ">
-          In today is multi-channel world, customers expect seamless interactions across various platforms, whether it is a phone call, chat, email, or social media. AI plays a crucial role in enabling omnichannel support by ensuring consistency and coherence across all customer touchpoints. AI systems can integrate data from multiple channels to provide a unified view of the customer, ensuring that each interaction is informed by previous ones. <br />
-
-          This holistic approach to customer service not only improves the customer experience but also boosts operational efficiency. For example, if a customer starts an inquiry via chat and later follows up with a phone call, the AI system can provide the call center agent with all relevant details from the chat conversation, enabling a smooth and uninterrupted service experience.
-        </p>
-
-        <h2 className=" font-bolder text-primaryy p-1">
-          AI and the Future of Customer Service
-        </h2>
-        <p className="text-justify my-3 text-[#230C33] ">
-          As AI continues to evolve, its impact on customer service will only grow more profound. The future of customer service lies in the seamless integration of AI technologies across all customer touchpoints, providing businesses with the tools they need to deliver exceptional service at scale. From predictive analytics that anticipate customer needs to AI-driven automation that streamlines operations, the possibilities are endless. <br />
-
-          In conclusion, the transformative impact of AI on modern customer services is undeniable. Businesses that embrace AI technologies will not only improve their service delivery but also gain a competitive edge in an increasingly crowded marketplace. As AI continues to advance, its role in shaping the future of customer service will be pivotal, offering new opportunities for businesses to connect with their customers in more meaningful and impactful ways.
-        </p>
-        
-        <h2 className=" font-bolder text-primaryy p-1">
-          Conclusion
-        </h2>
-        <p className="text-justify my-3 text-[#230C33] ">
-          AI has ushered in a new era of customer service, transforming the way businesses interact with their customers. From AI-powered chatbots to intelligent call centers, the technology is driving efficiencies and delivering personalized experiences that were once unimaginable. As AI continues to advance, its impact on customer service will only deepen, offering businesses new opportunities to connect with their customers in more meaningful ways. Embracing AI is no longer just an option, it is a necessity for businesses looking to stay competitive in today is fast-paced digital world.
-        </p>
-      </div>
-
-      {/* content section end  */}
-
-      {/* faq section start */}
+      {/* FAQ section start */}
       <div>
         <div className=" pt-[110px] px-0 flex relative gap-[20px] justify-center items-center inc:pt-[60px]">
           <div className="flex max-w-[82vw] mx-auto items-center relative flex-col gap-3 ">
@@ -218,7 +156,7 @@ const page = () => {
         </div>
       </div>
 
-      {/* faq section end  */}
+      {/* FAQ section end  */}
     </>
   );
 };

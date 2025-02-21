@@ -1,26 +1,36 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import { FaIndustry, FaMapMarkerAlt, FaCode } from "react-icons/fa";
+
 export const metadata = {
   title: "Evren AI",
   description:
     "Our agency partnered with Mechapal to develop two cutting-edge AI chatbots: an AI Dietitian and an AI Psychiatrist. Utilizing the latest GraphRAG technique from unstructured data, combined with advanced AI agents, we created intelligent, responsive, and user-friendly chatbots designed to meet the diverse needs of health-conscious individuals.",
 };
+
 const page = () => {
   return (
     <>
       {/* hero section start  */}
       <div className="py-[70px] px-0 flex relative gap-[20px] large:gap-0 justify-center items-center small:py-[50px]">
         <div className="flex max-w-[82vw] mx-auto items-center relative maxlarge:max-w-[90vw] inc:flex-col small:max-w-[100vw]">
+          {/* Content Section */}
           <div className="w-[90%] pr-[70px] text-left flex flex-col gap-1 maxlarge:pr-[100px] inc:text-center inc:pr-0">
-            <h2 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
+            {/* Badge */}
+            <div className="inline-block px-4 py-2 rounded-full bg-gradient-to-r from-primaryy/20 to-secondaryy/20 text-primaryy text-sm font-medium">
+              Case Study
+            </div>
+
+            {/* Title */}
+            <h1 className="font-black text-primaryy text-4xl pr-55 inc:text-3xl middle:text-2xl small:text-xl">
               Transforming{" "}
-              <span className="text-secondaryy">
-                Healthcare with AI Chatbots
-              </span>{" "}
+              <span className="text-secondaryy">Healthcare with AI Chatbots</span>{" "}
               for Mechapal
-            </h2>
-            <p className="text-base my-3 middle:text-sm small:text-xs text-justify">
+            </h1>
+
+            {/* Description */}
+            <p className="text-lg text-gray-600 leading-relaxed my-3">
               Our agency partnered with Mechapal to develop two cutting-edge AI
               chatbots: an AI Dietitian and an AI Psychiatrist. Utilizing the
               latest GraphRAG technique from unstructured data, combined with
@@ -28,64 +38,82 @@ const page = () => {
               user-friendly chatbots designed to meet the diverse needs of
               health-conscious individuals.
             </p>
-            <div>
-              <Image src="/divider.jpg" width={100} height={50} alt="" />
-            </div>
-            <div className="mt-4">
-              <div className="">
-                <div className="flex gap-24 middle:gap-10 text-lg text-gray-500 middle:text-base small:text-sm">
-                  <div className="">
-                    Industry :{" "}
-                    <span className="font-bold text-black">Health Care</span>
+
+            {/* Divider */}
+            <div className="w-24 h-1 bg-gradient-to-r from-primaryy to-secondaryy rounded-full"></div>
+
+            {/* Stats Section */}
+            <div className="mt-6 space-y-8">
+              {/* Industry & Location */}
+              <div className="flex flex-wrap gap-6 inc:gap-4">
+                <div className="flex items-center gap-3">
+                  <div className="bg-primaryy/10 p-3 rounded-lg">
+                    <FaIndustry className="text-primaryy text-xl" />
                   </div>
                   <div>
-                    Location :{" "}
-                    <span className="font-bold text-black">United States</span>
+                    <div className="text-sm text-gray-500 font-medium">Industry</div>
+                    <div className="text-lg font-semibold text-primaryy">Healthcare</div>
                   </div>
                 </div>
-                <div className="mt-3 text-lg text-gray-500 middle:text-base small:text-sm ">
-                  <div className="inc:text-left">
-                    Technology Used :{" "}
-                    <div className="my-2 flex flex-wrap">
-                      <div className="text-xs text-white border-2 p-3 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        GraphRAG Technique
-                      </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        NLP
-                      </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        AI Agents
-                      </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        Machine Learning Algorithms
-                      </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        OpenAI
-                      </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        Data Analytics Tools
-                      </div>
-                      <div className="text-xs text-white p-3 border-2 bg-secondaryy rounded-3xl mx-2 mb-2 small:mx-1">
-                        Cloud Computing Infrastructure
-                      </div>{" "}
-                    </div>
+
+                <div className="flex items-center gap-3">
+                  <div className="bg-primaryy/10 p-3 rounded-lg">
+                    <FaMapMarkerAlt className="text-primaryy text-xl" />
                   </div>
+                  <div>
+                    <div className="text-sm text-gray-500 font-medium">Location</div>
+                    <div className="text-lg font-semibold text-primaryy">United States</div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Technology Stack */}
+              <div className="space-y-4">
+                <div className="flex items-center gap-3">
+                  <div className="bg-primaryy/10 p-3 rounded-lg">
+                    <FaCode className="text-primaryy text-xl" />
+                  </div>
+                  <div className="text-lg text-primaryy font-semibold">Technology Stack</div>
+                </div>
+                
+                <div className="flex flex-wrap gap-2">
+                  {[
+                    "GraphRAG Technique",
+                    "NLP",
+                    "AI Agents",
+                    "Machine Learning Algorithms",
+                    "OpenAI",
+                    "Data Analytics Tools",
+                    "Cloud Computing Infrastructure"
+                  ].map((tech, index) => (
+                    <div 
+                      key={index}
+                      className="px-4 py-2 rounded-full bg-gradient-to-r from-primaryy/10 to-secondaryy/10 
+                                 border border-primaryy/20 text-primaryy text-sm font-medium
+                                 hover:from-primaryy/20 hover:to-secondaryy/20 transition-all duration-300
+                                 hover:scale-105 cursor-default"
+                    >
+                      {tech}
+                    </div>
+                  ))}
                 </div>
               </div>
             </div>
           </div>
+
+          {/* Image Section */}
           <div className="inc:mt-8 animate-upAndDown w-[80%] inc:w-[60%] large:mt-11 middle:w-[80%] object-cover">
             <Image
               priority={true}
-              quality={80}
+              quality={100}
               width={700}
-              height={1000}
+              height={700}
               src="/casestudy/casestudy1/AIChatbots.png"
               alt="Transforming Healthcare with AI Chatbots for Mechapal"
+              className="rounded-2xl shadow-2xl transform transition-transform duration-500 hover:scale-105"
             />
           </div>
         </div>
-        <div class="seperation"></div>
       </div>
       {/* hero section end  */}
       {/* the challenge section start */}
@@ -174,7 +202,7 @@ const page = () => {
           <a class="inline-flex items-center">
             <span class="flex-grow flex flex-col pl-4">
               <span class="title-font font-semibold text-secondaryy text-sm sm:text-base">
-                Mechapal’s CEO
+                Mechapal's CEO
               </span>
               <span class="text-gray-500 text-xs sm:text-sm">Mechapal</span>
             </span>
@@ -187,7 +215,7 @@ const page = () => {
         <div className="flex max-w-[82vw] mx-auto  items-center relative maxlarge:max-w-[90vw] inc:flex-col small:max-w-[100vw]">
           <div className="w-[80%] pr-[50px] text-left flex flex-col gap-1 maxlarge:pr-[100px] large:text-center inc:pr-0 inc:w-[85%] middle:w-[90%]">
             <h2 className="font-black text-primaryy text-4xl pr-55 large:text-3xl middle:text-2xl small:text-xl tracking-wide">
-              Evren AI&apos;s Strategic Approach
+              Evren AI's Strategic Approach
             </h2>
             <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs p-0">
               <li className="font-bold">
@@ -219,7 +247,7 @@ const page = () => {
                 Secure and Efficient Deployment :
                 <span className="font-light">
                   {" "}
-                  The chatbots were securely deployed, ensuring that users’ data
+                  The chatbots were securely deployed, ensuring that users' data
                   was handled with the utmost confidentiality.
                 </span>
               </li>
