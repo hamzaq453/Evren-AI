@@ -69,7 +69,7 @@ export default function Home() {
 
       <div className="bg-[#FFFFFF] py-[110px] px-0 flex relative gap-[20px] justify-center items-center m-0 large:py-[50px]">
         <div className="flex w-full mx-auto items-center relative flex-col gap-3 ">
-          <h2 className='text-[#592E83] font-medium' style={{ fontSize: '40px' }}>
+          <h2 className='text-[#592E83] font-semibold' style={{ fontSize: '20px' }}>
             Our Services
           </h2>
           <h1 className="font-black text-secondaryy text-[25px] large:text-[27px] middle:text-[18px] pb-5 ">
@@ -88,7 +88,7 @@ export default function Home() {
       <div className="pt-24">
         <div className="px-0 flex relative gap-[20px] justify-center items-center middle:pt-[60px]">
           <div className="flex max-w-[82vw] mx-auto items-center relative flex-col gap-3">
-            <span className='text-[#592E83] font-medium' style={{ fontSize: '40px' }}>
+            <span className='text-[#592E83] font-semibold' style={{ fontSize: '20px' }}>
               Our Process
             </span>
             <h2 className="font-black text-secondaryy text-[25px] large:text-[27px] middle:text-[18px] pb-5 ">
@@ -114,7 +114,7 @@ export default function Home() {
 
       <div className="m-0">
         <div class="relative mx-auto max-w-5xl text-center pt-5 mt-14 middle:pt-10">
-          <h2 className='text-[#592E83] font-medium' style={{ fontSize: '40px' }}>
+          <h2 className='text-[#592E83] font-semibold' style={{ fontSize: '20px' }}>
             Why choose us
           </h2>
           <h2 className="font-black text-secondaryy text-[25px] large:text-[27px] middle:text-[18px] p-1 ">
