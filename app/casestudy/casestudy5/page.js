@@ -23,14 +23,7 @@ const page = () => {
               Agents for Zenith Enterprises
             </h2>
             <p className="text-base my-3 middle:text-sm small:text-xs text-justify">
-              Zenith Enterprises, a leading player in the manufacturing and
-              supply chain industry, partnered with Evren AI to enhance its
-              operational efficiency. Michael Thompson, the visionary owner of
-              Zenith Enterprises, recognized the need to automate repetitive and
-              time-consuming business processes to stay ahead in a competitive
-              market. We introduced state-of-the-art AI Agents to automate key
-              operational workflows, leading to significant improvements in
-              productivity, accuracy, and cost-efficiency.
+              Zenith Enterprises, a leading player in the manufacturing and supply chain industry, partnered with Evren AI to enhance its operational efficiency. Michael Thompson, the visionary owner of Zenith Enterprises, recognized the need to automate repetitive and time-consuming business processes to stay ahead in a competitive market. We introduced state-of-the-art AI Agents to automate key operational workflows, leading to significant improvements in productivity, accuracy, and cost-efficiency.
             </p>
             <div>
               <Image src="/divider.jpg" width={100} height={50} alt="" />
@@ -184,9 +177,9 @@ const page = () => {
           </svg>
           <p class="leading-relaxed mb-6 text-xs sm:text-base">
             The AI Agents implemented by the team of Evren AI have completely
-            transformed our business operations. We've seen a massive boost in
+            transformed our business operations. We&apos;ve seen a massive boost in
             productivity and significant cost savings. The accuracy and
-            consistency in our processes have never been better, and we're now
+            consistency in our processes have never been better, and we&apos;re now
             poised to scale like never before. This collaboration has truly
             elevated our business.
           </p>
@@ -208,7 +201,7 @@ const page = () => {
         <div className="flex max-w-[82vw] mx-auto  items-center relative maxlarge:max-w-[90vw] inc:flex-col small:max-w-[100vw]">
           <div className="w-[80%] pr-[50px] text-left flex flex-col gap-1 maxlarge:pr-[100px] large:text-center inc:pr-0 inc:w-[85%] middle:w-[90%]">
             <h2 className="font-black text-primaryy text-4xl pr-55 large:text-3xl middle:text-2xl small:text-xl tracking-wide">
-              Evren AI's Strategic Approach
+              Evren AI&apos;s Strategic Approach
             </h2>
             <ul className="mt-4 flex flex-col gap-2 list-inside list-disc marker:text-secondaryy marker:text-2xl text-justify middle:text-sm small:text-xs p-0">
               <li className="font-bold">
@@ -446,7 +439,7 @@ const page = () => {
                 </h1>
                 <p className="mt-2 middle:text-sm">
                   {" "}
-                  AI automates resume screening, accelerating hiring and eliminating bias.
+                  AI automates tasks, boosting productivity and reducing costs for scalable growth.
                 </p>
               </div>
             </div>
