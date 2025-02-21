@@ -62,9 +62,9 @@ const AboutUs = () => {
                 src="/homepage/counts-img-svg (1).png"
                 alt="Counts Image"
                 className="img-fluid"
-                layout="responsive"
                 width={500}
                 height={300}
+                style={{ width: '100%', height: 'auto' }}
               />
             </div>
 
